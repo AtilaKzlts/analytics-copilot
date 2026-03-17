@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_deals
+    description: "Ham deals verisinin temizlenmiş hali"
+    columns:
+      - name: deal_id
+        description: "Benzersiz deal ID"
+        tests:
+          - unique
+          - not_null
+      - name: deal_value
+        tests:
+          - not_null
+      - name: stage
+        tests:
+          - accepted_values:
+              values: ['Prospecting', 'Qualification', 'Proposal', 'Negotiation', 'Closed Won', 'Closed Lost']
+
+  - name: stg_companies
+    description: "Ham companies verisinin temizlenmiş hali"
+    columns:
+      - name: company_id
+        tests:
+          - unique
+          - not_null
+
+  - name: pipeline_by_industry
+    description: "Sektör bazında pipeline ve win rate metrikleri"
+    columns:
+      - name: industry
+        tests:
+          - not_null
+
+  - name: monthly_revenue
+    description: "Aylık gelir ve büyüme metrikleri"
+
+  - name: sales_rep_performance
+    description: "Satış temsilcisi bazında performans metrikleri"
+    columns:
+      - name: sales_rep
+        tests:
+          - not_null
+
+  - name: deal_funnel
+    description: "Satış hunisi — stage bazında deal dağılımı"
+    columns:
+      - name: stage
+        tests:
+          - unique
+          - not_null
