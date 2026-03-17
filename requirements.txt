@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-core
+sqlalchemy
+psycopg2-binary
+pandas
+streamlit
+plotly
+python-dotenv
+faker
