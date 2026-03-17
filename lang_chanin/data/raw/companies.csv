@@ -1,0 +1,301 @@
+company_id,company_name,industry,size_segment,country,created_at
+COMP_0001,Walton Ltd,Logistics,SMB,USA,2024-12-13
+COMP_0002,"Cruz, Adams and Landry",Manufacturing,SMB,USA,2023-12-28
+COMP_0003,Allen-Gonzales,Logistics,Mid-Market,Germany,2024-12-07
+COMP_0004,"Sullivan, Jackson and Bradford",Retail,SMB,Turkey,2024-12-28
+COMP_0005,Stewart-Mendoza,Manufacturing,SMB,UK,2023-12-18
+COMP_0006,"Houston, Medina and Allen",Retail,SMB,UK,2024-05-20
+COMP_0007,Bishop Group,Retail,SMB,Germany,2025-12-15
+COMP_0008,"Reynolds, Sullivan and James",Healthcare,Mid-Market,Turkey,2023-12-30
+COMP_0009,"Ross, Johnson and Gonzalez",Manufacturing,Mid-Market,Turkey,2025-10-11
+COMP_0010,"Tran, Ramirez and Clark",Manufacturing,SMB,USA,2025-01-19
+COMP_0011,Perez-Reed,Technology,SMB,Turkey,2023-05-07
+COMP_0012,Hunt-Griffith,Healthcare,Mid-Market,USA,2024-05-05
+COMP_0013,Morales LLC,Logistics,SMB,Turkey,2023-11-08
+COMP_0014,"Wheeler, Woods and Mendoza",Finance,SMB,Turkey,2024-10-15
+COMP_0015,Mcguire Ltd,Logistics,Mid-Market,USA,2024-03-28
+COMP_0016,Chapman-Sanchez,Retail,SMB,Turkey,2024-09-05
+COMP_0017,Woods PLC,Logistics,SMB,Turkey,2024-11-13
+COMP_0018,Patton Ltd,Technology,Enterprise,USA,2023-04-12
+COMP_0019,Stewart-Chang,Finance,SMB,UK,2024-04-09
+COMP_0020,"Green, Green and Williams",Healthcare,SMB,Turkey,2023-11-18
+COMP_0021,Knight and Sons,Logistics,SMB,France,2026-01-31
+COMP_0022,Hale Ltd,Logistics,SMB,UK,2025-01-14
+COMP_0023,"Peterson, Arroyo and Carr",Retail,Mid-Market,Turkey,2024-07-13
+COMP_0024,Jackson and Sons,Finance,SMB,France,2024-11-01
+COMP_0025,Hayes-Hill,Logistics,Mid-Market,UK,2023-05-27
+COMP_0026,"Haynes, Brewer and Garza",Technology,SMB,Turkey,2026-02-07
+COMP_0027,Cruz-Harvey,Healthcare,SMB,Turkey,2026-01-08
+COMP_0028,Gregory PLC,Retail,Enterprise,Turkey,2024-08-22
+COMP_0029,Wong-Wallace,Logistics,SMB,USA,2025-02-05
+COMP_0030,Mendez-Ayala,Logistics,SMB,Turkey,2023-06-23
+COMP_0031,"Richards, Robinson and Turner",Manufacturing,Mid-Market,Germany,2025-02-23
+COMP_0032,Lopez Group,Logistics,Mid-Market,USA,2024-06-03
+COMP_0033,Smith-Webb,Finance,SMB,France,2024-12-23
+COMP_0034,Mcfarland-Burton,Manufacturing,Mid-Market,Turkey,2025-12-04
+COMP_0035,Walsh-Johnson,Technology,Enterprise,Turkey,2023-03-16
+COMP_0036,"Jimenez, Zimmerman and Watson",Manufacturing,Mid-Market,Germany,2023-11-12
+COMP_0037,Baxter-Bradford,Technology,SMB,UK,2023-04-04
+COMP_0038,"Little, Lee and Daugherty",Finance,Mid-Market,France,2023-12-04
+COMP_0039,Barrett Group,Technology,Mid-Market,Turkey,2026-02-15
+COMP_0040,"Cline, Sanchez and Hinton",Retail,Mid-Market,USA,2023-04-07
+COMP_0041,Johnson-Jones,Healthcare,SMB,Germany,2023-05-04
+COMP_0042,"Cruz, Williams and Taylor",Finance,SMB,USA,2023-12-26
+COMP_0043,Newman-Koch,Logistics,SMB,Germany,2023-06-24
+COMP_0044,Mcguire Inc,Manufacturing,Mid-Market,Turkey,2024-02-05
+COMP_0045,Williams-Hanson,Logistics,SMB,UK,2024-12-01
+COMP_0046,Davis-Park,Retail,SMB,Turkey,2024-06-06
+COMP_0047,Moore-King,Manufacturing,Mid-Market,USA,2025-07-10
+COMP_0048,Jenkins Group,Retail,Enterprise,UK,2023-04-19
+COMP_0049,Harvey-Rivers,Finance,SMB,France,2025-07-08
+COMP_0050,Reed PLC,Healthcare,SMB,Turkey,2024-04-18
+COMP_0051,Hicks and Sons,Retail,Enterprise,Turkey,2025-03-27
+COMP_0052,Chen-Kelly,Finance,Mid-Market,France,2025-12-07
+COMP_0053,"Miller, Griffin and Smith",Retail,Mid-Market,Turkey,2025-12-31
+COMP_0054,Sanders and Sons,Finance,Enterprise,Turkey,2025-08-31
+COMP_0055,Wilson-Harrington,Retail,Enterprise,Germany,2025-03-01
+COMP_0056,Grimes-Obrien,Manufacturing,Enterprise,USA,2023-07-18
+COMP_0057,"Collins, Carter and Turner",Logistics,SMB,Turkey,2023-04-23
+COMP_0058,White Ltd,Logistics,Mid-Market,Germany,2023-12-31
+COMP_0059,Novak LLC,Retail,SMB,Turkey,2025-01-19
+COMP_0060,Rosales and Sons,Technology,SMB,UK,2023-04-13
+COMP_0061,Howard-Bailey,Manufacturing,Mid-Market,Turkey,2025-07-20
+COMP_0062,Bishop and Sons,Logistics,Mid-Market,Turkey,2023-04-21
+COMP_0063,Anderson-Stafford,Technology,Enterprise,Turkey,2023-09-02
+COMP_0064,Sullivan-Jones,Manufacturing,SMB,Germany,2025-06-15
+COMP_0065,Weiss-Jones,Retail,SMB,France,2025-09-06
+COMP_0066,Chandler-Cooper,Retail,Mid-Market,Turkey,2026-03-04
+COMP_0067,Hall LLC,Finance,Mid-Market,Turkey,2025-08-08
+COMP_0068,Howell-Snow,Technology,Mid-Market,Turkey,2026-02-06
+COMP_0069,"Long, Holmes and Holt",Finance,SMB,USA,2026-01-19
+COMP_0070,Murphy-Reynolds,Logistics,Mid-Market,UK,2025-05-29
+COMP_0071,"Oliver, Smith and Wall",Technology,SMB,Turkey,2023-08-12
+COMP_0072,Calderon-Mason,Technology,SMB,Turkey,2024-01-14
+COMP_0073,Fields-Young,Finance,SMB,Turkey,2024-09-21
+COMP_0074,"Arnold, Friedman and Nguyen",Finance,SMB,France,2025-03-21
+COMP_0075,Torres-Hooper,Finance,Mid-Market,USA,2024-12-19
+COMP_0076,Sosa LLC,Technology,SMB,France,2023-09-17
+COMP_0077,Adkins Group,Technology,Enterprise,France,2023-04-03
+COMP_0078,Stein-Taylor,Manufacturing,SMB,Germany,2025-04-04
+COMP_0079,"Jones, Mendoza and Martin",Manufacturing,Enterprise,France,2026-02-06
+COMP_0080,"Shaffer, Pratt and Smith",Manufacturing,SMB,France,2024-12-07
+COMP_0081,Hebert LLC,Healthcare,Enterprise,USA,2024-10-19
+COMP_0082,Craig-Alexander,Healthcare,SMB,France,2024-03-20
+COMP_0083,Dixon Inc,Retail,Mid-Market,Germany,2023-11-24
+COMP_0084,Fernandez-Hooper,Manufacturing,SMB,France,2025-01-07
+COMP_0085,"Porter, Simpson and Wallace",Retail,Mid-Market,Turkey,2025-11-18
+COMP_0086,Marsh-Wells,Healthcare,SMB,UK,2025-06-09
+COMP_0087,"Short, Colon and Day",Retail,Enterprise,Germany,2024-08-27
+COMP_0088,"Salinas, Johnson and Rose",Technology,Enterprise,Turkey,2024-01-03
+COMP_0089,Parks-Miller,Manufacturing,SMB,Turkey,2023-10-05
+COMP_0090,"Jones, Johnson and Chen",Manufacturing,SMB,France,2023-08-07
+COMP_0091,Gonzales-Atkins,Retail,SMB,UK,2023-04-04
+COMP_0092,"Cruz, Harper and Butler",Retail,SMB,UK,2023-09-05
+COMP_0093,Ewing-Guzman,Retail,Mid-Market,France,2023-11-28
+COMP_0094,Bernard-Crosby,Manufacturing,Mid-Market,Turkey,2024-10-28
+COMP_0095,"Griffin, Adams and Wong",Healthcare,SMB,UK,2024-03-23
+COMP_0096,"Simmons, Pittman and Hart",Healthcare,SMB,France,2024-01-18
+COMP_0097,Taylor Inc,Technology,SMB,UK,2024-09-23
+COMP_0098,"Rhodes, Pearson and Wallace",Retail,Enterprise,Turkey,2024-12-12
+COMP_0099,"Marshall, Lane and Cunningham",Manufacturing,Mid-Market,Turkey,2025-05-25
+COMP_0100,Ramos-Rivera,Healthcare,Enterprise,USA,2025-11-27
+COMP_0101,Jones Ltd,Healthcare,SMB,Germany,2024-01-31
+COMP_0102,Shaw LLC,Retail,Mid-Market,UK,2023-04-14
+COMP_0103,Rodriguez and Sons,Logistics,Mid-Market,UK,2024-10-06
+COMP_0104,Esparza-Jones,Retail,SMB,UK,2023-10-23
+COMP_0105,"Sexton, Wells and Williams",Manufacturing,SMB,USA,2024-06-01
+COMP_0106,Franklin Inc,Logistics,Mid-Market,Turkey,2023-12-05
+COMP_0107,Bell Group,Retail,SMB,Turkey,2023-08-26
+COMP_0108,Smith Ltd,Logistics,Mid-Market,Turkey,2023-11-22
+COMP_0109,Weber-Gonzalez,Finance,SMB,France,2023-06-16
+COMP_0110,"Jones, Noble and Walker",Technology,SMB,Germany,2025-10-03
+COMP_0111,Jones Group,Healthcare,SMB,Turkey,2025-08-31
+COMP_0112,"Pollard, Lewis and Frazier",Manufacturing,Mid-Market,Turkey,2024-12-09
+COMP_0113,"Gonzalez, Reed and Moore",Logistics,SMB,USA,2023-06-21
+COMP_0114,Cox PLC,Retail,SMB,Turkey,2023-07-01
+COMP_0115,Mcdonald-Curtis,Logistics,Enterprise,Germany,2023-04-18
+COMP_0116,"Carlson, Richardson and Rose",Healthcare,Mid-Market,Turkey,2023-09-27
+COMP_0117,Hopkins Ltd,Manufacturing,SMB,Turkey,2025-03-08
+COMP_0118,"Harris, Jones and Webster",Technology,Enterprise,Turkey,2024-06-07
+COMP_0119,Fields PLC,Manufacturing,Mid-Market,Turkey,2025-03-04
+COMP_0120,"David, Santiago and Thompson",Retail,Enterprise,Germany,2024-12-23
+COMP_0121,"Smith, Morales and Russell",Retail,Mid-Market,France,2024-11-14
+COMP_0122,Smith Inc,Manufacturing,Enterprise,France,2024-11-12
+COMP_0123,Johnson-Long,Manufacturing,Enterprise,Turkey,2025-11-07
+COMP_0124,Owen-Johnson,Logistics,Enterprise,USA,2024-10-10
+COMP_0125,Morris-Lee,Finance,Mid-Market,USA,2024-07-22
+COMP_0126,Mendoza-Espinoza,Manufacturing,SMB,USA,2025-09-06
+COMP_0127,"Zimmerman, Newman and Pollard",Technology,SMB,Turkey,2025-12-30
+COMP_0128,"Porter, Erickson and Stewart",Finance,SMB,USA,2024-04-09
+COMP_0129,Castillo-Church,Finance,SMB,USA,2026-01-20
+COMP_0130,"Graves, Becker and Blake",Manufacturing,SMB,UK,2025-12-23
+COMP_0131,Williams-Brooks,Finance,SMB,USA,2023-08-17
+COMP_0132,Lang Group,Healthcare,SMB,Germany,2024-02-06
+COMP_0133,"Mejia, Dawson and Stokes",Logistics,Enterprise,Germany,2025-08-23
+COMP_0134,Gallagher Group,Technology,SMB,France,2025-03-21
+COMP_0135,Smith-King,Manufacturing,Mid-Market,France,2023-06-30
+COMP_0136,Peters-Simmons,Technology,SMB,Germany,2023-08-11
+COMP_0137,Garcia-Stein,Logistics,Mid-Market,Germany,2025-05-30
+COMP_0138,"Wright, Davis and Young",Retail,SMB,USA,2025-03-07
+COMP_0139,"Carter, Johnson and Richardson",Manufacturing,SMB,USA,2025-09-06
+COMP_0140,Boyd-Blake,Technology,Mid-Market,USA,2024-11-14
+COMP_0141,West Group,Logistics,Mid-Market,USA,2023-12-16
+COMP_0142,Harris Group,Logistics,SMB,Germany,2025-02-15
+COMP_0143,"Wiley, Drake and Hernandez",Logistics,Enterprise,UK,2025-07-28
+COMP_0144,Bell Ltd,Logistics,Mid-Market,USA,2025-10-01
+COMP_0145,"Oneill, Wilkins and Jimenez",Healthcare,Mid-Market,UK,2025-12-20
+COMP_0146,"Price, Miller and Phillips",Healthcare,SMB,Turkey,2023-03-24
+COMP_0147,Brandt and Sons,Manufacturing,SMB,UK,2023-10-10
+COMP_0148,Drake PLC,Finance,Mid-Market,France,2025-03-07
+COMP_0149,Bautista PLC,Retail,Mid-Market,Germany,2024-01-14
+COMP_0150,Turner Ltd,Technology,SMB,Turkey,2025-07-23
+COMP_0151,Nichols Inc,Retail,Mid-Market,Turkey,2024-12-17
+COMP_0152,"Thomas, Rivera and Perkins",Finance,SMB,Turkey,2023-07-31
+COMP_0153,Lynch-Shelton,Finance,Mid-Market,France,2023-12-06
+COMP_0154,Day-Thompson,Logistics,SMB,Turkey,2023-04-16
+COMP_0155,Hammond-Mathews,Retail,Mid-Market,UK,2023-05-30
+COMP_0156,"Stevens, Hernandez and Brown",Technology,Mid-Market,USA,2025-12-22
+COMP_0157,"Alvarado, Jackson and Brown",Logistics,SMB,USA,2024-04-13
+COMP_0158,"Barry, Stout and Ayala",Manufacturing,SMB,Turkey,2023-08-16
+COMP_0159,Henderson-Bush,Finance,Mid-Market,USA,2025-01-27
+COMP_0160,"Ritter, Hendricks and Garcia",Finance,SMB,UK,2023-11-08
+COMP_0161,Snow-Harris,Manufacturing,Mid-Market,Turkey,2023-12-17
+COMP_0162,Bonilla-Short,Finance,SMB,UK,2023-05-22
+COMP_0163,"Nelson, Little and Joyce",Technology,Enterprise,USA,2024-09-30
+COMP_0164,Williams-Rasmussen,Technology,Mid-Market,Turkey,2023-12-14
+COMP_0165,"Malone, Ware and Pierce",Logistics,Mid-Market,Turkey,2024-03-26
+COMP_0166,"Williams, Smith and Hensley",Manufacturing,Enterprise,Turkey,2025-08-16
+COMP_0167,Barton-Williams,Manufacturing,Mid-Market,UK,2023-06-09
+COMP_0168,Crawford-Richardson,Retail,Mid-Market,France,2024-12-28
+COMP_0169,Ingram-Walsh,Finance,Mid-Market,USA,2025-01-06
+COMP_0170,"Castro, Bryant and Bowers",Retail,SMB,France,2023-07-02
+COMP_0171,Russell Ltd,Finance,Enterprise,USA,2025-07-16
+COMP_0172,Murray and Sons,Finance,SMB,USA,2025-07-28
+COMP_0173,Valdez-Orozco,Logistics,SMB,USA,2025-01-13
+COMP_0174,"Peck, Ramos and Bowman",Finance,Mid-Market,Turkey,2025-06-05
+COMP_0175,Perez Group,Technology,Mid-Market,Turkey,2023-05-05
+COMP_0176,Armstrong Ltd,Healthcare,SMB,Germany,2024-07-24
+COMP_0177,"Page, Moran and Williams",Manufacturing,SMB,Turkey,2024-09-24
+COMP_0178,Sharp and Sons,Manufacturing,Mid-Market,Turkey,2025-02-11
+COMP_0179,"Martin, Hoffman and Ray",Finance,SMB,Germany,2024-04-10
+COMP_0180,Young-Cook,Technology,SMB,Germany,2025-01-05
+COMP_0181,"Massey, Hardy and Carroll",Retail,Enterprise,Turkey,2024-08-30
+COMP_0182,"Lopez, Mcdonald and Martinez",Retail,SMB,Turkey,2023-12-12
+COMP_0183,"Suarez, Huerta and Moreno",Healthcare,SMB,Turkey,2025-04-26
+COMP_0184,Miller Inc,Finance,Mid-Market,USA,2024-09-06
+COMP_0185,Garcia LLC,Retail,Enterprise,Germany,2024-12-04
+COMP_0186,Michael-Rogers,Healthcare,SMB,Turkey,2025-02-26
+COMP_0187,Daniel-Bryant,Healthcare,Mid-Market,USA,2025-11-08
+COMP_0188,"Palmer, Butler and Kennedy",Logistics,SMB,Germany,2024-02-24
+COMP_0189,Barnett-Massey,Manufacturing,Enterprise,Germany,2025-03-28
+COMP_0190,Reed-Glover,Finance,Mid-Market,UK,2026-02-05
+COMP_0191,"Brooks, Hunt and Miles",Technology,Mid-Market,Turkey,2024-02-20
+COMP_0192,"Rodriguez, Smith and Thomas",Finance,SMB,Turkey,2024-04-24
+COMP_0193,Yoder LLC,Healthcare,SMB,Turkey,2024-08-15
+COMP_0194,Miller Group,Finance,SMB,France,2023-10-19
+COMP_0195,Ross-Johnson,Finance,SMB,Turkey,2023-07-21
+COMP_0196,Wilson-Pollard,Technology,Mid-Market,Turkey,2025-02-25
+COMP_0197,Webster-Jones,Healthcare,SMB,Turkey,2025-10-16
+COMP_0198,"Williamson, Page and Park",Logistics,SMB,Turkey,2026-02-21
+COMP_0199,"Stark, Carter and Wright",Manufacturing,SMB,Turkey,2025-12-30
+COMP_0200,Murray PLC,Manufacturing,SMB,Germany,2025-01-09
+COMP_0201,"Stone, Rogers and Lopez",Technology,Mid-Market,Turkey,2023-10-05
+COMP_0202,Lee-Hawkins,Logistics,SMB,Turkey,2025-05-09
+COMP_0203,"Brown, Matthews and Rosales",Retail,Mid-Market,USA,2024-10-29
+COMP_0204,"Chapman, Rice and Brown",Technology,Mid-Market,Turkey,2023-04-07
+COMP_0205,Gonzales-Mayer,Healthcare,SMB,Turkey,2024-12-10
+COMP_0206,"Perry, Burton and Clark",Healthcare,Mid-Market,France,2024-03-20
+COMP_0207,Moyer PLC,Finance,SMB,USA,2026-01-25
+COMP_0208,Avila Ltd,Technology,Mid-Market,USA,2023-03-16
+COMP_0209,"Jimenez, Jackson and Rhodes",Manufacturing,SMB,USA,2026-03-11
+COMP_0210,"Faulkner, Garcia and Hughes",Logistics,Mid-Market,Turkey,2024-08-21
+COMP_0211,Harmon Group,Retail,Mid-Market,Turkey,2023-08-05
+COMP_0212,Murray-Johnson,Finance,Mid-Market,Turkey,2025-09-09
+COMP_0213,Valdez Ltd,Logistics,SMB,USA,2024-01-24
+COMP_0214,"Riley, Watkins and Gilbert",Finance,SMB,France,2024-01-22
+COMP_0215,Brown Group,Logistics,Enterprise,Germany,2023-03-27
+COMP_0216,Gibson PLC,Manufacturing,SMB,USA,2025-09-01
+COMP_0217,Faulkner-Melton,Logistics,SMB,USA,2023-08-16
+COMP_0218,Galloway PLC,Retail,Mid-Market,Germany,2025-03-23
+COMP_0219,Rush-Bell,Logistics,Mid-Market,Turkey,2025-03-23
+COMP_0220,Brooks Inc,Manufacturing,Mid-Market,Turkey,2023-03-26
+COMP_0221,Nelson Group,Finance,SMB,Germany,2024-09-08
+COMP_0222,"Meadows, Richardson and Cruz",Retail,Mid-Market,Turkey,2025-11-20
+COMP_0223,"Oneill, Foster and Robles",Finance,Enterprise,Turkey,2025-11-03
+COMP_0224,Ramirez-Rivera,Manufacturing,SMB,Turkey,2025-02-16
+COMP_0225,Warner LLC,Healthcare,Enterprise,USA,2023-10-23
+COMP_0226,"Hughes, Campbell and Thompson",Healthcare,Mid-Market,Germany,2025-12-09
+COMP_0227,Buck PLC,Manufacturing,SMB,USA,2023-09-10
+COMP_0228,Williams Inc,Finance,Mid-Market,Turkey,2023-11-23
+COMP_0229,"Lyons, Lewis and Carter",Finance,Mid-Market,Germany,2023-03-31
+COMP_0230,Robinson Inc,Technology,SMB,Turkey,2023-11-29
+COMP_0231,"Woods, Anderson and Fleming",Logistics,SMB,UK,2024-02-11
+COMP_0232,Gibson PLC,Healthcare,SMB,Germany,2023-04-30
+COMP_0233,"Garcia, Steele and Elliott",Finance,Enterprise,UK,2024-05-12
+COMP_0234,"Martinez, Russo and Wilson",Healthcare,Mid-Market,Turkey,2025-09-01
+COMP_0235,Rivera and Sons,Healthcare,SMB,USA,2025-08-29
+COMP_0236,Hanson-Taylor,Healthcare,SMB,Germany,2024-06-05
+COMP_0237,Simmons-Russell,Logistics,SMB,Turkey,2025-09-21
+COMP_0238,Hensley LLC,Finance,SMB,UK,2023-10-24
+COMP_0239,"Dickerson, Miller and Clark",Retail,Mid-Market,France,2024-10-12
+COMP_0240,Rodriguez-Maldonado,Manufacturing,SMB,Turkey,2023-05-24
+COMP_0241,"Flores, Mckee and Mcclure",Healthcare,SMB,Germany,2025-12-24
+COMP_0242,Ferguson-Velez,Healthcare,SMB,Turkey,2023-11-23
+COMP_0243,"Williams, Ramirez and Wood",Healthcare,Mid-Market,Turkey,2025-05-02
+COMP_0244,Conway-Moore,Finance,SMB,Turkey,2024-05-05
+COMP_0245,Lewis PLC,Healthcare,SMB,Germany,2025-06-27
+COMP_0246,"Phillips, Cunningham and Kim",Manufacturing,Enterprise,Turkey,2024-06-22
+COMP_0247,"Johnson, Fisher and Jackson",Finance,SMB,Turkey,2024-05-16
+COMP_0248,Cooper Inc,Finance,SMB,UK,2023-10-30
+COMP_0249,"Woods, George and Haley",Technology,SMB,USA,2023-03-24
+COMP_0250,Anderson LLC,Healthcare,SMB,Turkey,2024-03-17
+COMP_0251,"Friedman, Wilson and Willis",Retail,Mid-Market,UK,2026-02-04
+COMP_0252,Simmons-White,Retail,SMB,Germany,2023-10-26
+COMP_0253,"Gray, Butler and Ferguson",Finance,Enterprise,Turkey,2025-12-12
+COMP_0254,Parker LLC,Retail,Enterprise,Turkey,2024-09-14
+COMP_0255,"Whitaker, Rogers and Fisher",Retail,SMB,France,2023-06-20
+COMP_0256,Bond Ltd,Technology,Enterprise,Turkey,2025-06-01
+COMP_0257,Gibbs-Flores,Manufacturing,SMB,Turkey,2023-09-22
+COMP_0258,"Gray, Hendrix and Stewart",Manufacturing,SMB,Turkey,2026-01-30
+COMP_0259,"Moore, Cole and Shaffer",Technology,SMB,UK,2023-04-02
+COMP_0260,"Jensen, Mcclain and Anthony",Finance,SMB,Turkey,2024-08-07
+COMP_0261,"Herman, Rivas and Farmer",Logistics,SMB,USA,2025-09-13
+COMP_0262,Lawrence-Beard,Technology,Mid-Market,France,2025-11-04
+COMP_0263,Hunter Group,Logistics,Mid-Market,USA,2025-06-11
+COMP_0264,"Duncan, White and Stewart",Manufacturing,SMB,Germany,2024-07-08
+COMP_0265,"Roberts, Castro and Morrison",Logistics,SMB,Turkey,2024-10-05
+COMP_0266,"Webb, Rodriguez and Hughes",Manufacturing,SMB,Turkey,2026-03-06
+COMP_0267,Kelly-Roberts,Healthcare,Mid-Market,USA,2025-03-16
+COMP_0268,Cummings and Sons,Healthcare,SMB,Germany,2024-11-22
+COMP_0269,Schneider Ltd,Healthcare,Mid-Market,France,2024-01-09
+COMP_0270,Russell and Sons,Retail,Mid-Market,Germany,2023-07-22
+COMP_0271,Bartlett and Sons,Retail,SMB,Germany,2023-03-17
+COMP_0272,"Schroeder, Cohen and Stephens",Healthcare,Mid-Market,Turkey,2023-05-31
+COMP_0273,Evans-Greene,Manufacturing,Enterprise,USA,2024-12-31
+COMP_0274,"Sanchez, Jones and Thompson",Retail,Mid-Market,Turkey,2023-04-24
+COMP_0275,"Russell, Rivers and Salazar",Logistics,Mid-Market,UK,2024-05-30
+COMP_0276,"Evans, Carter and Lopez",Manufacturing,SMB,UK,2023-04-24
+COMP_0277,Wilkinson Inc,Healthcare,SMB,UK,2023-09-26
+COMP_0278,"Hayden, Stone and Lopez",Logistics,Mid-Market,France,2023-10-29
+COMP_0279,"Wagner, Herman and Stark",Finance,SMB,Turkey,2023-07-11
+COMP_0280,Perkins-Blanchard,Logistics,SMB,Turkey,2024-03-03
+COMP_0281,Perez Ltd,Finance,Mid-Market,Turkey,2024-12-15
+COMP_0282,Johnston LLC,Finance,Mid-Market,UK,2026-03-04
+COMP_0283,Garcia-Madden,Finance,SMB,Turkey,2023-09-18
+COMP_0284,Duran-Anderson,Technology,Enterprise,Germany,2026-02-12
+COMP_0285,Howe PLC,Retail,Mid-Market,Turkey,2024-07-17
+COMP_0286,Miller-Gordon,Retail,SMB,Turkey,2023-04-18
+COMP_0287,Smith-Young,Retail,SMB,USA,2024-05-18
+COMP_0288,Ramirez Group,Logistics,SMB,Turkey,2023-10-19
+COMP_0289,Jones-Mitchell,Healthcare,Mid-Market,France,2023-12-02
+COMP_0290,Tran Inc,Finance,Enterprise,Germany,2025-01-01
+COMP_0291,Rios-Quinn,Technology,Enterprise,UK,2025-03-29
+COMP_0292,Strickland-Benitez,Manufacturing,Mid-Market,Turkey,2024-06-21
+COMP_0293,Mann Group,Technology,Mid-Market,Turkey,2024-12-20
+COMP_0294,"Chaney, Medina and King",Technology,SMB,Turkey,2024-05-17
+COMP_0295,"Banks, Smith and Rosales",Manufacturing,SMB,USA,2025-07-20
+COMP_0296,Richardson-Stevens,Retail,Mid-Market,Germany,2024-10-03
+COMP_0297,Wilson-Skinner,Finance,Enterprise,Turkey,2023-06-07
+COMP_0298,Miller Group,Retail,SMB,Turkey,2025-09-12
+COMP_0299,Monroe Group,Retail,Mid-Market,USA,2025-02-12
+COMP_0300,Gordon Ltd,Technology,SMB,USA,2025-09-06

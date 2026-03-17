@@ -1,0 +1,801 @@
+deal_id,company_id,contact_id,deal_name,stage,deal_value,probability,created_at,closed_at,lost_reason,owner,size_segment
+DEAL_0001,COMP_0204,CONT_0251,"Chapman, Rice and Brown - Enterprise Plan",Proposal,144978.52,50,2024-12-26,,,Gabrielle Herring,Mid-Market
+DEAL_0002,COMP_0232,CONT_0292,Gibson PLC - Enterprise Plan,Prospecting,35321.29,10,2025-03-27,,,Madison Carter,SMB
+DEAL_0003,COMP_0296,CONT_0530,Richardson-Stevens - Enterprise Plan,Closed Lost,209350.96,0,2025-10-25,2026-04-06,Price too high,Robert Moore,Mid-Market
+DEAL_0004,COMP_0280,CONT_0059,Perkins-Blanchard - Enterprise Plan,Proposal,48518.18,50,2025-06-29,,,Andrea Duffy,SMB
+DEAL_0005,COMP_0121,CONT_0461,"Smith, Morales and Russell - Professional Services",Negotiation,194280.02,75,2025-03-15,,,Cynthia Curry,Mid-Market
+DEAL_0006,COMP_0036,CONT_0036,"Jimenez, Zimmerman and Watson - Professional Services",Proposal,154846.47,50,2025-09-29,,,Randy Jones,Mid-Market
+DEAL_0007,COMP_0156,CONT_0513,"Stevens, Hernandez and Brown - Support Contract",Negotiation,79555.14,75,2024-05-04,,,Margaret Lee,Mid-Market
+DEAL_0008,COMP_0270,CONT_0024,Russell and Sons - Annual License,Negotiation,164514.05,75,2024-12-05,,,Stephanie Garrison,Mid-Market
+DEAL_0009,COMP_0163,CONT_0033,"Nelson, Little and Joyce - Professional Services",Negotiation,264203.03,75,2025-05-22,,,John Wolfe,Enterprise
+DEAL_0010,COMP_0201,CONT_0325,"Stone, Rogers and Lopez - Professional Services",Qualification,132592.02,25,2024-08-22,,,Megan Graves,Mid-Market
+DEAL_0011,COMP_0289,CONT_0281,Jones-Mitchell - Support Contract,Prospecting,224563.54,10,2025-03-08,,,Jordan Ashley,Mid-Market
+DEAL_0012,COMP_0246,CONT_0419,"Phillips, Cunningham and Kim - Annual License",Negotiation,779331.42,75,2025-07-14,,,Christopher Griffin DVM,Enterprise
+DEAL_0013,COMP_0061,CONT_0582,Howard-Bailey - Enterprise Plan,Proposal,249624.57,50,2024-06-13,,,Aaron Reeves,Mid-Market
+DEAL_0014,COMP_0140,CONT_0091,Boyd-Blake - Support Contract,Proposal,112750.52,50,2025-01-12,,,Marcus Leonard,Mid-Market
+DEAL_0015,COMP_0260,CONT_0404,"Jensen, Mcclain and Anthony - Enterprise Plan",Prospecting,29582.29,10,2024-03-20,,,Lori Ryan,SMB
+DEAL_0016,COMP_0143,CONT_0472,"Wiley, Drake and Hernandez - Enterprise Plan",Negotiation,707557.44,75,2024-05-17,,,Jessica Mora,Enterprise
+DEAL_0017,COMP_0283,CONT_0177,Garcia-Madden - Professional Services,Prospecting,17555.29,10,2024-06-12,,,Rachel Williamson,SMB
+DEAL_0018,COMP_0009,CONT_0410,"Ross, Johnson and Gonzalez - Enterprise Plan",Qualification,204234.85,25,2025-02-21,,,David Johnson,Mid-Market
+DEAL_0019,COMP_0204,CONT_0030,"Chapman, Rice and Brown - Support Contract",Negotiation,113408.15,75,2024-08-29,,,Brooke Collins,Mid-Market
+DEAL_0020,COMP_0124,CONT_0395,Owen-Johnson - Enterprise Plan,Qualification,465842.03,25,2024-11-25,,,Rebecca Williams,Enterprise
+DEAL_0021,COMP_0032,CONT_0588,Lopez Group - Support Contract,Negotiation,229152.09,75,2025-03-03,,,James Clements,Mid-Market
+DEAL_0022,COMP_0044,CONT_0401,Mcguire Inc - Enterprise Plan,Qualification,240921.77,25,2025-09-26,,,Marissa Thomas,Mid-Market
+DEAL_0023,COMP_0059,CONT_0154,Novak LLC - Annual License,Closed Won,17943.37,100,2024-05-03,2024-07-30,,Megan Marshall,SMB
+DEAL_0024,COMP_0043,CONT_0440,Newman-Koch - Enterprise Plan,Negotiation,46580.43,75,2024-04-17,,,Thomas Saunders,SMB
+DEAL_0025,COMP_0008,CONT_0025,"Reynolds, Sullivan and James - Support Contract",Negotiation,92797.36,75,2024-10-23,,,Deborah Harris,Mid-Market
+DEAL_0026,COMP_0008,CONT_0025,"Reynolds, Sullivan and James - Enterprise Plan",Closed Won,77454.59,100,2025-02-14,2025-05-08,,Nicholas Clark,Mid-Market
+DEAL_0027,COMP_0260,CONT_0404,"Jensen, Mcclain and Anthony - Professional Services",Proposal,15910.61,50,2025-03-15,,,Kristi Russell,SMB
+DEAL_0028,COMP_0080,CONT_0202,"Shaffer, Pratt and Smith - Professional Services",Negotiation,33707.51,75,2025-09-05,,,Sally Townsend,SMB
+DEAL_0029,COMP_0022,CONT_0252,Hale Ltd - Support Contract,Prospecting,19863.21,10,2025-03-03,,,Steven Clark,SMB
+DEAL_0030,COMP_0001,CONT_0484,Walton Ltd - Professional Services,Prospecting,5233.17,10,2025-11-27,,,Jordan Rodriguez,SMB
+DEAL_0031,COMP_0064,CONT_0101,Sullivan-Jones - Professional Services,Proposal,23310.84,50,2026-03-04,,,Luke Hayes,SMB
+DEAL_0032,COMP_0207,CONT_0488,Moyer PLC - Professional Services,Proposal,39016.0,50,2024-04-23,,,Samantha Kelley,SMB
+DEAL_0033,COMP_0216,CONT_0153,Gibson PLC - Enterprise Plan,Qualification,34065.41,25,2025-05-11,,,Jose Woods,SMB
+DEAL_0034,COMP_0255,CONT_0437,"Whitaker, Rogers and Fisher - Professional Services",Closed Won,29081.85,100,2025-01-08,2025-02-13,,Marcus Rhodes,SMB
+DEAL_0035,COMP_0169,CONT_0328,Ingram-Walsh - Annual License,Negotiation,232645.95,75,2025-11-07,,,Robert Myers,Mid-Market
+DEAL_0036,COMP_0126,CONT_0047,Mendoza-Espinoza - Professional Services,Prospecting,47026.52,10,2025-09-16,,,Wanda White,SMB
+DEAL_0037,COMP_0186,CONT_0332,Michael-Rogers - Support Contract,Prospecting,40458.23,10,2025-02-25,,,Dana James,SMB
+DEAL_0038,COMP_0156,CONT_0288,"Stevens, Hernandez and Brown - Enterprise Plan",Prospecting,225348.63,10,2024-08-02,,,Kendra Bell,Mid-Market
+DEAL_0039,COMP_0002,CONT_0143,"Cruz, Adams and Landry - Annual License",Prospecting,46780.47,10,2024-04-19,,,Crystal Stewart,SMB
+DEAL_0040,COMP_0147,CONT_0379,Brandt and Sons - Support Contract,Qualification,49509.48,25,2025-07-02,,,Daniel Moore,SMB
+DEAL_0041,COMP_0232,CONT_0292,Gibson PLC - Support Contract,Proposal,45016.7,50,2024-12-11,,,Linda Cowan,SMB
+DEAL_0042,COMP_0246,CONT_0501,"Phillips, Cunningham and Kim - Support Contract",Prospecting,454627.81,10,2024-05-25,,,Colleen Graham,Enterprise
+DEAL_0043,COMP_0292,CONT_0576,Strickland-Benitez - Professional Services,Closed Won,196223.85,100,2024-07-24,2024-10-30,,Susan Walker,Mid-Market
+DEAL_0044,COMP_0214,CONT_0257,"Riley, Watkins and Gilbert - Professional Services",Proposal,5633.79,50,2025-08-13,,,Spencer Larson,SMB
+DEAL_0045,COMP_0095,CONT_0346,"Griffin, Adams and Wong - Professional Services",Negotiation,12897.27,75,2024-12-11,,,Zachary Johnson,SMB
+DEAL_0046,COMP_0015,CONT_0416,Mcguire Ltd - Enterprise Plan,Closed Won,67347.55,100,2025-05-09,2025-10-01,,Debra Graves,Mid-Market
+DEAL_0047,COMP_0214,CONT_0257,"Riley, Watkins and Gilbert - Professional Services",Negotiation,49175.83,75,2025-06-12,,,Sharon Ross,SMB
+DEAL_0048,COMP_0057,CONT_0387,"Collins, Carter and Turner - Professional Services",Proposal,5307.36,50,2025-01-13,,,Christine Gomez,SMB
+DEAL_0049,COMP_0174,CONT_0094,"Peck, Ramos and Bowman - Support Contract",Qualification,200751.33,25,2024-04-05,,,Timothy Mayo,Mid-Market
+DEAL_0050,COMP_0134,CONT_0338,Gallagher Group - Annual License,Qualification,16769.89,25,2024-06-30,,,Carlos Clark,SMB
+DEAL_0051,COMP_0054,CONT_0200,Sanders and Sons - Professional Services,Qualification,296593.25,25,2025-10-01,,,Kathy Hall,Enterprise
+DEAL_0052,COMP_0054,CONT_0200,Sanders and Sons - Enterprise Plan,Prospecting,369787.62,10,2025-12-08,,,Linda Rodriguez,Enterprise
+DEAL_0053,COMP_0057,CONT_0387,"Collins, Carter and Turner - Enterprise Plan",Negotiation,36063.07,75,2025-11-28,,,Patricia Lewis,SMB
+DEAL_0054,COMP_0033,CONT_0110,Smith-Webb - Enterprise Plan,Proposal,21539.48,50,2025-09-04,,,Heidi Boyd,SMB
+DEAL_0055,COMP_0120,CONT_0106,"David, Santiago and Thompson - Professional Services",Prospecting,608636.42,10,2025-09-28,,,Robert Acosta,Enterprise
+DEAL_0056,COMP_0290,CONT_0283,Tran Inc - Enterprise Plan,Proposal,561884.21,50,2025-09-01,,,Christina Barnett,Enterprise
+DEAL_0057,COMP_0108,CONT_0531,Smith Ltd - Support Contract,Proposal,201470.1,50,2024-11-25,,,Brian Ortiz,Mid-Market
+DEAL_0058,COMP_0247,CONT_0361,"Johnson, Fisher and Jackson - Professional Services",Closed Won,35615.39,100,2024-03-14,2024-05-22,,Mrs. Ann Garrett,SMB
+DEAL_0059,COMP_0229,CONT_0007,"Lyons, Lewis and Carter - Annual License",Proposal,155101.33,50,2025-07-27,,,Dana Castillo,Mid-Market
+DEAL_0060,COMP_0172,CONT_0316,Murray and Sons - Enterprise Plan,Proposal,8514.62,50,2026-02-09,,,Jonathan Montgomery,SMB
+DEAL_0061,COMP_0097,CONT_0012,Taylor Inc - Annual License,Proposal,42294.83,50,2024-09-20,,,Matthew Smith MD,SMB
+DEAL_0062,COMP_0148,CONT_0058,Drake PLC - Professional Services,Closed Won,82907.43,100,2025-09-02,2025-11-06,,Carrie King,Mid-Market
+DEAL_0063,COMP_0129,CONT_0079,Castillo-Church - Annual License,Closed Won,35613.29,100,2024-06-25,2024-10-30,,Shelly Chapman,SMB
+DEAL_0064,COMP_0114,CONT_0109,Cox PLC - Support Contract,Negotiation,9092.37,75,2024-11-05,,,Jerry Mckenzie PhD,SMB
+DEAL_0065,COMP_0273,CONT_0247,Evans-Greene - Annual License,Proposal,590074.23,50,2025-12-22,,,Judy Tran,Enterprise
+DEAL_0066,COMP_0229,CONT_0007,"Lyons, Lewis and Carter - Support Contract",Proposal,162782.24,50,2025-08-30,,,Brandy Ibarra,Mid-Market
+DEAL_0067,COMP_0166,CONT_0284,"Williams, Smith and Hensley - Enterprise Plan",Proposal,792460.06,50,2025-06-28,,,Karen Bishop,Enterprise
+DEAL_0068,COMP_0167,CONT_0224,Barton-Williams - Annual License,Qualification,199160.9,25,2025-04-02,,,Randy Rodriguez,Mid-Market
+DEAL_0069,COMP_0192,CONT_0584,"Rodriguez, Smith and Thomas - Annual License",Proposal,24066.38,50,2024-05-07,,,Adam Collins,SMB
+DEAL_0070,COMP_0048,CONT_0189,Jenkins Group - Annual License,Negotiation,950937.1,75,2024-04-18,,,Judy Holmes,Enterprise
+DEAL_0071,COMP_0237,CONT_0355,Simmons-Russell - Support Contract,Prospecting,6428.07,10,2025-11-24,,,Sierra Smith,SMB
+DEAL_0072,COMP_0275,CONT_0393,"Russell, Rivers and Salazar - Professional Services",Qualification,203165.54,25,2024-03-15,,,Dawn Allen,Mid-Market
+DEAL_0073,COMP_0050,CONT_0583,Reed PLC - Support Contract,Closed Lost,21850.74,0,2024-12-21,2025-06-18,No decision,Theodore Hill,SMB
+DEAL_0074,COMP_0184,CONT_0069,Miller Inc - Support Contract,Qualification,125129.11,25,2024-09-17,,,Zoe Doyle,Mid-Market
+DEAL_0075,COMP_0095,CONT_0553,"Griffin, Adams and Wong - Enterprise Plan",Prospecting,10338.49,10,2025-08-24,,,Brooke Duarte,SMB
+DEAL_0076,COMP_0130,CONT_0409,"Graves, Becker and Blake - Professional Services",Closed Lost,37753.62,0,2025-11-04,2026-02-26,Chose competitor,Linda Torres,SMB
+DEAL_0077,COMP_0081,CONT_0222,Hebert LLC - Enterprise Plan,Closed Won,597252.93,100,2024-08-12,2024-08-31,,Kathryn Thompson,Enterprise
+DEAL_0078,COMP_0263,CONT_0157,Hunter Group - Support Contract,Negotiation,156386.72,75,2025-07-19,,,Laura Braun,Mid-Market
+DEAL_0079,COMP_0221,CONT_0245,Nelson Group - Support Contract,Closed Won,20577.19,100,2024-08-13,2024-10-29,,Angel Ponce,SMB
+DEAL_0080,COMP_0191,CONT_0105,"Brooks, Hunt and Miles - Annual License",Qualification,56443.46,25,2024-10-09,,,Lisa Beck,Mid-Market
+DEAL_0081,COMP_0071,CONT_0469,"Oliver, Smith and Wall - Annual License",Negotiation,15829.98,75,2024-09-30,,,Joshua Tucker,SMB
+DEAL_0082,COMP_0150,CONT_0069,Turner Ltd - Annual License,Prospecting,25089.85,10,2025-05-18,,,Frank Stewart,SMB
+DEAL_0083,COMP_0185,CONT_0402,Garcia LLC - Annual License,Negotiation,433550.61,75,2026-02-21,,,Amy White,Enterprise
+DEAL_0084,COMP_0227,CONT_0231,Buck PLC - Support Contract,Prospecting,15545.27,10,2025-07-06,,,Rebecca Becker,SMB
+DEAL_0085,COMP_0271,CONT_0357,Bartlett and Sons - Annual License,Prospecting,11306.1,10,2025-05-23,,,Michael Gomez,SMB
+DEAL_0086,COMP_0262,CONT_0272,Lawrence-Beard - Enterprise Plan,Closed Lost,165494.96,0,2025-04-23,2025-07-05,No budget,James Keller,Mid-Market
+DEAL_0087,COMP_0071,CONT_0378,"Oliver, Smith and Wall - Professional Services",Prospecting,49356.3,10,2024-10-23,,,Kyle George,SMB
+DEAL_0088,COMP_0166,CONT_0150,"Williams, Smith and Hensley - Support Contract",Proposal,475375.72,50,2025-02-19,,,Dr. Katherine Fernandez DDS,Enterprise
+DEAL_0089,COMP_0137,CONT_0210,Garcia-Stein - Professional Services,Prospecting,175198.63,10,2024-06-21,,,Jennifer Perry,Mid-Market
+DEAL_0090,COMP_0051,CONT_0039,Hicks and Sons - Support Contract,Qualification,285163.07,25,2024-11-10,,,Howard Allen,Enterprise
+DEAL_0091,COMP_0266,CONT_0439,"Webb, Rodriguez and Hughes - Support Contract",Qualification,40361.21,25,2025-12-13,,,Jason Wang,SMB
+DEAL_0092,COMP_0194,CONT_0327,Miller Group - Support Contract,Negotiation,11714.79,75,2025-08-05,,,Steven Palmer,SMB
+DEAL_0093,COMP_0042,CONT_0374,"Cruz, Williams and Taylor - Support Contract",Qualification,15843.57,25,2024-03-19,,,Anthony Villanueva,SMB
+DEAL_0094,COMP_0294,CONT_0256,"Chaney, Medina and King - Professional Services",Prospecting,41259.93,10,2025-04-03,,,Grace Johnson,SMB
+DEAL_0095,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Support Contract",Closed Won,48550.38,100,2026-02-25,2026-08-01,,Holly Dickerson,SMB
+DEAL_0096,COMP_0072,CONT_0380,Calderon-Mason - Professional Services,Proposal,22478.86,50,2025-02-13,,,Robert Silva,SMB
+DEAL_0097,COMP_0293,CONT_0300,Mann Group - Enterprise Plan,Qualification,179341.17,25,2025-04-05,,,Brian Moon,Mid-Market
+DEAL_0098,COMP_0213,CONT_0087,Valdez Ltd - Annual License,Closed Lost,29103.6,0,2024-06-20,2024-10-06,Chose competitor,Amanda Gutierrez,SMB
+DEAL_0099,COMP_0133,CONT_0053,"Mejia, Dawson and Stokes - Annual License",Qualification,905215.34,25,2026-02-22,,,Tamara Anthony,Enterprise
+DEAL_0100,COMP_0136,CONT_0100,Peters-Simmons - Professional Services,Prospecting,26572.74,10,2025-11-19,,,Diane Williams,SMB
+DEAL_0101,COMP_0263,CONT_0157,Hunter Group - Enterprise Plan,Closed Won,241403.95,100,2024-11-15,2025-02-22,,Jacqueline Stevens,Mid-Market
+DEAL_0102,COMP_0281,CONT_0385,Perez Ltd - Professional Services,Prospecting,242415.51,10,2024-12-26,,,Mr. Joseph Simpson,Mid-Market
+DEAL_0103,COMP_0014,CONT_0147,"Wheeler, Woods and Mendoza - Support Contract",Prospecting,46149.86,10,2026-01-12,,,Sean King MD,SMB
+DEAL_0104,COMP_0040,CONT_0254,"Cline, Sanchez and Hinton - Professional Services",Negotiation,129326.41,75,2025-09-15,,,Lisa Jones,Mid-Market
+DEAL_0105,COMP_0068,CONT_0342,Howell-Snow - Enterprise Plan,Prospecting,205102.78,10,2024-04-01,,,Jason Howard,Mid-Market
+DEAL_0106,COMP_0031,CONT_0539,"Richards, Robinson and Turner - Enterprise Plan",Qualification,111684.46,25,2025-02-24,,,Joshua Olson,Mid-Market
+DEAL_0107,COMP_0022,CONT_0252,Hale Ltd - Support Contract,Qualification,25970.18,25,2025-03-28,,,Larry Hutchinson,SMB
+DEAL_0108,COMP_0116,CONT_0515,"Carlson, Richardson and Rose - Enterprise Plan",Closed Won,232866.1,100,2024-05-24,2024-10-05,,Brian Jones,Mid-Market
+DEAL_0109,COMP_0007,CONT_0380,Bishop Group - Annual License,Qualification,30313.61,25,2024-11-19,,,Brett Clements,SMB
+DEAL_0110,COMP_0262,CONT_0272,Lawrence-Beard - Professional Services,Prospecting,53243.98,10,2025-03-22,,,Mason Lee,Mid-Market
+DEAL_0111,COMP_0045,CONT_0499,Williams-Hanson - Support Contract,Proposal,18283.65,50,2024-12-30,,,Jim Wilson,SMB
+DEAL_0112,COMP_0220,CONT_0397,Brooks Inc - Professional Services,Prospecting,125967.95,10,2025-11-01,,,Oscar Christensen,Mid-Market
+DEAL_0113,COMP_0094,CONT_0420,Bernard-Crosby - Enterprise Plan,Closed Won,101465.35,100,2024-03-14,2024-08-02,,Nicole Jones,Mid-Market
+DEAL_0114,COMP_0155,CONT_0065,Hammond-Mathews - Support Contract,Closed Won,142165.8,100,2025-07-21,2026-01-15,,Michelle Scott,Mid-Market
+DEAL_0115,COMP_0006,CONT_0361,"Houston, Medina and Allen - Support Contract",Prospecting,13282.15,10,2025-08-20,,,Angela James,SMB
+DEAL_0116,COMP_0140,CONT_0091,Boyd-Blake - Annual License,Closed Won,154788.88,100,2024-09-02,2025-02-27,,Amber Casey,Mid-Market
+DEAL_0117,COMP_0108,CONT_0531,Smith Ltd - Annual License,Closed Won,202867.77,100,2025-11-12,2025-12-15,,Harold Rosario,Mid-Market
+DEAL_0118,COMP_0279,CONT_0010,"Wagner, Herman and Stark - Professional Services",Qualification,8058.56,25,2024-04-05,,,Edward White,SMB
+DEAL_0119,COMP_0230,CONT_0282,Robinson Inc - Professional Services,Prospecting,27757.98,10,2025-08-27,,,Kevin Gonzalez,SMB
+DEAL_0120,COMP_0059,CONT_0271,Novak LLC - Support Contract,Qualification,34667.8,25,2026-03-11,,,Jason Cooper,SMB
+DEAL_0121,COMP_0138,CONT_0017,"Wright, Davis and Young - Support Contract",Prospecting,5533.29,10,2026-01-11,,,Peggy Golden,SMB
+DEAL_0122,COMP_0264,CONT_0394,"Duncan, White and Stewart - Enterprise Plan",Proposal,29108.21,50,2024-08-12,,,Maria Hunt,SMB
+DEAL_0123,COMP_0033,CONT_0421,Smith-Webb - Support Contract,Qualification,41277.55,25,2025-05-28,,,Joshua Leon,SMB
+DEAL_0124,COMP_0051,CONT_0123,Hicks and Sons - Annual License,Closed Won,643289.05,100,2025-04-28,2025-06-08,,Daniel Hernandez,Enterprise
+DEAL_0125,COMP_0170,CONT_0022,"Castro, Bryant and Bowers - Enterprise Plan",Prospecting,41684.65,10,2025-05-11,,,Donna Garcia,SMB
+DEAL_0126,COMP_0040,CONT_0270,"Cline, Sanchez and Hinton - Support Contract",Qualification,65803.85,25,2025-10-19,,,Victoria Lucas,Mid-Market
+DEAL_0127,COMP_0037,CONT_0416,Baxter-Bradford - Professional Services,Proposal,49560.49,50,2024-06-22,,,Matthew Middleton,SMB
+DEAL_0128,COMP_0051,CONT_0129,Hicks and Sons - Annual License,Prospecting,740301.79,10,2024-12-23,,,Shannon Peck,Enterprise
+DEAL_0129,COMP_0204,CONT_0097,"Chapman, Rice and Brown - Annual License",Closed Won,131055.66,100,2026-01-16,2026-02-07,,David Hurst,Mid-Market
+DEAL_0130,COMP_0025,CONT_0567,Hayes-Hill - Support Contract,Qualification,61222.99,25,2025-07-15,,,Charles Miller,Mid-Market
+DEAL_0131,COMP_0201,CONT_0325,"Stone, Rogers and Lopez - Professional Services",Prospecting,66537.22,10,2024-09-02,,,Erika Phillips,Mid-Market
+DEAL_0132,COMP_0037,CONT_0445,Baxter-Bradford - Enterprise Plan,Proposal,30463.55,50,2025-12-10,,,Jane Ho,SMB
+DEAL_0133,COMP_0116,CONT_0515,"Carlson, Richardson and Rose - Annual License",Closed Won,95953.3,100,2025-01-01,2025-02-08,,Scott Floyd,Mid-Market
+DEAL_0134,COMP_0162,CONT_0285,Bonilla-Short - Support Contract,Closed Won,17199.28,100,2026-02-27,2026-08-05,,Colin Gray,SMB
+DEAL_0135,COMP_0065,CONT_0504,Weiss-Jones - Annual License,Closed Lost,13070.95,0,2024-11-02,2025-01-26,No budget,Alexander Perry,SMB
+DEAL_0136,COMP_0196,CONT_0051,Wilson-Pollard - Professional Services,Prospecting,167407.22,10,2024-08-28,,,Darryl Hill,Mid-Market
+DEAL_0137,COMP_0279,CONT_0010,"Wagner, Herman and Stark - Support Contract",Negotiation,46799.37,75,2025-10-14,,,Jillian Fischer,SMB
+DEAL_0138,COMP_0219,CONT_0449,Rush-Bell - Professional Services,Qualification,163339.18,25,2025-07-30,,,Robert Brown,Mid-Market
+DEAL_0139,COMP_0114,CONT_0109,Cox PLC - Enterprise Plan,Closed Won,22273.08,100,2024-06-29,2024-11-28,,Steve Flores,SMB
+DEAL_0140,COMP_0226,CONT_0540,"Hughes, Campbell and Thompson - Annual License",Negotiation,150158.57,75,2025-06-05,,,Jacqueline French,Mid-Market
+DEAL_0141,COMP_0067,CONT_0546,Hall LLC - Annual License,Closed Lost,137417.65,0,2025-10-23,2025-11-19,Price too high,Judith Barker,Mid-Market
+DEAL_0142,COMP_0079,CONT_0465,"Jones, Mendoza and Martin - Support Contract",Qualification,976690.4,25,2025-12-07,,,George Davis,Enterprise
+DEAL_0143,COMP_0236,CONT_0261,Hanson-Taylor - Enterprise Plan,Qualification,40259.67,25,2026-03-08,,,Cathy Chapman,SMB
+DEAL_0144,COMP_0070,CONT_0462,Murphy-Reynolds - Enterprise Plan,Proposal,160607.54,50,2026-01-17,,,Gregory Bowman,Mid-Market
+DEAL_0145,COMP_0118,CONT_0076,"Harris, Jones and Webster - Professional Services",Qualification,759771.14,25,2024-11-28,,,Marcus Osborn,Enterprise
+DEAL_0146,COMP_0199,CONT_0119,"Stark, Carter and Wright - Annual License",Negotiation,39747.53,75,2024-04-30,,,Amanda Anderson,SMB
+DEAL_0147,COMP_0175,CONT_0334,Perez Group - Professional Services,Qualification,192621.71,25,2024-06-01,,,Brenda Giles,Mid-Market
+DEAL_0148,COMP_0111,CONT_0384,Jones Group - Professional Services,Prospecting,22100.0,10,2024-09-29,,,Brittany Phillips,SMB
+DEAL_0149,COMP_0032,CONT_0158,Lopez Group - Enterprise Plan,Negotiation,122140.05,75,2025-08-07,,,Breanna Clark,Mid-Market
+DEAL_0150,COMP_0160,CONT_0199,"Ritter, Hendricks and Garcia - Enterprise Plan",Prospecting,25013.11,10,2025-06-07,,,Ashley Sullivan,SMB
+DEAL_0151,COMP_0254,CONT_0277,Parker LLC - Annual License,Prospecting,390543.84,10,2025-12-19,,,Shirley Kramer,Enterprise
+DEAL_0152,COMP_0022,CONT_0425,Hale Ltd - Support Contract,Qualification,9648.18,25,2025-03-18,,,William Walsh Jr.,SMB
+DEAL_0153,COMP_0220,CONT_0208,Brooks Inc - Annual License,Prospecting,169384.91,10,2024-08-20,,,David Taylor V,Mid-Market
+DEAL_0154,COMP_0168,CONT_0243,Crawford-Richardson - Support Contract,Negotiation,52468.12,75,2025-04-24,,,Shane Davis,Mid-Market
+DEAL_0155,COMP_0049,CONT_0183,Harvey-Rivers - Annual License,Qualification,37617.97,25,2024-10-01,,,Stephanie Mendez,SMB
+DEAL_0156,COMP_0037,CONT_0573,Baxter-Bradford - Professional Services,Closed Won,35839.22,100,2026-03-09,2026-05-24,,Sara Vaughn,SMB
+DEAL_0157,COMP_0013,CONT_0107,Morales LLC - Enterprise Plan,Prospecting,18550.91,10,2025-07-16,,,Justin Burnett,SMB
+DEAL_0158,COMP_0013,CONT_0107,Morales LLC - Annual License,Proposal,12524.33,50,2024-08-21,,,Kim Dunn,SMB
+DEAL_0159,COMP_0247,CONT_0361,"Johnson, Fisher and Jackson - Enterprise Plan",Qualification,26790.41,25,2026-01-12,,,Colleen Martin,SMB
+DEAL_0160,COMP_0162,CONT_0285,Bonilla-Short - Enterprise Plan,Prospecting,47490.0,10,2025-07-09,,,Jacqueline Stephenson,SMB
+DEAL_0161,COMP_0062,CONT_0508,Bishop and Sons - Professional Services,Proposal,141572.33,50,2025-09-01,,,Larry Martinez,Mid-Market
+DEAL_0162,COMP_0197,CONT_0066,Webster-Jones - Annual License,Prospecting,47697.06,10,2025-09-05,,,David Reynolds,SMB
+DEAL_0163,COMP_0270,CONT_0340,Russell and Sons - Support Contract,Qualification,210815.29,25,2025-02-21,,,Zachary Schmitt,Mid-Market
+DEAL_0164,COMP_0298,CONT_0525,Miller Group - Enterprise Plan,Qualification,24377.73,25,2025-01-07,,,Michael Doyle,SMB
+DEAL_0165,COMP_0102,CONT_0140,Shaw LLC - Professional Services,Qualification,145801.95,25,2025-12-02,,,Amanda Smith,Mid-Market
+DEAL_0166,COMP_0074,CONT_0458,"Arnold, Friedman and Nguyen - Support Contract",Prospecting,48592.63,10,2024-03-16,,,Gerald Brown,SMB
+DEAL_0167,COMP_0217,CONT_0197,Faulkner-Melton - Support Contract,Qualification,48549.34,25,2026-02-01,,,Paul Arroyo,SMB
+DEAL_0168,COMP_0162,CONT_0285,Bonilla-Short - Enterprise Plan,Negotiation,21922.49,75,2024-03-21,,,Jade Harris,SMB
+DEAL_0169,COMP_0142,CONT_0403,Harris Group - Professional Services,Qualification,31650.22,25,2025-08-02,,,Jessica Haynes,SMB
+DEAL_0170,COMP_0250,CONT_0034,Anderson LLC - Annual License,Proposal,47885.21,50,2024-12-25,,,Thomas Huynh,SMB
+DEAL_0171,COMP_0282,CONT_0581,Johnston LLC - Professional Services,Proposal,137690.99,50,2026-02-01,,,Rachael Roberts,Mid-Market
+DEAL_0172,COMP_0131,CONT_0056,Williams-Brooks - Annual License,Qualification,41853.45,25,2025-03-12,,,Samantha Higgins,SMB
+DEAL_0173,COMP_0104,CONT_0419,Esparza-Jones - Professional Services,Negotiation,33500.12,75,2025-09-11,,,Kevin Thornton,SMB
+DEAL_0174,COMP_0119,CONT_0054,Fields PLC - Professional Services,Prospecting,193047.28,10,2024-07-20,,,Amanda Rodriguez,Mid-Market
+DEAL_0175,COMP_0090,CONT_0050,"Jones, Johnson and Chen - Annual License",Negotiation,25208.0,75,2025-09-21,,,Carl Ramos,SMB
+DEAL_0176,COMP_0268,CONT_0491,Cummings and Sons - Support Contract,Proposal,29464.03,50,2026-01-29,,,Angela Ortega,SMB
+DEAL_0177,COMP_0218,CONT_0230,Galloway PLC - Enterprise Plan,Negotiation,190326.86,75,2025-01-16,,,Michelle Salinas,Mid-Market
+DEAL_0178,COMP_0275,CONT_0570,"Russell, Rivers and Salazar - Annual License",Closed Won,71873.89,100,2025-07-24,2026-01-06,,Miguel Johnson,Mid-Market
+DEAL_0179,COMP_0076,CONT_0169,Sosa LLC - Enterprise Plan,Prospecting,12485.23,10,2024-11-25,,,Nicole Sutton,SMB
+DEAL_0180,COMP_0112,CONT_0046,"Pollard, Lewis and Frazier - Support Contract",Proposal,243362.23,50,2025-12-01,,,Allison White,Mid-Market
+DEAL_0181,COMP_0066,CONT_0508,Chandler-Cooper - Support Contract,Qualification,71188.91,25,2026-03-02,,,Evan Garcia,Mid-Market
+DEAL_0182,COMP_0203,CONT_0099,"Brown, Matthews and Rosales - Professional Services",Prospecting,152135.25,10,2024-12-18,,,Kimberly Young,Mid-Market
+DEAL_0183,COMP_0068,CONT_0342,Howell-Snow - Professional Services,Proposal,139155.71,50,2024-09-07,,,Adam Gomez,Mid-Market
+DEAL_0184,COMP_0046,CONT_0401,Davis-Park - Professional Services,Proposal,20523.53,50,2025-04-29,,,Thomas Spencer,SMB
+DEAL_0185,COMP_0031,CONT_0539,"Richards, Robinson and Turner - Annual License",Prospecting,109086.44,10,2025-07-31,,,Melanie West,Mid-Market
+DEAL_0186,COMP_0169,CONT_0194,Ingram-Walsh - Annual License,Closed Lost,216263.55,0,2025-11-07,2025-12-12,Chose competitor,Stacey Bartlett,Mid-Market
+DEAL_0187,COMP_0124,CONT_0565,Owen-Johnson - Enterprise Plan,Qualification,591499.48,25,2025-12-18,,,Amy Smith,Enterprise
+DEAL_0188,COMP_0211,CONT_0015,Harmon Group - Support Contract,Prospecting,119660.06,10,2025-12-21,,,Michael Hall,Mid-Market
+DEAL_0189,COMP_0269,CONT_0310,Schneider Ltd - Support Contract,Prospecting,113781.89,10,2025-04-23,,,Laura James,Mid-Market
+DEAL_0190,COMP_0270,CONT_0024,Russell and Sons - Annual License,Qualification,54517.02,25,2026-03-12,,,Brandy Vance,Mid-Market
+DEAL_0191,COMP_0258,CONT_0159,"Gray, Hendrix and Stewart - Annual License",Qualification,35471.27,25,2025-09-18,,,Elizabeth Morton,SMB
+DEAL_0192,COMP_0133,CONT_0169,"Mejia, Dawson and Stokes - Professional Services",Closed Lost,663932.72,0,2025-09-22,2025-12-07,No budget,Carlos Cantrell,Enterprise
+DEAL_0193,COMP_0108,CONT_0531,Smith Ltd - Support Contract,Proposal,96371.11,50,2025-12-29,,,Denise Richardson,Mid-Market
+DEAL_0194,COMP_0002,CONT_0143,"Cruz, Adams and Landry - Professional Services",Qualification,13387.41,25,2025-06-06,,,Michael Estrada,SMB
+DEAL_0195,COMP_0273,CONT_0247,Evans-Greene - Support Contract,Negotiation,271894.21,75,2025-03-19,,,Chelsea Lutz,Enterprise
+DEAL_0196,COMP_0250,CONT_0034,Anderson LLC - Professional Services,Proposal,25230.88,50,2025-11-07,,,Ashley Harding,SMB
+DEAL_0197,COMP_0288,CONT_0193,Ramirez Group - Annual License,Qualification,36713.1,25,2024-12-27,,,Christopher Sandoval,SMB
+DEAL_0198,COMP_0096,CONT_0400,"Simmons, Pittman and Hart - Annual License",Prospecting,30980.66,10,2026-03-06,,,Darrell Hawkins,SMB
+DEAL_0199,COMP_0173,CONT_0341,Valdez-Orozco - Professional Services,Negotiation,21460.69,75,2026-03-11,,,Jason Rodgers,SMB
+DEAL_0200,COMP_0045,CONT_0499,Williams-Hanson - Annual License,Prospecting,16805.9,10,2025-03-17,,,Bobby Hill,SMB
+DEAL_0201,COMP_0086,CONT_0041,Marsh-Wells - Enterprise Plan,Closed Won,31863.69,100,2024-06-05,2024-11-01,,Richard Lewis,SMB
+DEAL_0202,COMP_0085,CONT_0345,"Porter, Simpson and Wallace - Annual License",Proposal,119584.93,50,2025-03-30,,,Karen Park,Mid-Market
+DEAL_0203,COMP_0069,CONT_0572,"Long, Holmes and Holt - Professional Services",Closed Won,41618.22,100,2024-06-23,2024-12-12,,Daniel Lopez,SMB
+DEAL_0204,COMP_0026,CONT_0074,"Haynes, Brewer and Garza - Enterprise Plan",Negotiation,46340.72,75,2025-12-03,,,Michael Miller,SMB
+DEAL_0205,COMP_0258,CONT_0021,"Gray, Hendrix and Stewart - Professional Services",Proposal,19093.36,50,2025-12-19,,,Amy Scott,SMB
+DEAL_0206,COMP_0074,CONT_0458,"Arnold, Friedman and Nguyen - Annual License",Prospecting,13237.0,10,2025-10-10,,,Jimmy Vaughn,SMB
+DEAL_0207,COMP_0164,CONT_0596,Williams-Rasmussen - Support Contract,Negotiation,133647.82,75,2025-01-30,,,Brad West,Mid-Market
+DEAL_0208,COMP_0063,CONT_0492,Anderson-Stafford - Support Contract,Prospecting,567279.09,10,2025-09-15,,,Kyle Barber,Enterprise
+DEAL_0209,COMP_0130,CONT_0409,"Graves, Becker and Blake - Professional Services",Proposal,29971.07,50,2024-05-15,,,Mrs. Dawn Larsen,SMB
+DEAL_0210,COMP_0104,CONT_0502,Esparza-Jones - Professional Services,Qualification,19156.1,25,2025-06-22,,,Anthony Novak,SMB
+DEAL_0211,COMP_0138,CONT_0462,"Wright, Davis and Young - Enterprise Plan",Proposal,47832.89,50,2024-10-11,,,Jillian Carroll,SMB
+DEAL_0212,COMP_0259,CONT_0564,"Moore, Cole and Shaffer - Professional Services",Proposal,41684.72,50,2024-09-08,,,David Hansen,SMB
+DEAL_0213,COMP_0083,CONT_0358,Dixon Inc - Support Contract,Closed Lost,131826.87,0,2025-06-04,2025-10-25,No decision,Austin Adams,Mid-Market
+DEAL_0214,COMP_0085,CONT_0345,"Porter, Simpson and Wallace - Support Contract",Qualification,147739.9,25,2024-08-06,,,Cole Matthews,Mid-Market
+DEAL_0215,COMP_0138,CONT_0085,"Wright, Davis and Young - Professional Services",Proposal,18144.05,50,2024-08-02,,,Jessica Lopez,SMB
+DEAL_0216,COMP_0126,CONT_0536,Mendoza-Espinoza - Enterprise Plan,Qualification,12569.4,25,2024-03-15,,,William Beard,SMB
+DEAL_0217,COMP_0037,CONT_0469,Baxter-Bradford - Support Contract,Proposal,29737.68,50,2026-03-11,,,Tyler Cuevas,SMB
+DEAL_0218,COMP_0212,CONT_0180,Murray-Johnson - Annual License,Prospecting,103577.78,10,2024-11-05,,,Erin Pennington,Mid-Market
+DEAL_0219,COMP_0170,CONT_0022,"Castro, Bryant and Bowers - Enterprise Plan",Proposal,29391.95,50,2025-03-04,,,Carl Berry,SMB
+DEAL_0220,COMP_0226,CONT_0540,"Hughes, Campbell and Thompson - Support Contract",Negotiation,159270.65,75,2024-09-08,,,Eric Garcia,Mid-Market
+DEAL_0221,COMP_0270,CONT_0024,Russell and Sons - Professional Services,Closed Lost,109541.79,0,2024-07-05,2024-08-14,Price too high,Pamela Robinson,Mid-Market
+DEAL_0222,COMP_0190,CONT_0126,Reed-Glover - Enterprise Plan,Qualification,222439.93,25,2025-10-06,,,Victoria Sherman,Mid-Market
+DEAL_0223,COMP_0048,CONT_0189,Jenkins Group - Annual License,Prospecting,831723.74,10,2024-11-30,,,Tammy Nelson,Enterprise
+DEAL_0224,COMP_0061,CONT_0582,Howard-Bailey - Enterprise Plan,Prospecting,222209.74,10,2024-06-09,,,Nicholas Klein,Mid-Market
+DEAL_0225,COMP_0247,CONT_0361,"Johnson, Fisher and Jackson - Support Contract",Proposal,12469.17,50,2026-03-06,,,Stephanie Crosby,SMB
+DEAL_0226,COMP_0119,CONT_0054,Fields PLC - Professional Services,Prospecting,212705.97,10,2025-05-30,,,Jason Ford,Mid-Market
+DEAL_0227,COMP_0039,CONT_0279,Barrett Group - Enterprise Plan,Closed Won,156456.16,100,2024-12-17,2025-05-25,,Anthony Downs,Mid-Market
+DEAL_0228,COMP_0061,CONT_0582,Howard-Bailey - Professional Services,Proposal,114730.72,50,2025-09-18,,,Miranda Smith,Mid-Market
+DEAL_0229,COMP_0209,CONT_0124,"Jimenez, Jackson and Rhodes - Enterprise Plan",Negotiation,30773.1,75,2024-06-25,,,Nicholas Robbins,SMB
+DEAL_0230,COMP_0273,CONT_0247,Evans-Greene - Annual License,Closed Lost,351691.68,0,2025-01-21,2025-06-15,No decision,Scott Young,Enterprise
+DEAL_0231,COMP_0033,CONT_0421,Smith-Webb - Professional Services,Closed Won,36564.19,100,2024-06-26,2024-09-18,,Amanda Lowe,SMB
+DEAL_0232,COMP_0194,CONT_0136,Miller Group - Enterprise Plan,Prospecting,42281.68,10,2024-10-20,,,Ryan Weber,SMB
+DEAL_0233,COMP_0062,CONT_0403,Bishop and Sons - Enterprise Plan,Proposal,175562.56,50,2024-07-25,,,Peter Gonzalez,Mid-Market
+DEAL_0234,COMP_0245,CONT_0385,Lewis PLC - Annual License,Proposal,23128.28,50,2025-09-18,,,Jason Melendez,SMB
+DEAL_0235,COMP_0101,CONT_0518,Jones Ltd - Enterprise Plan,Negotiation,25461.3,75,2024-11-27,,,Brittany Mcdonald,SMB
+DEAL_0236,COMP_0013,CONT_0107,Morales LLC - Annual License,Proposal,44100.85,50,2025-03-20,,,Claire Jones,SMB
+DEAL_0237,COMP_0046,CONT_0096,Davis-Park - Support Contract,Negotiation,33567.82,75,2026-02-11,,,Jordan Kaiser,SMB
+DEAL_0238,COMP_0082,CONT_0556,Craig-Alexander - Annual License,Negotiation,40805.51,75,2024-11-16,,,Ashley Flores,SMB
+DEAL_0239,COMP_0106,CONT_0139,Franklin Inc - Support Contract,Qualification,214969.53,25,2026-01-22,,,Brian Hernandez,Mid-Market
+DEAL_0240,COMP_0271,CONT_0386,Bartlett and Sons - Enterprise Plan,Proposal,42275.46,50,2025-03-14,,,Steven Smith,SMB
+DEAL_0241,COMP_0061,CONT_0582,Howard-Bailey - Professional Services,Qualification,163228.42,25,2024-08-22,,,Alex Jones,Mid-Market
+DEAL_0242,COMP_0073,CONT_0217,Fields-Young - Enterprise Plan,Proposal,45236.96,50,2024-04-01,,,Hannah Mccormick,SMB
+DEAL_0243,COMP_0039,CONT_0279,Barrett Group - Annual License,Negotiation,69914.95,75,2025-09-25,,,Brian Fisher,Mid-Market
+DEAL_0244,COMP_0158,CONT_0237,"Barry, Stout and Ayala - Support Contract",Negotiation,5732.66,75,2025-02-09,,,Matthew Gomez,SMB
+DEAL_0245,COMP_0111,CONT_0384,Jones Group - Support Contract,Closed Lost,25543.32,0,2024-04-09,2024-06-02,No decision,Daniel Sanchez,SMB
+DEAL_0246,COMP_0065,CONT_0520,Weiss-Jones - Professional Services,Prospecting,44696.65,10,2024-09-17,,,Dana Castillo,SMB
+DEAL_0247,COMP_0063,CONT_0550,Anderson-Stafford - Enterprise Plan,Qualification,320004.99,25,2025-02-28,,,Virginia Johnson,Enterprise
+DEAL_0248,COMP_0287,CONT_0249,Smith-Young - Annual License,Qualification,21732.97,25,2024-06-13,,,Ryan Vasquez,SMB
+DEAL_0249,COMP_0021,CONT_0082,Knight and Sons - Annual License,Closed Won,22835.37,100,2024-12-24,2025-02-18,,Vanessa Jenkins,SMB
+DEAL_0250,COMP_0196,CONT_0018,Wilson-Pollard - Professional Services,Qualification,135846.19,25,2026-01-13,,,Aaron Patel,Mid-Market
+DEAL_0251,COMP_0209,CONT_0124,"Jimenez, Jackson and Rhodes - Annual License",Prospecting,5048.88,10,2024-03-22,,,Katrina Miller,SMB
+DEAL_0252,COMP_0256,CONT_0561,Bond Ltd - Professional Services,Proposal,695259.62,50,2025-10-03,,,Mary Harris,Enterprise
+DEAL_0253,COMP_0028,CONT_0371,Gregory PLC - Support Contract,Proposal,256965.21,50,2026-01-18,,,Vanessa Soto,Enterprise
+DEAL_0254,COMP_0096,CONT_0400,"Simmons, Pittman and Hart - Annual License",Negotiation,49466.97,75,2024-07-28,,,Thomas Chapman,SMB
+DEAL_0255,COMP_0028,CONT_0371,Gregory PLC - Professional Services,Qualification,608275.18,25,2024-03-16,,,Adam Yates,Enterprise
+DEAL_0256,COMP_0124,CONT_0052,Owen-Johnson - Annual License,Prospecting,798072.54,10,2024-05-22,,,Kyle Anderson,Enterprise
+DEAL_0257,COMP_0205,CONT_0105,Gonzales-Mayer - Enterprise Plan,Prospecting,44644.5,10,2024-03-27,,,Joel Jones,SMB
+DEAL_0258,COMP_0165,CONT_0141,"Malone, Ware and Pierce - Professional Services",Qualification,178315.23,25,2024-05-19,,,George Stevenson,Mid-Market
+DEAL_0259,COMP_0241,CONT_0028,"Flores, Mckee and Mcclure - Annual License",Negotiation,28872.87,75,2024-03-29,,,Rebecca Wilson,SMB
+DEAL_0260,COMP_0153,CONT_0004,Lynch-Shelton - Professional Services,Prospecting,138019.88,10,2024-12-27,,,Jennifer Torres,Mid-Market
+DEAL_0261,COMP_0162,CONT_0285,Bonilla-Short - Professional Services,Negotiation,46395.24,75,2025-05-06,,,Taylor Hardin,SMB
+DEAL_0262,COMP_0095,CONT_0454,"Griffin, Adams and Wong - Annual License",Closed Won,11300.59,100,2025-09-11,2025-10-17,,Douglas Marsh,SMB
+DEAL_0263,COMP_0079,CONT_0465,"Jones, Mendoza and Martin - Support Contract",Prospecting,513651.73,10,2024-12-25,,,Frank Williams,Enterprise
+DEAL_0264,COMP_0211,CONT_0502,Harmon Group - Professional Services,Qualification,99557.27,25,2025-06-07,,,Charles Delacruz,Mid-Market
+DEAL_0265,COMP_0203,CONT_0072,"Brown, Matthews and Rosales - Professional Services",Proposal,160679.33,50,2025-06-28,,,Carla Charles,Mid-Market
+DEAL_0266,COMP_0181,CONT_0452,"Massey, Hardy and Carroll - Enterprise Plan",Proposal,834227.24,50,2026-02-23,,,Crystal Morris,Enterprise
+DEAL_0267,COMP_0178,CONT_0486,Sharp and Sons - Enterprise Plan,Negotiation,91089.14,75,2024-05-07,,,Mallory Marshall DDS,Mid-Market
+DEAL_0268,COMP_0037,CONT_0522,Baxter-Bradford - Support Contract,Prospecting,18299.39,10,2025-06-02,,,Katie Hanson,SMB
+DEAL_0269,COMP_0176,CONT_0305,Armstrong Ltd - Professional Services,Prospecting,27269.95,10,2025-12-05,,,Deborah Frye,SMB
+DEAL_0270,COMP_0016,CONT_0218,Chapman-Sanchez - Support Contract,Prospecting,33713.7,10,2024-04-15,,,Elizabeth Wilkins,SMB
+DEAL_0271,COMP_0178,CONT_0486,Sharp and Sons - Annual License,Prospecting,247376.51,10,2024-06-01,,,Andrew Jackson,Mid-Market
+DEAL_0272,COMP_0081,CONT_0222,Hebert LLC - Support Contract,Closed Lost,895610.5,0,2026-02-04,2026-03-23,,Joseph Hunter,Enterprise
+DEAL_0273,COMP_0091,CONT_0431,Gonzales-Atkins - Professional Services,Qualification,39322.67,25,2025-07-14,,,Maxwell Thomas,SMB
+DEAL_0274,COMP_0291,CONT_0075,Rios-Quinn - Annual License,Prospecting,260345.07,10,2025-12-02,,,Elizabeth Andrews,Enterprise
+DEAL_0275,COMP_0213,CONT_0087,Valdez Ltd - Annual License,Prospecting,47690.6,10,2026-01-23,,,William Hart,SMB
+DEAL_0276,COMP_0016,CONT_0163,Chapman-Sanchez - Enterprise Plan,Qualification,33285.68,25,2025-12-26,,,William Rogers,SMB
+DEAL_0277,COMP_0238,CONT_0418,Hensley LLC - Support Contract,Proposal,24060.89,50,2025-11-25,,,Kyle Campbell,SMB
+DEAL_0278,COMP_0061,CONT_0582,Howard-Bailey - Professional Services,Qualification,105493.55,25,2024-11-28,,,Mia Morgan,Mid-Market
+DEAL_0279,COMP_0066,CONT_0508,Chandler-Cooper - Professional Services,Qualification,244862.68,25,2025-05-30,,,Craig Lee,Mid-Market
+DEAL_0280,COMP_0010,CONT_0383,"Tran, Ramirez and Clark - Enterprise Plan",Prospecting,22582.92,10,2025-12-18,,,Joshua Hurst,SMB
+DEAL_0281,COMP_0078,CONT_0019,Stein-Taylor - Annual License,Proposal,18957.63,50,2024-06-26,,,Deborah Boyd,SMB
+DEAL_0282,COMP_0243,CONT_0017,"Williams, Ramirez and Wood - Professional Services",Qualification,61581.19,25,2024-03-25,,,Michael Hays,Mid-Market
+DEAL_0283,COMP_0065,CONT_0520,Weiss-Jones - Support Contract,Prospecting,10219.4,10,2025-12-20,,,Mary Lane,SMB
+DEAL_0284,COMP_0225,CONT_0459,Warner LLC - Annual License,Proposal,481967.55,50,2025-07-14,,,Elizabeth Hopkins,Enterprise
+DEAL_0285,COMP_0032,CONT_0180,Lopez Group - Professional Services,Prospecting,190299.92,10,2025-07-24,,,Dr. Gabriel Anderson DDS,Mid-Market
+DEAL_0286,COMP_0269,CONT_0310,Schneider Ltd - Enterprise Plan,Prospecting,154601.07,10,2024-12-18,,,Kimberly White,Mid-Market
+DEAL_0287,COMP_0112,CONT_0266,"Pollard, Lewis and Frazier - Professional Services",Prospecting,199955.28,10,2026-02-02,,,Kevin Young,Mid-Market
+DEAL_0288,COMP_0138,CONT_0276,"Wright, Davis and Young - Annual License",Negotiation,39714.36,75,2024-12-06,,,Dawn Saunders,SMB
+DEAL_0289,COMP_0182,CONT_0196,"Lopez, Mcdonald and Martinez - Support Contract",Prospecting,17239.13,10,2025-06-02,,,Richard Gibson,SMB
+DEAL_0290,COMP_0126,CONT_0536,Mendoza-Espinoza - Annual License,Prospecting,27326.64,10,2024-09-18,,,William Payne,SMB
+DEAL_0291,COMP_0121,CONT_0128,"Smith, Morales and Russell - Annual License",Proposal,149922.0,50,2025-03-24,,,Charles Callahan,Mid-Market
+DEAL_0292,COMP_0111,CONT_0178,Jones Group - Enterprise Plan,Proposal,12078.95,50,2026-01-18,,,Barbara Fleming,SMB
+DEAL_0293,COMP_0190,CONT_0120,Reed-Glover - Annual License,Negotiation,95680.88,75,2026-01-20,,,Joseph Nichols,Mid-Market
+DEAL_0294,COMP_0287,CONT_0249,Smith-Young - Annual License,Proposal,43641.01,50,2024-05-08,,,Sarah Lee,SMB
+DEAL_0295,COMP_0194,CONT_0013,Miller Group - Support Contract,Prospecting,21378.94,10,2025-07-19,,,Rachel Jones,SMB
+DEAL_0296,COMP_0098,CONT_0430,"Rhodes, Pearson and Wallace - Annual License",Closed Lost,664648.59,0,2025-08-16,2025-10-14,No decision,Johnny Weber,Enterprise
+DEAL_0297,COMP_0055,CONT_0548,Wilson-Harrington - Professional Services,Prospecting,562192.45,10,2025-03-04,,,Troy Mitchell,Enterprise
+DEAL_0298,COMP_0023,CONT_0415,"Peterson, Arroyo and Carr - Enterprise Plan",Negotiation,215199.4,75,2024-11-26,,,John Mejia,Mid-Market
+DEAL_0299,COMP_0186,CONT_0331,Michael-Rogers - Annual License,Proposal,27591.84,50,2025-12-10,,,Julie Henderson,SMB
+DEAL_0300,COMP_0278,CONT_0488,"Hayden, Stone and Lopez - Professional Services",Closed Won,210867.6,100,2025-07-28,2025-09-25,,Kevin Mcdonald,Mid-Market
+DEAL_0301,COMP_0067,CONT_0246,Hall LLC - Annual License,Closed Lost,225398.25,0,2025-10-14,2026-02-07,No budget,John Scott,Mid-Market
+DEAL_0302,COMP_0069,CONT_0572,"Long, Holmes and Holt - Enterprise Plan",Negotiation,19728.54,75,2025-09-06,,,Matthew Kaiser,SMB
+DEAL_0303,COMP_0123,CONT_0013,Johnson-Long - Annual License,Proposal,526689.52,50,2025-07-06,,,Susan Sullivan,Enterprise
+DEAL_0304,COMP_0233,CONT_0538,"Garcia, Steele and Elliott - Enterprise Plan",Qualification,804681.99,25,2024-03-31,,,Christopher Bright,Enterprise
+DEAL_0305,COMP_0085,CONT_0345,"Porter, Simpson and Wallace - Enterprise Plan",Prospecting,168338.19,10,2026-02-24,,,Kayla Reyes,Mid-Market
+DEAL_0306,COMP_0163,CONT_0016,"Nelson, Little and Joyce - Professional Services",Proposal,799347.5,50,2024-05-16,,,Carl Cruz,Enterprise
+DEAL_0307,COMP_0281,CONT_0385,Perez Ltd - Professional Services,Proposal,80113.28,50,2026-01-05,,,Mrs. Candice Mitchell,Mid-Market
+DEAL_0308,COMP_0146,CONT_0349,"Price, Miller and Phillips - Professional Services",Closed Lost,29369.53,0,2025-02-24,2025-03-16,Price too high,Samuel Mckay,SMB
+DEAL_0309,COMP_0298,CONT_0525,Miller Group - Support Contract,Closed Lost,43205.27,0,2025-10-22,2025-11-05,No budget,Jeffrey Barnes,SMB
+DEAL_0310,COMP_0117,CONT_0107,Hopkins Ltd - Professional Services,Prospecting,23891.71,10,2025-01-20,,,Timothy Harris,SMB
+DEAL_0311,COMP_0171,CONT_0009,Russell Ltd - Enterprise Plan,Closed Lost,319769.98,0,2024-04-20,2024-06-09,Chose competitor,Mackenzie Coleman,Enterprise
+DEAL_0312,COMP_0234,CONT_0011,"Martinez, Russo and Wilson - Support Contract",Closed Won,190169.38,100,2025-08-23,2026-01-17,,Elizabeth Lloyd,Mid-Market
+DEAL_0313,COMP_0221,CONT_0175,Nelson Group - Annual License,Qualification,31134.68,25,2025-03-13,,,Emily Butler,SMB
+DEAL_0314,COMP_0224,CONT_0263,Ramirez-Rivera - Support Contract,Proposal,8367.37,50,2025-01-17,,,Diamond Fox,SMB
+DEAL_0315,COMP_0258,CONT_0372,"Gray, Hendrix and Stewart - Support Contract",Proposal,34809.98,50,2025-09-19,,,Aimee Rodriguez,SMB
+DEAL_0316,COMP_0102,CONT_0134,Shaw LLC - Enterprise Plan,Prospecting,220182.74,10,2025-07-24,,,Carl Mahoney,Mid-Market
+DEAL_0317,COMP_0042,CONT_0168,"Cruz, Williams and Taylor - Enterprise Plan",Closed Lost,19312.6,0,2025-07-05,2025-10-27,No budget,Samantha Wilson,SMB
+DEAL_0318,COMP_0050,CONT_0081,Reed PLC - Professional Services,Prospecting,11125.03,10,2024-08-04,,,Ashley Lara,SMB
+DEAL_0319,COMP_0029,CONT_0289,Wong-Wallace - Annual License,Negotiation,11993.47,75,2025-06-01,,,Andrew Cook,SMB
+DEAL_0320,COMP_0114,CONT_0109,Cox PLC - Support Contract,Prospecting,19131.5,10,2025-10-11,,,Olivia Molina,SMB
+DEAL_0321,COMP_0168,CONT_0446,Crawford-Richardson - Enterprise Plan,Prospecting,242926.94,10,2024-04-02,,,Jeffrey Yu,Mid-Market
+DEAL_0322,COMP_0092,CONT_0213,"Cruz, Harper and Butler - Support Contract",Proposal,16925.36,50,2024-06-07,,,Gilbert Williams,SMB
+DEAL_0323,COMP_0075,CONT_0144,Torres-Hooper - Professional Services,Prospecting,211519.38,10,2025-10-07,,,James Gonzalez,Mid-Market
+DEAL_0324,COMP_0080,CONT_0226,"Shaffer, Pratt and Smith - Annual License",Qualification,14675.94,25,2025-07-29,,,Jacqueline Lawson,SMB
+DEAL_0325,COMP_0223,CONT_0453,"Oneill, Foster and Robles - Annual License",Closed Won,783368.05,100,2024-03-27,2024-05-17,,Lauren Stanton,Enterprise
+DEAL_0326,COMP_0012,CONT_0365,Hunt-Griffith - Annual License,Qualification,185436.68,25,2025-11-12,,,Mary Armstrong,Mid-Market
+DEAL_0327,COMP_0263,CONT_0233,Hunter Group - Professional Services,Qualification,56216.42,25,2024-10-06,,,Scott Yang,Mid-Market
+DEAL_0328,COMP_0045,CONT_0499,Williams-Hanson - Support Contract,Qualification,30017.92,25,2026-03-09,,,Rachel Harrison,SMB
+DEAL_0329,COMP_0101,CONT_0518,Jones Ltd - Annual License,Proposal,25791.95,50,2025-03-08,,,James Williams,SMB
+DEAL_0330,COMP_0293,CONT_0354,Mann Group - Annual License,Closed Won,52391.38,100,2025-05-31,2025-07-19,,Casey Villanueva,Mid-Market
+DEAL_0331,COMP_0038,CONT_0579,"Little, Lee and Daugherty - Professional Services",Closed Won,89626.61,100,2025-05-31,2025-08-09,,David Harper,Mid-Market
+DEAL_0332,COMP_0186,CONT_0262,Michael-Rogers - Annual License,Qualification,31204.57,25,2024-06-16,,,Andrew Gonzalez,SMB
+DEAL_0333,COMP_0278,CONT_0488,"Hayden, Stone and Lopez - Annual License",Qualification,54360.04,25,2025-04-25,,,Linda Edwards,Mid-Market
+DEAL_0334,COMP_0076,CONT_0169,Sosa LLC - Support Contract,Prospecting,41418.44,10,2024-04-09,,,Brian Lara,SMB
+DEAL_0335,COMP_0222,CONT_0510,"Meadows, Richardson and Cruz - Enterprise Plan",Prospecting,74505.53,10,2025-03-19,,,Brittany Ross,Mid-Market
+DEAL_0336,COMP_0297,CONT_0084,Wilson-Skinner - Professional Services,Closed Lost,943098.79,0,2025-06-06,2025-07-02,No decision,Nancy Roman,Enterprise
+DEAL_0337,COMP_0163,CONT_0016,"Nelson, Little and Joyce - Support Contract",Closed Won,272111.72,100,2024-06-15,2024-10-08,,Cynthia Levine,Enterprise
+DEAL_0338,COMP_0293,CONT_0399,Mann Group - Professional Services,Negotiation,120788.65,75,2026-03-09,,,Jamie Oneill,Mid-Market
+DEAL_0339,COMP_0005,CONT_0073,Stewart-Mendoza - Enterprise Plan,Closed Won,25070.51,100,2025-09-21,2025-12-14,,Claudia Palmer,SMB
+DEAL_0340,COMP_0077,CONT_0321,Adkins Group - Professional Services,Prospecting,735458.8,10,2025-09-23,,,Karen Collins,Enterprise
+DEAL_0341,COMP_0096,CONT_0474,"Simmons, Pittman and Hart - Support Contract",Proposal,7744.06,50,2024-08-17,,,Stephanie Cole,SMB
+DEAL_0342,COMP_0061,CONT_0582,Howard-Bailey - Professional Services,Qualification,133846.96,25,2025-09-25,,,Destiny Smith,Mid-Market
+DEAL_0343,COMP_0052,CONT_0040,Chen-Kelly - Professional Services,Proposal,176150.88,50,2025-05-23,,,David Gilbert,Mid-Market
+DEAL_0344,COMP_0262,CONT_0272,Lawrence-Beard - Support Contract,Closed Won,206383.15,100,2025-04-29,2025-05-17,,Cynthia Ballard,Mid-Market
+DEAL_0345,COMP_0100,CONT_0353,Ramos-Rivera - Support Contract,Qualification,508025.59,25,2025-04-08,,,James Ellison,Enterprise
+DEAL_0346,COMP_0068,CONT_0342,Howell-Snow - Enterprise Plan,Proposal,127676.25,50,2025-07-07,,,Steven Terry,Mid-Market
+DEAL_0347,COMP_0216,CONT_0153,Gibson PLC - Enterprise Plan,Prospecting,31870.24,10,2025-01-08,,,Jessica Myers,SMB
+DEAL_0348,COMP_0082,CONT_0457,Craig-Alexander - Enterprise Plan,Prospecting,7636.61,10,2025-08-09,,,Lori Mcgee,SMB
+DEAL_0349,COMP_0263,CONT_0157,Hunter Group - Enterprise Plan,Closed Lost,203368.43,0,2024-07-28,2024-12-24,Chose competitor,Cheryl Cox,Mid-Market
+DEAL_0350,COMP_0262,CONT_0272,Lawrence-Beard - Professional Services,Closed Lost,181372.88,0,2024-12-20,2025-01-28,No budget,Gregory Clayton,Mid-Market
+DEAL_0351,COMP_0201,CONT_0325,"Stone, Rogers and Lopez - Annual License",Proposal,202809.94,50,2025-02-09,,,Bobby Cook,Mid-Market
+DEAL_0352,COMP_0023,CONT_0160,"Peterson, Arroyo and Carr - Support Contract",Closed Lost,120960.93,0,2024-05-28,2024-11-05,Chose competitor,Veronica Carroll MD,Mid-Market
+DEAL_0353,COMP_0108,CONT_0531,Smith Ltd - Enterprise Plan,Prospecting,211242.05,10,2025-02-07,,,Corey Taylor,Mid-Market
+DEAL_0354,COMP_0111,CONT_0141,Jones Group - Annual License,Negotiation,36655.38,75,2025-10-21,,,Isaiah Jones,SMB
+DEAL_0355,COMP_0274,CONT_0032,"Sanchez, Jones and Thompson - Professional Services",Qualification,162621.78,25,2025-08-23,,,Kevin Mckay,Mid-Market
+DEAL_0356,COMP_0089,CONT_0307,Parks-Miller - Support Contract,Prospecting,29395.61,10,2025-04-13,,,Laura Pineda,SMB
+DEAL_0357,COMP_0210,CONT_0113,"Faulkner, Garcia and Hughes - Annual License",Prospecting,68051.48,10,2024-07-17,,,Andrea Miller,Mid-Market
+DEAL_0358,COMP_0181,CONT_0398,"Massey, Hardy and Carroll - Professional Services",Prospecting,264945.99,10,2025-08-21,,,Isabel Pugh,Enterprise
+DEAL_0359,COMP_0268,CONT_0490,Cummings and Sons - Professional Services,Prospecting,41290.04,10,2025-02-22,,,Meghan Marshall,SMB
+DEAL_0360,COMP_0034,CONT_0487,Mcfarland-Burton - Professional Services,Qualification,233756.16,25,2025-02-15,,,Joshua Palmer,Mid-Market
+DEAL_0361,COMP_0110,CONT_0332,"Jones, Noble and Walker - Professional Services",Prospecting,31397.41,10,2024-04-26,,,Thomas Williams,SMB
+DEAL_0362,COMP_0111,CONT_0178,Jones Group - Enterprise Plan,Closed Won,48225.14,100,2024-08-12,2024-09-23,,Ricardo Gordon,SMB
+DEAL_0363,COMP_0018,CONT_0383,Patton Ltd - Support Contract,Negotiation,689512.5,75,2025-01-15,,,Jason Lane,Enterprise
+DEAL_0364,COMP_0031,CONT_0539,"Richards, Robinson and Turner - Enterprise Plan",Qualification,77290.33,25,2024-10-21,,,Amanda Barker,Mid-Market
+DEAL_0365,COMP_0145,CONT_0568,"Oneill, Wilkins and Jimenez - Support Contract",Prospecting,208368.5,10,2026-02-20,,,Justin Fernandez,Mid-Market
+DEAL_0366,COMP_0126,CONT_0536,Mendoza-Espinoza - Enterprise Plan,Closed Lost,12839.12,0,2025-08-29,2026-02-25,,Tracy Jackson,SMB
+DEAL_0367,COMP_0144,CONT_0366,Bell Ltd - Professional Services,Prospecting,125676.82,10,2025-10-12,,,Cynthia Gordon,Mid-Market
+DEAL_0368,COMP_0110,CONT_0302,"Jones, Noble and Walker - Annual License",Prospecting,47695.46,10,2024-12-09,,,Kelly Stewart,SMB
+DEAL_0369,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Annual License",Closed Lost,13193.68,0,2024-07-03,2024-10-25,No budget,Jamie Diaz,SMB
+DEAL_0370,COMP_0043,CONT_0440,Newman-Koch - Professional Services,Closed Lost,33784.1,0,2025-08-07,2026-01-24,Price too high,Michael Wilkinson,SMB
+DEAL_0371,COMP_0116,CONT_0515,"Carlson, Richardson and Rose - Enterprise Plan",Closed Lost,199068.67,0,2024-11-28,2025-01-17,Chose competitor,Billy Phillips,Mid-Market
+DEAL_0372,COMP_0256,CONT_0561,Bond Ltd - Enterprise Plan,Qualification,375915.56,25,2024-12-10,,,Tracey Porter,Enterprise
+DEAL_0373,COMP_0254,CONT_0091,Parker LLC - Enterprise Plan,Closed Won,584972.45,100,2024-05-02,2024-10-26,,Margaret Smith,Enterprise
+DEAL_0374,COMP_0253,CONT_0280,"Gray, Butler and Ferguson - Professional Services",Qualification,769882.06,25,2025-10-11,,,Carla Williams,Enterprise
+DEAL_0375,COMP_0118,CONT_0248,"Harris, Jones and Webster - Annual License",Qualification,790310.19,25,2025-07-11,,,Tracy Oliver,Enterprise
+DEAL_0376,COMP_0062,CONT_0050,Bishop and Sons - Support Contract,Qualification,243820.37,25,2025-09-19,,,Katherine Anderson,Mid-Market
+DEAL_0377,COMP_0182,CONT_0196,"Lopez, Mcdonald and Martinez - Support Contract",Closed Won,20805.4,100,2025-06-03,2025-10-21,,Katherine Huerta,SMB
+DEAL_0378,COMP_0207,CONT_0385,Moyer PLC - Support Contract,Prospecting,40492.85,10,2025-01-03,,,Christopher Fisher,SMB
+DEAL_0379,COMP_0153,CONT_0004,Lynch-Shelton - Professional Services,Proposal,82531.3,50,2024-08-09,,,Kenneth Glover,Mid-Market
+DEAL_0380,COMP_0021,CONT_0082,Knight and Sons - Annual License,Prospecting,18270.89,10,2024-12-23,,,Mrs. Donna Herrera,SMB
+DEAL_0381,COMP_0074,CONT_0586,"Arnold, Friedman and Nguyen - Annual License",Qualification,8339.02,25,2024-06-02,,,John Daniels,SMB
+DEAL_0382,COMP_0183,CONT_0431,"Suarez, Huerta and Moreno - Support Contract",Prospecting,12240.7,10,2025-08-16,,,Wanda King,SMB
+DEAL_0383,COMP_0294,CONT_0256,"Chaney, Medina and King - Annual License",Prospecting,20207.78,10,2024-09-04,,,Sandra Torres,SMB
+DEAL_0384,COMP_0116,CONT_0515,"Carlson, Richardson and Rose - Annual License",Closed Lost,136264.67,0,2026-03-04,2026-07-19,Chose competitor,John Mcfarland,Mid-Market
+DEAL_0385,COMP_0074,CONT_0586,"Arnold, Friedman and Nguyen - Support Contract",Proposal,12069.67,50,2025-03-28,,,Donna Martin,SMB
+DEAL_0386,COMP_0280,CONT_0534,Perkins-Blanchard - Professional Services,Prospecting,48847.93,10,2024-09-20,,,Sarah Patterson,SMB
+DEAL_0387,COMP_0176,CONT_0305,Armstrong Ltd - Enterprise Plan,Qualification,34726.91,25,2025-09-28,,,Cynthia Hill,SMB
+DEAL_0388,COMP_0087,CONT_0524,"Short, Colon and Day - Annual License",Qualification,287226.58,25,2026-02-05,,,Casey Lewis,Enterprise
+DEAL_0389,COMP_0135,CONT_0477,Smith-King - Support Contract,Proposal,80717.99,50,2025-10-07,,,Michelle Holloway,Mid-Market
+DEAL_0390,COMP_0065,CONT_0504,Weiss-Jones - Support Contract,Qualification,8943.28,25,2025-01-08,,,Christine Tate,SMB
+DEAL_0391,COMP_0022,CONT_0299,Hale Ltd - Support Contract,Closed Won,13985.37,100,2025-06-27,2025-12-18,,Megan Rogers,SMB
+DEAL_0392,COMP_0068,CONT_0085,Howell-Snow - Professional Services,Prospecting,177638.13,10,2024-08-17,,,Jennifer Fletcher,Mid-Market
+DEAL_0393,COMP_0049,CONT_0183,Harvey-Rivers - Annual License,Closed Lost,18875.9,0,2024-09-08,2025-01-21,No decision,Brittany Price MD,SMB
+DEAL_0394,COMP_0203,CONT_0072,"Brown, Matthews and Rosales - Enterprise Plan",Proposal,68227.38,50,2025-06-13,,,John Porter,Mid-Market
+DEAL_0395,COMP_0061,CONT_0582,Howard-Bailey - Professional Services,Proposal,124204.1,50,2025-12-25,,,Daniel Berry,Mid-Market
+DEAL_0396,COMP_0227,CONT_0231,Buck PLC - Professional Services,Qualification,25059.89,25,2025-12-09,,,Garrett Quinn,SMB
+DEAL_0397,COMP_0038,CONT_0060,"Little, Lee and Daugherty - Support Contract",Qualification,102680.16,25,2025-09-23,,,Steven Ellison,Mid-Market
+DEAL_0398,COMP_0210,CONT_0113,"Faulkner, Garcia and Hughes - Annual License",Closed Won,80226.13,100,2025-06-25,2025-11-30,,Kyle Cunningham,Mid-Market
+DEAL_0399,COMP_0250,CONT_0034,Anderson LLC - Annual License,Negotiation,8856.83,75,2025-04-21,,,Sarah Miller,SMB
+DEAL_0400,COMP_0120,CONT_0106,"David, Santiago and Thompson - Support Contract",Qualification,978029.15,25,2024-11-05,,,Tyler Perry,Enterprise
+DEAL_0401,COMP_0298,CONT_0525,Miller Group - Annual License,Proposal,42835.87,50,2024-06-16,,,Mr. Dakota Peterson,SMB
+DEAL_0402,COMP_0051,CONT_0123,Hicks and Sons - Support Contract,Closed Won,679535.72,100,2024-06-11,2024-10-10,,Jaime Oliver,Enterprise
+DEAL_0403,COMP_0111,CONT_0178,Jones Group - Enterprise Plan,Prospecting,8552.98,10,2024-11-20,,,James Lynch,SMB
+DEAL_0404,COMP_0227,CONT_0229,Buck PLC - Professional Services,Closed Won,10412.68,100,2024-04-05,2024-04-27,,Brandi Lozano,SMB
+DEAL_0405,COMP_0299,CONT_0566,Monroe Group - Professional Services,Negotiation,239812.3,75,2024-08-07,,,Jacqueline Bell,Mid-Market
+DEAL_0406,COMP_0157,CONT_0172,"Alvarado, Jackson and Brown - Professional Services",Closed Lost,6920.42,0,2025-05-17,2025-07-19,Price too high,Tony Sloan,SMB
+DEAL_0407,COMP_0135,CONT_0477,Smith-King - Professional Services,Closed Lost,249453.85,0,2024-08-26,2024-12-29,Chose competitor,Krystal Jimenez,Mid-Market
+DEAL_0408,COMP_0235,CONT_0391,Rivera and Sons - Enterprise Plan,Closed Won,45986.2,100,2025-03-11,2025-05-30,,Alyssa Fox,SMB
+DEAL_0409,COMP_0161,CONT_0558,Snow-Harris - Annual License,Closed Won,127619.83,100,2025-08-17,2025-09-17,,Samuel Meyer,Mid-Market
+DEAL_0410,COMP_0083,CONT_0514,Dixon Inc - Enterprise Plan,Qualification,221324.84,25,2025-07-15,,,Alexandra Bates,Mid-Market
+DEAL_0411,COMP_0105,CONT_0240,"Sexton, Wells and Williams - Annual License",Proposal,40394.78,50,2025-06-10,,,Matthew Vargas,SMB
+DEAL_0412,COMP_0002,CONT_0003,"Cruz, Adams and Landry - Support Contract",Proposal,10063.35,50,2025-09-18,,,David Brown,SMB
+DEAL_0413,COMP_0113,CONT_0238,"Gonzalez, Reed and Moore - Annual License",Prospecting,46621.77,10,2025-03-04,,,Katherine Graham,SMB
+DEAL_0414,COMP_0166,CONT_0284,"Williams, Smith and Hensley - Annual License",Proposal,839309.22,50,2024-04-17,,,Shawn Zavala,Enterprise
+DEAL_0415,COMP_0079,CONT_0186,"Jones, Mendoza and Martin - Support Contract",Closed Won,448102.47,100,2025-11-22,2026-03-04,,Krista Brown,Enterprise
+DEAL_0416,COMP_0185,CONT_0495,Garcia LLC - Support Contract,Negotiation,278099.25,75,2025-01-04,,,Ronald Rosales,Enterprise
+DEAL_0417,COMP_0265,CONT_0363,"Roberts, Castro and Morrison - Professional Services",Qualification,32821.0,25,2024-07-16,,,Sarah Nguyen,SMB
+DEAL_0418,COMP_0096,CONT_0400,"Simmons, Pittman and Hart - Support Contract",Negotiation,6745.21,75,2025-07-11,,,Richard Rice,SMB
+DEAL_0419,COMP_0145,CONT_0568,"Oneill, Wilkins and Jimenez - Professional Services",Closed Won,59858.2,100,2025-01-29,2025-05-07,,Andrea Flowers,Mid-Market
+DEAL_0420,COMP_0197,CONT_0463,Webster-Jones - Enterprise Plan,Proposal,45366.41,50,2025-11-18,,,Thomas Martinez Jr.,SMB
+DEAL_0421,COMP_0157,CONT_0021,"Alvarado, Jackson and Brown - Enterprise Plan",Qualification,18992.72,25,2024-09-27,,,Alejandro Bowers,SMB
+DEAL_0422,COMP_0045,CONT_0499,Williams-Hanson - Professional Services,Closed Won,11047.35,100,2024-05-09,2024-06-17,,James Cook,SMB
+DEAL_0423,COMP_0124,CONT_0412,Owen-Johnson - Enterprise Plan,Closed Lost,452064.99,0,2025-02-23,2025-06-30,No decision,Vanessa Gonzalez,Enterprise
+DEAL_0424,COMP_0195,CONT_0092,Ross-Johnson - Professional Services,Prospecting,46104.48,10,2026-02-25,,,Brenda Hawkins,SMB
+DEAL_0425,COMP_0208,CONT_0537,Avila Ltd - Support Contract,Qualification,201898.66,25,2024-11-01,,,Richard Hill,Mid-Market
+DEAL_0426,COMP_0109,CONT_0135,Weber-Gonzalez - Professional Services,Closed Won,7952.76,100,2026-03-06,2026-04-03,,Tony Merritt,SMB
+DEAL_0427,COMP_0277,CONT_0145,Wilkinson Inc - Support Contract,Negotiation,11104.24,75,2025-01-13,,,Samuel Jenkins,SMB
+DEAL_0428,COMP_0027,CONT_0152,Cruz-Harvey - Annual License,Closed Won,12818.18,100,2026-03-01,2026-08-07,,Christine Robinson,SMB
+DEAL_0429,COMP_0195,CONT_0206,Ross-Johnson - Annual License,Closed Won,25540.19,100,2025-07-10,2025-09-25,,Mary Stone,SMB
+DEAL_0430,COMP_0145,CONT_0568,"Oneill, Wilkins and Jimenez - Enterprise Plan",Closed Won,123670.39,100,2024-06-29,2024-09-01,,Phillip Miller,Mid-Market
+DEAL_0431,COMP_0002,CONT_0003,"Cruz, Adams and Landry - Support Contract",Proposal,33593.44,50,2025-07-14,,,Mark Moreno,SMB
+DEAL_0432,COMP_0279,CONT_0010,"Wagner, Herman and Stark - Annual License",Prospecting,15887.21,10,2025-09-12,,,Rachel Lawson,SMB
+DEAL_0433,COMP_0197,CONT_0463,Webster-Jones - Support Contract,Proposal,12991.27,50,2025-06-30,,,Paul Anderson,SMB
+DEAL_0434,COMP_0287,CONT_0327,Smith-Young - Enterprise Plan,Closed Won,20491.21,100,2025-07-26,2026-01-06,,Jennifer Villarreal,SMB
+DEAL_0435,COMP_0011,CONT_0259,Perez-Reed - Annual License,Closed Won,17828.12,100,2024-12-15,2025-03-05,,Rachel Bonilla,SMB
+DEAL_0436,COMP_0085,CONT_0345,"Porter, Simpson and Wallace - Professional Services",Qualification,220764.27,25,2025-04-18,,,Marcus West,Mid-Market
+DEAL_0437,COMP_0234,CONT_0011,"Martinez, Russo and Wilson - Professional Services",Negotiation,221422.24,75,2025-11-09,,,Amanda Williams,Mid-Market
+DEAL_0438,COMP_0035,CONT_0411,Walsh-Johnson - Professional Services,Proposal,451812.68,50,2024-03-22,,,Thomas Wilson,Enterprise
+DEAL_0439,COMP_0174,CONT_0268,"Peck, Ramos and Bowman - Annual License",Qualification,222925.99,25,2025-05-15,,,Frederick Johnson,Mid-Market
+DEAL_0440,COMP_0227,CONT_0229,Buck PLC - Support Contract,Closed Lost,46018.19,0,2025-01-17,2025-02-02,Chose competitor,Andrew Moon,SMB
+DEAL_0441,COMP_0067,CONT_0246,Hall LLC - Annual License,Proposal,94754.01,50,2026-01-01,,,Jason Alvarez,Mid-Market
+DEAL_0442,COMP_0185,CONT_0495,Garcia LLC - Enterprise Plan,Proposal,784555.37,50,2025-01-24,,,James King,Enterprise
+DEAL_0443,COMP_0214,CONT_0257,"Riley, Watkins and Gilbert - Enterprise Plan",Negotiation,24071.31,75,2025-04-13,,,Rachel Huffman,SMB
+DEAL_0444,COMP_0083,CONT_0514,Dixon Inc - Enterprise Plan,Qualification,141799.6,25,2024-05-15,,,Erin Hall,Mid-Market
+DEAL_0445,COMP_0173,CONT_0527,Valdez-Orozco - Enterprise Plan,Prospecting,35473.83,10,2026-01-19,,,Mary Salas,SMB
+DEAL_0446,COMP_0012,CONT_0407,Hunt-Griffith - Annual License,Proposal,152302.74,50,2025-08-29,,,Russell Moore,Mid-Market
+DEAL_0447,COMP_0270,CONT_0403,Russell and Sons - Enterprise Plan,Negotiation,162291.42,75,2024-11-14,,,Cindy Lewis,Mid-Market
+DEAL_0448,COMP_0119,CONT_0054,Fields PLC - Enterprise Plan,Proposal,109695.19,50,2025-01-23,,,Sabrina Chen,Mid-Market
+DEAL_0449,COMP_0292,CONT_0576,Strickland-Benitez - Annual License,Prospecting,117256.73,10,2025-03-24,,,Brian Heath,Mid-Market
+DEAL_0450,COMP_0060,CONT_0284,Rosales and Sons - Enterprise Plan,Proposal,16751.61,50,2024-09-27,,,Tristan Anderson,SMB
+DEAL_0451,COMP_0096,CONT_0474,"Simmons, Pittman and Hart - Enterprise Plan",Negotiation,13476.2,75,2024-08-01,,,Joshua Smith,SMB
+DEAL_0452,COMP_0265,CONT_0363,"Roberts, Castro and Morrison - Professional Services",Proposal,45485.92,50,2025-03-02,,,Travis Huff,SMB
+DEAL_0453,COMP_0027,CONT_0198,Cruz-Harvey - Support Contract,Closed Won,34723.86,100,2025-11-08,2026-04-24,,Brenda Flores,SMB
+DEAL_0454,COMP_0262,CONT_0272,Lawrence-Beard - Annual License,Negotiation,181080.11,75,2024-05-16,,,Jennifer Cruz,Mid-Market
+DEAL_0455,COMP_0117,CONT_0303,Hopkins Ltd - Support Contract,Qualification,23206.95,25,2024-05-31,,,Gabrielle Parrish,SMB
+DEAL_0456,COMP_0105,CONT_0542,"Sexton, Wells and Williams - Professional Services",Negotiation,20442.52,75,2025-02-27,,,Samantha Garcia,SMB
+DEAL_0457,COMP_0199,CONT_0408,"Stark, Carter and Wright - Support Contract",Negotiation,45793.69,75,2025-09-06,,,Erica Harrell,SMB
+DEAL_0458,COMP_0135,CONT_0103,Smith-King - Enterprise Plan,Negotiation,219083.85,75,2025-10-14,,,Heather Caldwell,Mid-Market
+DEAL_0459,COMP_0005,CONT_0073,Stewart-Mendoza - Professional Services,Closed Won,18220.28,100,2024-05-31,2024-11-03,,Cynthia Hopkins,SMB
+DEAL_0460,COMP_0085,CONT_0345,"Porter, Simpson and Wallace - Enterprise Plan",Proposal,195037.33,50,2024-06-01,,,Linda Garcia,Mid-Market
+DEAL_0461,COMP_0206,CONT_0216,"Perry, Burton and Clark - Professional Services",Proposal,239384.68,50,2024-07-21,,,Hector Peck,Mid-Market
+DEAL_0462,COMP_0074,CONT_0396,"Arnold, Friedman and Nguyen - Professional Services",Closed Won,20987.75,100,2025-11-03,2025-12-09,,Elizabeth Mendoza,SMB
+DEAL_0463,COMP_0176,CONT_0305,Armstrong Ltd - Enterprise Plan,Negotiation,23921.27,75,2025-01-19,,,Kim Elliott,SMB
+DEAL_0464,COMP_0110,CONT_0340,"Jones, Noble and Walker - Enterprise Plan",Qualification,25869.23,25,2024-05-13,,,Brian Brennan,SMB
+DEAL_0465,COMP_0041,CONT_0266,Johnson-Jones - Annual License,Prospecting,43987.7,10,2025-07-14,,,Bradley Delgado,SMB
+DEAL_0466,COMP_0025,CONT_0567,Hayes-Hill - Annual License,Proposal,144443.94,50,2025-05-08,,,Brent Barrera,Mid-Market
+DEAL_0467,COMP_0004,CONT_0244,"Sullivan, Jackson and Bradford - Annual License",Prospecting,44037.4,10,2026-01-14,,,Joe Lester,SMB
+DEAL_0468,COMP_0203,CONT_0072,"Brown, Matthews and Rosales - Enterprise Plan",Qualification,132621.45,25,2024-12-14,,,Judy Wilkinson,Mid-Market
+DEAL_0469,COMP_0246,CONT_0164,"Phillips, Cunningham and Kim - Professional Services",Closed Won,994260.89,100,2026-02-15,2026-04-08,,Zachary Joseph,Enterprise
+DEAL_0470,COMP_0234,CONT_0011,"Martinez, Russo and Wilson - Support Contract",Qualification,78644.83,25,2025-01-26,,,Ryan Jenkins,Mid-Market
+DEAL_0471,COMP_0148,CONT_0058,Drake PLC - Annual License,Closed Won,147516.17,100,2024-11-20,2025-01-19,,Jason Brown,Mid-Market
+DEAL_0472,COMP_0237,CONT_0297,Simmons-Russell - Professional Services,Proposal,19103.63,50,2024-09-02,,,Mr. Scott Garza,SMB
+DEAL_0473,COMP_0289,CONT_0281,Jones-Mitchell - Support Contract,Prospecting,104705.57,10,2025-06-08,,,Hannah Taylor,Mid-Market
+DEAL_0474,COMP_0043,CONT_0440,Newman-Koch - Professional Services,Negotiation,30932.55,75,2026-02-07,,,Antonio Armstrong,SMB
+DEAL_0475,COMP_0092,CONT_0163,"Cruz, Harper and Butler - Annual License",Proposal,10823.27,50,2025-09-26,,,Dale Walker,SMB
+DEAL_0476,COMP_0256,CONT_0561,Bond Ltd - Support Contract,Qualification,552545.11,25,2024-12-13,,,Jennifer Wilson,Enterprise
+DEAL_0477,COMP_0169,CONT_0194,Ingram-Walsh - Annual License,Closed Lost,57545.06,0,2024-08-16,2024-12-06,Chose competitor,John Torres,Mid-Market
+DEAL_0478,COMP_0131,CONT_0242,Williams-Brooks - Annual License,Negotiation,45140.29,75,2025-06-14,,,Vanessa Wright,SMB
+DEAL_0479,COMP_0150,CONT_0544,Turner Ltd - Annual License,Prospecting,33200.91,10,2026-01-18,,,Larry Chambers,SMB
+DEAL_0480,COMP_0282,CONT_0581,Johnston LLC - Enterprise Plan,Prospecting,112418.45,10,2025-12-22,,,Tara Cruz,Mid-Market
+DEAL_0481,COMP_0153,CONT_0004,Lynch-Shelton - Enterprise Plan,Prospecting,83404.04,10,2024-05-04,,,Joshua Hicks,Mid-Market
+DEAL_0482,COMP_0161,CONT_0558,Snow-Harris - Enterprise Plan,Closed Won,141185.26,100,2024-03-26,2024-06-24,,Brian Dalton,Mid-Market
+DEAL_0483,COMP_0144,CONT_0533,Bell Ltd - Enterprise Plan,Proposal,136733.05,50,2025-08-25,,,Sheila Morgan,Mid-Market
+DEAL_0484,COMP_0106,CONT_0139,Franklin Inc - Professional Services,Negotiation,118546.57,75,2025-03-11,,,Scott Pearson,Mid-Market
+DEAL_0485,COMP_0069,CONT_0572,"Long, Holmes and Holt - Professional Services",Closed Won,12419.76,100,2026-02-09,2026-05-25,,William Perez,SMB
+DEAL_0486,COMP_0020,CONT_0115,"Green, Green and Williams - Annual License",Closed Won,15278.82,100,2025-04-27,2025-08-22,,Devon Parker,SMB
+DEAL_0487,COMP_0022,CONT_0299,Hale Ltd - Professional Services,Negotiation,14503.56,75,2024-12-20,,,Paula Pena,SMB
+DEAL_0488,COMP_0100,CONT_0577,Ramos-Rivera - Professional Services,Prospecting,342371.49,10,2025-06-29,,,Eric Krueger,Enterprise
+DEAL_0489,COMP_0177,CONT_0061,"Page, Moran and Williams - Annual License",Negotiation,21883.66,75,2024-07-20,,,Kenneth Banks,SMB
+DEAL_0490,COMP_0261,CONT_0600,"Herman, Rivas and Farmer - Annual License",Proposal,31726.58,50,2025-06-10,,,Juan Boyd,SMB
+DEAL_0491,COMP_0156,CONT_0521,"Stevens, Hernandez and Brown - Annual License",Prospecting,180713.52,10,2026-02-05,,,Lindsey Cortez,Mid-Market
+DEAL_0492,COMP_0156,CONT_0288,"Stevens, Hernandez and Brown - Annual License",Prospecting,133355.11,10,2025-10-27,,,Theresa Garrett,Mid-Market
+DEAL_0493,COMP_0227,CONT_0231,Buck PLC - Enterprise Plan,Qualification,26347.84,25,2024-10-10,,,Kaylee Fischer,SMB
+DEAL_0494,COMP_0114,CONT_0109,Cox PLC - Annual License,Prospecting,18550.24,10,2024-06-06,,,William Turner,SMB
+DEAL_0495,COMP_0193,CONT_0220,Yoder LLC - Enterprise Plan,Negotiation,33025.9,75,2025-03-25,,,Diane Miller,SMB
+DEAL_0496,COMP_0048,CONT_0189,Jenkins Group - Support Contract,Negotiation,872989.54,75,2025-08-09,,,Emily Ramos,Enterprise
+DEAL_0497,COMP_0221,CONT_0245,Nelson Group - Annual License,Prospecting,17721.8,10,2025-11-08,,,Paul Pittman,SMB
+DEAL_0498,COMP_0209,CONT_0124,"Jimenez, Jackson and Rhodes - Support Contract",Negotiation,13939.1,75,2025-08-04,,,Cheryl Oneal,SMB
+DEAL_0499,COMP_0277,CONT_0121,Wilkinson Inc - Enterprise Plan,Prospecting,42417.45,10,2025-06-22,,,Dalton Proctor,SMB
+DEAL_0500,COMP_0202,CONT_0597,Lee-Hawkins - Support Contract,Closed Lost,18290.8,0,2025-01-04,2025-04-19,Price too high,Rachel Reyes,SMB
+DEAL_0501,COMP_0082,CONT_0311,Craig-Alexander - Professional Services,Proposal,35969.18,50,2025-04-04,,,Thomas James,SMB
+DEAL_0502,COMP_0248,CONT_0541,Cooper Inc - Professional Services,Proposal,5123.21,50,2025-04-11,,,Curtis Higgins,SMB
+DEAL_0503,COMP_0050,CONT_0117,Reed PLC - Annual License,Negotiation,42585.45,75,2024-05-07,,,Tammy Bush,SMB
+DEAL_0504,COMP_0173,CONT_0341,Valdez-Orozco - Professional Services,Negotiation,47725.07,75,2024-06-13,,,Natasha Reyes,SMB
+DEAL_0505,COMP_0255,CONT_0437,"Whitaker, Rogers and Fisher - Annual License",Negotiation,37560.36,75,2025-03-02,,,John Ray,SMB
+DEAL_0506,COMP_0237,CONT_0355,Simmons-Russell - Enterprise Plan,Prospecting,33995.16,10,2024-04-28,,,Nancy Drake,SMB
+DEAL_0507,COMP_0174,CONT_0436,"Peck, Ramos and Bowman - Enterprise Plan",Proposal,102825.0,50,2025-02-16,,,Evan Salazar,Mid-Market
+DEAL_0508,COMP_0007,CONT_0052,Bishop Group - Professional Services,Prospecting,44336.32,10,2026-02-12,,,Randy Contreras,SMB
+DEAL_0509,COMP_0269,CONT_0310,Schneider Ltd - Enterprise Plan,Closed Won,135199.04,100,2026-02-28,2026-06-14,,Cindy Nguyen,Mid-Market
+DEAL_0510,COMP_0150,CONT_0119,Turner Ltd - Annual License,Prospecting,5435.25,10,2025-10-30,,,Steve Reed,SMB
+DEAL_0511,COMP_0007,CONT_0142,Bishop Group - Professional Services,Negotiation,19789.74,75,2024-12-13,,,Dr. David Flynn,SMB
+DEAL_0512,COMP_0244,CONT_0302,Conway-Moore - Enterprise Plan,Closed Won,44531.4,100,2025-03-31,2025-09-20,,Laura Garcia,SMB
+DEAL_0513,COMP_0194,CONT_0096,Miller Group - Enterprise Plan,Qualification,13229.12,25,2026-02-10,,,Michael Peters,SMB
+DEAL_0514,COMP_0199,CONT_0408,"Stark, Carter and Wright - Support Contract",Qualification,17232.49,25,2024-12-14,,,Joshua Potter,SMB
+DEAL_0515,COMP_0143,CONT_0472,"Wiley, Drake and Hernandez - Support Contract",Qualification,849924.32,25,2026-02-15,,,Chelsea Morgan,Enterprise
+DEAL_0516,COMP_0193,CONT_0343,Yoder LLC - Professional Services,Proposal,10087.55,50,2026-02-19,,,Mrs. Brooke Jones,SMB
+DEAL_0517,COMP_0047,CONT_0368,Moore-King - Annual License,Negotiation,246313.83,75,2024-04-11,,,Maureen Payne,Mid-Market
+DEAL_0518,COMP_0133,CONT_0164,"Mejia, Dawson and Stokes - Support Contract",Prospecting,851698.59,10,2024-10-26,,,Daniel Graham,Enterprise
+DEAL_0519,COMP_0210,CONT_0113,"Faulkner, Garcia and Hughes - Professional Services",Negotiation,172264.63,75,2025-04-13,,,Sara Gonzalez,Mid-Market
+DEAL_0520,COMP_0042,CONT_0031,"Cruz, Williams and Taylor - Annual License",Negotiation,43815.91,75,2024-04-17,,,Rhonda Arnold,SMB
+DEAL_0521,COMP_0242,CONT_0134,Ferguson-Velez - Support Contract,Proposal,10082.19,50,2024-07-21,,,Benjamin Jones Jr.,SMB
+DEAL_0522,COMP_0063,CONT_0389,Anderson-Stafford - Annual License,Qualification,297502.03,25,2025-09-10,,,Melissa Moore,Enterprise
+DEAL_0523,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Annual License",Negotiation,36705.57,75,2024-09-25,,,Carolyn Poole,SMB
+DEAL_0524,COMP_0194,CONT_0538,Miller Group - Professional Services,Negotiation,49005.3,75,2025-09-17,,,Cynthia Thornton,SMB
+DEAL_0525,COMP_0020,CONT_0115,"Green, Green and Williams - Enterprise Plan",Negotiation,28359.49,75,2024-08-23,,,Andrea Ruiz,SMB
+DEAL_0526,COMP_0232,CONT_0179,Gibson PLC - Annual License,Negotiation,24478.16,75,2026-01-15,,,John Norman,SMB
+DEAL_0527,COMP_0257,CONT_0588,Gibbs-Flores - Support Contract,Negotiation,20558.73,75,2024-04-14,,,Jessica Barton,SMB
+DEAL_0528,COMP_0231,CONT_0551,"Woods, Anderson and Fleming - Support Contract",Negotiation,11689.45,75,2025-01-30,,,Monica Lloyd,SMB
+DEAL_0529,COMP_0043,CONT_0440,Newman-Koch - Annual License,Closed Won,5524.02,100,2025-11-13,2026-05-02,,Gregory Smith,SMB
+DEAL_0530,COMP_0270,CONT_0340,Russell and Sons - Support Contract,Closed Lost,220374.23,0,2025-06-23,2025-11-13,Chose competitor,Andre Simpson,Mid-Market
+DEAL_0531,COMP_0235,CONT_0422,Rivera and Sons - Support Contract,Prospecting,19428.52,10,2025-09-30,,,Jill Jimenez,SMB
+DEAL_0532,COMP_0109,CONT_0241,Weber-Gonzalez - Enterprise Plan,Qualification,7265.78,25,2026-03-12,,,Cynthia Perkins,SMB
+DEAL_0533,COMP_0271,CONT_0386,Bartlett and Sons - Support Contract,Prospecting,23147.46,10,2025-02-12,,,William Melendez,SMB
+DEAL_0534,COMP_0220,CONT_0208,Brooks Inc - Support Contract,Prospecting,138837.78,10,2024-04-20,,,William Martinez,Mid-Market
+DEAL_0535,COMP_0046,CONT_0587,Davis-Park - Support Contract,Qualification,25118.07,25,2024-08-28,,,Tyler George,SMB
+DEAL_0536,COMP_0265,CONT_0363,"Roberts, Castro and Morrison - Support Contract",Prospecting,38535.75,10,2026-02-18,,,Jesse Moss,SMB
+DEAL_0537,COMP_0263,CONT_0233,Hunter Group - Support Contract,Prospecting,132467.71,10,2024-07-17,,,Joyce Paul,Mid-Market
+DEAL_0538,COMP_0093,CONT_0333,Ewing-Guzman - Annual License,Proposal,215181.75,50,2025-02-27,,,Melody Taylor,Mid-Market
+DEAL_0539,COMP_0186,CONT_0262,Michael-Rogers - Enterprise Plan,Negotiation,45054.99,75,2025-02-16,,,Jennifer Richardson,SMB
+DEAL_0540,COMP_0154,CONT_0062,Day-Thompson - Support Contract,Proposal,47765.98,50,2025-05-31,,,Kristen Kaufman,SMB
+DEAL_0541,COMP_0177,CONT_0234,"Page, Moran and Williams - Annual License",Qualification,41746.49,25,2025-09-02,,,Colleen Shepard,SMB
+DEAL_0542,COMP_0093,CONT_0214,Ewing-Guzman - Support Contract,Closed Won,193331.61,100,2024-06-11,2024-09-17,,Sara Martinez,Mid-Market
+DEAL_0543,COMP_0127,CONT_0308,"Zimmerman, Newman and Pollard - Support Contract",Qualification,10131.05,25,2024-12-31,,,Christine Zimmerman,SMB
+DEAL_0544,COMP_0279,CONT_0010,"Wagner, Herman and Stark - Professional Services",Negotiation,5098.86,75,2026-03-12,,,Jeanne Soto DVM,SMB
+DEAL_0545,COMP_0123,CONT_0390,Johnson-Long - Enterprise Plan,Qualification,660767.94,25,2025-10-24,,,Tasha Williams,Enterprise
+DEAL_0546,COMP_0102,CONT_0383,Shaw LLC - Annual License,Negotiation,229375.42,75,2024-03-21,,,Jodi Evans,Mid-Market
+DEAL_0547,COMP_0100,CONT_0353,Ramos-Rivera - Support Contract,Proposal,330221.13,50,2025-01-08,,,Gabriel Williams,Enterprise
+DEAL_0548,COMP_0026,CONT_0074,"Haynes, Brewer and Garza - Professional Services",Proposal,10433.56,50,2025-05-25,,,Scott White,SMB
+DEAL_0549,COMP_0153,CONT_0004,Lynch-Shelton - Support Contract,Closed Won,214910.83,100,2024-09-24,2024-12-02,,Amy Foley,Mid-Market
+DEAL_0550,COMP_0107,CONT_0196,Bell Group - Annual License,Negotiation,39071.72,75,2025-11-16,,,Nicole Brown,SMB
+DEAL_0551,COMP_0145,CONT_0568,"Oneill, Wilkins and Jimenez - Annual License",Prospecting,204429.03,10,2024-08-01,,,Elizabeth Myers,Mid-Market
+DEAL_0552,COMP_0214,CONT_0257,"Riley, Watkins and Gilbert - Professional Services",Proposal,48373.46,50,2024-03-31,,,Christina Gardner,SMB
+DEAL_0553,COMP_0015,CONT_0005,Mcguire Ltd - Annual License,Proposal,160645.27,50,2025-11-17,,,Holly Perry,Mid-Market
+DEAL_0554,COMP_0092,CONT_0444,"Cruz, Harper and Butler - Professional Services",Closed Won,36131.8,100,2024-08-17,2025-01-01,,David Powers,SMB
+DEAL_0555,COMP_0146,CONT_0349,"Price, Miller and Phillips - Professional Services",Prospecting,9659.93,10,2024-06-04,,,Kayla Conley,SMB
+DEAL_0556,COMP_0205,CONT_0330,Gonzales-Mayer - Support Contract,Proposal,23839.91,50,2025-11-08,,,Anthony Moreno,SMB
+DEAL_0557,COMP_0115,CONT_0375,Mcdonald-Curtis - Professional Services,Proposal,455196.91,50,2024-07-04,,,Tina Grant,Enterprise
+DEAL_0558,COMP_0288,CONT_0193,Ramirez Group - Support Contract,Closed Lost,41215.86,0,2024-09-26,2024-12-24,Chose competitor,Christopher Sharp,SMB
+DEAL_0559,COMP_0153,CONT_0004,Lynch-Shelton - Enterprise Plan,Qualification,218614.89,25,2024-09-10,,,Mrs. Julie Reilly,Mid-Market
+DEAL_0560,COMP_0257,CONT_0588,Gibbs-Flores - Enterprise Plan,Proposal,37034.35,50,2024-09-08,,,Douglas Ball,SMB
+DEAL_0561,COMP_0298,CONT_0525,Miller Group - Professional Services,Closed Lost,14040.01,0,2024-06-29,2024-12-21,,Adam Martin,SMB
+DEAL_0562,COMP_0068,CONT_0085,Howell-Snow - Enterprise Plan,Negotiation,234238.35,75,2026-01-24,,,Shane Mcdonald,Mid-Market
+DEAL_0563,COMP_0178,CONT_0486,Sharp and Sons - Professional Services,Prospecting,150778.69,10,2024-04-24,,,Lisa Martin,Mid-Market
+DEAL_0564,COMP_0187,CONT_0331,Daniel-Bryant - Enterprise Plan,Negotiation,162456.04,75,2024-07-15,,,Mary Green,Mid-Market
+DEAL_0565,COMP_0136,CONT_0100,Peters-Simmons - Support Contract,Proposal,35340.96,50,2026-01-08,,,Nicole Watts,SMB
+DEAL_0566,COMP_0039,CONT_0279,Barrett Group - Enterprise Plan,Closed Won,225495.45,100,2024-12-03,2025-05-02,,Jessica King,Mid-Market
+DEAL_0567,COMP_0163,CONT_0033,"Nelson, Little and Joyce - Annual License",Qualification,642047.49,25,2025-06-23,,,Katherine Mendoza,Enterprise
+DEAL_0568,COMP_0280,CONT_0534,Perkins-Blanchard - Professional Services,Prospecting,7387.92,10,2025-11-17,,,James Turner,SMB
+DEAL_0569,COMP_0096,CONT_0400,"Simmons, Pittman and Hart - Enterprise Plan",Prospecting,38758.33,10,2024-05-19,,,Mrs. Amy Stanley,SMB
+DEAL_0570,COMP_0014,CONT_0370,"Wheeler, Woods and Mendoza - Enterprise Plan",Prospecting,35752.56,10,2024-06-23,,,Amanda Fields,SMB
+DEAL_0571,COMP_0030,CONT_0454,Mendez-Ayala - Annual License,Prospecting,36076.77,10,2025-05-09,,,Stephanie Harris,SMB
+DEAL_0572,COMP_0103,CONT_0088,Rodriguez and Sons - Annual License,Qualification,121736.49,25,2025-12-06,,,Douglas Palmer,Mid-Market
+DEAL_0573,COMP_0158,CONT_0237,"Barry, Stout and Ayala - Professional Services",Proposal,38408.57,50,2024-10-03,,,William Mcdowell,SMB
+DEAL_0574,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Professional Services",Proposal,27991.5,50,2024-12-19,,,Joshua Smith,SMB
+DEAL_0575,COMP_0218,CONT_0063,Galloway PLC - Enterprise Plan,Negotiation,188587.22,75,2025-02-04,,,Courtney Myers,Mid-Market
+DEAL_0576,COMP_0042,CONT_0228,"Cruz, Williams and Taylor - Support Contract",Prospecting,22439.96,10,2024-06-11,,,Jeffrey Boyle,SMB
+DEAL_0577,COMP_0262,CONT_0272,Lawrence-Beard - Annual License,Closed Lost,52593.05,0,2025-01-25,2025-04-29,No budget,Stacy Mullen PhD,Mid-Market
+DEAL_0578,COMP_0090,CONT_0050,"Jones, Johnson and Chen - Support Contract",Prospecting,42349.26,10,2025-03-09,,,William Carter,SMB
+DEAL_0579,COMP_0169,CONT_0328,Ingram-Walsh - Enterprise Plan,Closed Won,201021.54,100,2024-07-09,2025-01-04,,Joshua Palmer,Mid-Market
+DEAL_0580,COMP_0230,CONT_0282,Robinson Inc - Professional Services,Proposal,39926.6,50,2025-06-04,,,Dawn Jones,SMB
+DEAL_0581,COMP_0213,CONT_0001,Valdez Ltd - Support Contract,Closed Lost,12984.17,0,2025-11-09,2026-02-06,Price too high,Jared Pugh,SMB
+DEAL_0582,COMP_0208,CONT_0537,Avila Ltd - Professional Services,Prospecting,197015.9,10,2026-01-05,,,Jennifer Hopkins,Mid-Market
+DEAL_0583,COMP_0247,CONT_0361,"Johnson, Fisher and Jackson - Annual License",Prospecting,24282.85,10,2024-12-22,,,Francisco Jackson,SMB
+DEAL_0584,COMP_0224,CONT_0263,Ramirez-Rivera - Professional Services,Proposal,12241.8,50,2025-05-31,,,Benjamin Johnson,SMB
+DEAL_0585,COMP_0283,CONT_0519,Garcia-Madden - Enterprise Plan,Closed Won,25984.91,100,2025-02-12,2025-02-27,,Terri Moore,SMB
+DEAL_0586,COMP_0032,CONT_0159,Lopez Group - Enterprise Plan,Prospecting,169376.07,10,2026-01-28,,,James Webb,Mid-Market
+DEAL_0587,COMP_0150,CONT_0309,Turner Ltd - Enterprise Plan,Proposal,8279.64,50,2025-01-28,,,Timothy Brown,SMB
+DEAL_0588,COMP_0109,CONT_0135,Weber-Gonzalez - Professional Services,Negotiation,48064.45,75,2025-07-16,,,Nicole Gray,SMB
+DEAL_0589,COMP_0113,CONT_0238,"Gonzalez, Reed and Moore - Professional Services",Proposal,23716.91,50,2024-03-24,,,Jaime Ward DDS,SMB
+DEAL_0590,COMP_0078,CONT_0303,Stein-Taylor - Annual License,Proposal,20723.13,50,2026-01-07,,,Aaron Olsen,SMB
+DEAL_0591,COMP_0185,CONT_0402,Garcia LLC - Enterprise Plan,Closed Won,520598.37,100,2025-12-30,2026-04-07,,Holly Garcia,Enterprise
+DEAL_0592,COMP_0043,CONT_0440,Newman-Koch - Support Contract,Prospecting,49848.4,10,2026-02-28,,,David Wilson,SMB
+DEAL_0593,COMP_0093,CONT_0333,Ewing-Guzman - Annual License,Closed Won,72944.39,100,2025-05-04,2025-10-31,,Seth Burke,Mid-Market
+DEAL_0594,COMP_0173,CONT_0341,Valdez-Orozco - Professional Services,Qualification,45702.34,25,2024-09-08,,,Lisa Khan,SMB
+DEAL_0595,COMP_0038,CONT_0579,"Little, Lee and Daugherty - Professional Services",Proposal,241779.36,50,2025-02-11,,,Gregory Hicks,Mid-Market
+DEAL_0596,COMP_0034,CONT_0487,Mcfarland-Burton - Enterprise Plan,Negotiation,126274.52,75,2025-09-12,,,Dr. Jennifer Henry,Mid-Market
+DEAL_0597,COMP_0037,CONT_0117,Baxter-Bradford - Enterprise Plan,Qualification,6111.76,25,2025-07-18,,,Jack Mckinney,SMB
+DEAL_0598,COMP_0262,CONT_0272,Lawrence-Beard - Enterprise Plan,Proposal,152861.81,50,2024-06-05,,,Amanda Castro,Mid-Market
+DEAL_0599,COMP_0262,CONT_0272,Lawrence-Beard - Support Contract,Proposal,58770.33,50,2025-11-29,,,Angela Kelly,Mid-Market
+DEAL_0600,COMP_0004,CONT_0244,"Sullivan, Jackson and Bradford - Enterprise Plan",Closed Won,28125.26,100,2024-05-14,2024-07-16,,Annette Hammond PhD,SMB
+DEAL_0601,COMP_0246,CONT_0164,"Phillips, Cunningham and Kim - Annual License",Closed Lost,720199.81,0,2025-03-12,2025-05-07,Chose competitor,Lauren Garza,Enterprise
+DEAL_0602,COMP_0286,CONT_0209,Miller-Gordon - Professional Services,Negotiation,43922.79,75,2025-12-21,,,Jessica Lewis,SMB
+DEAL_0603,COMP_0084,CONT_0344,Fernandez-Hooper - Annual License,Qualification,14251.08,25,2025-07-31,,,Caleb Rodriguez,SMB
+DEAL_0604,COMP_0199,CONT_0313,"Stark, Carter and Wright - Annual License",Closed Won,38610.09,100,2025-05-30,2025-10-02,,Kirsten Lopez,SMB
+DEAL_0605,COMP_0033,CONT_0421,Smith-Webb - Support Contract,Prospecting,37259.07,10,2025-11-08,,,Heather Cardenas,SMB
+DEAL_0606,COMP_0219,CONT_0184,Rush-Bell - Annual License,Prospecting,60853.61,10,2025-08-20,,,Rhonda Johnson,Mid-Market
+DEAL_0607,COMP_0049,CONT_0183,Harvey-Rivers - Annual License,Negotiation,30873.3,75,2025-11-15,,,Kimberly Pope,SMB
+DEAL_0608,COMP_0087,CONT_0524,"Short, Colon and Day - Enterprise Plan",Prospecting,555724.58,10,2026-02-12,,,Christina Hart,Enterprise
+DEAL_0609,COMP_0252,CONT_0480,Simmons-White - Support Contract,Proposal,24486.13,50,2025-10-15,,,Jeremy Hopkins,SMB
+DEAL_0610,COMP_0141,CONT_0018,West Group - Annual License,Qualification,156966.87,25,2024-04-25,,,Marissa Hughes,Mid-Market
+DEAL_0611,COMP_0059,CONT_0473,Novak LLC - Annual License,Proposal,39018.23,50,2024-06-24,,,Andrew Garrett,SMB
+DEAL_0612,COMP_0106,CONT_0139,Franklin Inc - Annual License,Proposal,121540.03,50,2025-09-14,,,Jeffrey Hansen,Mid-Market
+DEAL_0613,COMP_0068,CONT_0085,Howell-Snow - Enterprise Plan,Proposal,207378.38,50,2025-08-22,,,Steven Fisher,Mid-Market
+DEAL_0614,COMP_0157,CONT_0309,"Alvarado, Jackson and Brown - Enterprise Plan",Proposal,39437.34,50,2025-03-07,,,Jennifer Sloan,SMB
+DEAL_0615,COMP_0145,CONT_0568,"Oneill, Wilkins and Jimenez - Support Contract",Qualification,214424.47,25,2025-03-09,,,Michael Burke,Mid-Market
+DEAL_0616,COMP_0203,CONT_0099,"Brown, Matthews and Rosales - Professional Services",Prospecting,156693.55,10,2025-06-05,,,Daniel Collier,Mid-Market
+DEAL_0617,COMP_0154,CONT_0062,Day-Thompson - Support Contract,Prospecting,40854.67,10,2024-08-19,,,Shannon Reed,SMB
+DEAL_0618,COMP_0293,CONT_0300,Mann Group - Professional Services,Closed Won,109611.3,100,2024-05-24,2024-08-21,,Carl Mendoza,Mid-Market
+DEAL_0619,COMP_0256,CONT_0561,Bond Ltd - Enterprise Plan,Closed Won,968043.74,100,2025-12-20,2026-06-17,,Katie Gibson,Enterprise
+DEAL_0620,COMP_0132,CONT_0092,Lang Group - Professional Services,Prospecting,10545.58,10,2024-03-30,,,Manuel Dickerson,SMB
+DEAL_0621,COMP_0112,CONT_0006,"Pollard, Lewis and Frazier - Support Contract",Proposal,157430.41,50,2024-12-12,,,Matthew Pollard,Mid-Market
+DEAL_0622,COMP_0055,CONT_0067,Wilson-Harrington - Professional Services,Closed Lost,811222.44,0,2025-03-24,2025-06-24,No budget,Nicole Ortega,Enterprise
+DEAL_0623,COMP_0018,CONT_0217,Patton Ltd - Professional Services,Qualification,370715.77,25,2025-06-25,,,Crystal Fisher,Enterprise
+DEAL_0624,COMP_0117,CONT_0227,Hopkins Ltd - Enterprise Plan,Proposal,13744.68,50,2025-02-26,,,Michael Dixon,SMB
+DEAL_0625,COMP_0016,CONT_0218,Chapman-Sanchez - Annual License,Prospecting,43312.45,10,2025-03-14,,,Jay Armstrong,SMB
+DEAL_0626,COMP_0090,CONT_0151,"Jones, Johnson and Chen - Support Contract",Closed Lost,34010.35,0,2024-04-20,2024-09-21,Price too high,Douglas Johnson,SMB
+DEAL_0627,COMP_0162,CONT_0285,Bonilla-Short - Annual License,Qualification,16280.94,25,2025-11-03,,,Amber Butler,SMB
+DEAL_0628,COMP_0239,CONT_0506,"Dickerson, Miller and Clark - Support Contract",Prospecting,240307.98,10,2024-09-26,,,Aaron Chan,Mid-Market
+DEAL_0629,COMP_0126,CONT_0047,Mendoza-Espinoza - Professional Services,Qualification,9502.03,25,2025-02-03,,,Corey Gonzalez,SMB
+DEAL_0630,COMP_0288,CONT_0193,Ramirez Group - Professional Services,Proposal,19300.37,50,2025-07-24,,,Lisa Fritz,SMB
+DEAL_0631,COMP_0074,CONT_0396,"Arnold, Friedman and Nguyen - Enterprise Plan",Proposal,36205.62,50,2024-06-30,,,Mary Lowe,SMB
+DEAL_0632,COMP_0195,CONT_0157,Ross-Johnson - Enterprise Plan,Proposal,41346.49,50,2024-04-14,,,Mercedes Harrison,SMB
+DEAL_0633,COMP_0269,CONT_0310,Schneider Ltd - Annual License,Closed Lost,112642.96,0,2024-09-23,2024-11-19,Chose competitor,Angela Joyce,Mid-Market
+DEAL_0634,COMP_0028,CONT_0371,Gregory PLC - Support Contract,Negotiation,457509.88,75,2024-10-04,,,Anthony Smith,Enterprise
+DEAL_0635,COMP_0150,CONT_0369,Turner Ltd - Enterprise Plan,Prospecting,44504.86,10,2025-12-22,,,Russell Bray,SMB
+DEAL_0636,COMP_0228,CONT_0127,Williams Inc - Enterprise Plan,Proposal,204953.39,50,2024-08-03,,,Mrs. Becky Sosa,Mid-Market
+DEAL_0637,COMP_0269,CONT_0310,Schneider Ltd - Annual License,Proposal,85154.03,50,2025-04-15,,,Justin Hernandez,Mid-Market
+DEAL_0638,COMP_0167,CONT_0172,Barton-Williams - Enterprise Plan,Proposal,221742.73,50,2024-06-03,,,Harry Woods,Mid-Market
+DEAL_0639,COMP_0074,CONT_0026,"Arnold, Friedman and Nguyen - Professional Services",Prospecting,16845.56,10,2025-11-16,,,Leslie Peterson,SMB
+DEAL_0640,COMP_0168,CONT_0446,Crawford-Richardson - Annual License,Closed Won,228421.04,100,2024-03-29,2024-05-01,,John Turner,Mid-Market
+DEAL_0641,COMP_0036,CONT_0036,"Jimenez, Zimmerman and Watson - Annual License",Closed Won,212528.48,100,2024-11-20,2025-05-14,,Joshua Velez,Mid-Market
+DEAL_0642,COMP_0175,CONT_0334,Perez Group - Professional Services,Proposal,231260.72,50,2025-07-27,,,Kristina Rocha,Mid-Market
+DEAL_0643,COMP_0107,CONT_0565,Bell Group - Support Contract,Qualification,34425.87,25,2025-03-20,,,Ms. Patricia Vaughan PhD,SMB
+DEAL_0644,COMP_0205,CONT_0153,Gonzales-Mayer - Professional Services,Qualification,45114.69,25,2025-12-11,,,Elizabeth Montgomery,SMB
+DEAL_0645,COMP_0290,CONT_0283,Tran Inc - Enterprise Plan,Proposal,350410.94,50,2025-01-11,,,Mrs. Andrea Payne DDS,Enterprise
+DEAL_0646,COMP_0067,CONT_0546,Hall LLC - Annual License,Proposal,129357.03,50,2024-09-20,,,Laura Kline,Mid-Market
+DEAL_0647,COMP_0259,CONT_0580,"Moore, Cole and Shaffer - Professional Services",Proposal,43159.18,50,2024-05-25,,,Michelle Oliver,SMB
+DEAL_0648,COMP_0244,CONT_0302,Conway-Moore - Professional Services,Closed Won,39074.27,100,2025-08-18,2026-02-05,,Kelly Townsend,SMB
+DEAL_0649,COMP_0268,CONT_0144,Cummings and Sons - Professional Services,Qualification,30486.08,25,2025-02-23,,,Michael Lopez,SMB
+DEAL_0650,COMP_0171,CONT_0009,Russell Ltd - Professional Services,Proposal,801939.86,50,2026-03-04,,,Stacy Lynch,Enterprise
+DEAL_0651,COMP_0297,CONT_0005,Wilson-Skinner - Enterprise Plan,Proposal,280314.87,50,2025-12-03,,,Erica Stevens,Enterprise
+DEAL_0652,COMP_0287,CONT_0327,Smith-Young - Professional Services,Negotiation,7828.75,75,2025-11-03,,,Sarah Garcia,SMB
+DEAL_0653,COMP_0168,CONT_0595,Crawford-Richardson - Annual License,Qualification,183717.12,25,2026-02-17,,,Eric Johnson,Mid-Market
+DEAL_0654,COMP_0222,CONT_0510,"Meadows, Richardson and Cruz - Enterprise Plan",Proposal,127618.62,50,2024-03-25,,,Rebecca Robertson,Mid-Market
+DEAL_0655,COMP_0016,CONT_0163,Chapman-Sanchez - Annual License,Closed Won,49126.54,100,2025-07-20,2025-08-14,,Craig Mclean,SMB
+DEAL_0656,COMP_0141,CONT_0332,West Group - Enterprise Plan,Prospecting,216974.45,10,2025-08-30,,,Joshua Wall,Mid-Market
+DEAL_0657,COMP_0141,CONT_0270,West Group - Professional Services,Proposal,125331.91,50,2024-09-17,,,Logan Parks,Mid-Market
+DEAL_0658,COMP_0245,CONT_0388,Lewis PLC - Annual License,Qualification,28249.83,25,2024-07-21,,,Raymond Jarvis,SMB
+DEAL_0659,COMP_0148,CONT_0037,Drake PLC - Professional Services,Qualification,153274.36,25,2024-07-29,,,Jessica George,Mid-Market
+DEAL_0660,COMP_0155,CONT_0535,Hammond-Mathews - Enterprise Plan,Qualification,147372.31,25,2025-12-24,,,Brent Owen,Mid-Market
+DEAL_0661,COMP_0277,CONT_0089,Wilkinson Inc - Annual License,Proposal,27582.66,50,2024-09-05,,,Charles Rogers,SMB
+DEAL_0662,COMP_0049,CONT_0183,Harvey-Rivers - Professional Services,Prospecting,15349.58,10,2024-05-08,,,Heather Hernandez,SMB
+DEAL_0663,COMP_0162,CONT_0285,Bonilla-Short - Enterprise Plan,Proposal,14518.27,50,2024-07-25,,,Timothy Ferguson,SMB
+DEAL_0664,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Enterprise Plan",Prospecting,32090.91,10,2025-08-29,,,Haley Webb,SMB
+DEAL_0665,COMP_0038,CONT_0060,"Little, Lee and Daugherty - Support Contract",Closed Won,212234.53,100,2024-04-09,2024-06-20,,Cody Burns,Mid-Market
+DEAL_0666,COMP_0113,CONT_0238,"Gonzalez, Reed and Moore - Support Contract",Negotiation,35385.32,75,2025-02-19,,,Diane Nelson,SMB
+DEAL_0667,COMP_0264,CONT_0547,"Duncan, White and Stewart - Professional Services",Proposal,34126.67,50,2024-08-04,,,Michael Andrews,SMB
+DEAL_0668,COMP_0018,CONT_0421,Patton Ltd - Annual License,Prospecting,345913.84,10,2026-02-26,,,Kirsten Sanders,Enterprise
+DEAL_0669,COMP_0195,CONT_0165,Ross-Johnson - Annual License,Prospecting,45085.9,10,2025-07-27,,,Corey Hart,SMB
+DEAL_0670,COMP_0177,CONT_0061,"Page, Moran and Williams - Professional Services",Prospecting,16621.68,10,2025-04-09,,,Daniel Watson,SMB
+DEAL_0671,COMP_0079,CONT_0465,"Jones, Mendoza and Martin - Support Contract",Prospecting,699518.14,10,2025-10-24,,,Crystal Roberts,Enterprise
+DEAL_0672,COMP_0272,CONT_0219,"Schroeder, Cohen and Stephens - Annual License",Proposal,225701.8,50,2024-09-23,,,Ashley Smith,Mid-Market
+DEAL_0673,COMP_0027,CONT_0152,Cruz-Harvey - Enterprise Plan,Negotiation,47626.42,75,2026-02-04,,,Patrick Ross,SMB
+DEAL_0674,COMP_0136,CONT_0100,Peters-Simmons - Support Contract,Prospecting,44028.61,10,2024-08-19,,,Peggy Williams,SMB
+DEAL_0675,COMP_0057,CONT_0387,"Collins, Carter and Turner - Support Contract",Prospecting,32037.74,10,2026-02-24,,,Ashley Beck,SMB
+DEAL_0676,COMP_0118,CONT_0248,"Harris, Jones and Webster - Professional Services",Negotiation,717408.8,75,2024-06-08,,,Christy Russell,Enterprise
+DEAL_0677,COMP_0227,CONT_0231,Buck PLC - Professional Services,Proposal,37588.41,50,2025-09-03,,,Crystal Hubbard,SMB
+DEAL_0678,COMP_0105,CONT_0240,"Sexton, Wells and Williams - Support Contract",Qualification,31844.0,25,2024-05-17,,,Maria Morrow,SMB
+DEAL_0679,COMP_0155,CONT_0065,Hammond-Mathews - Support Contract,Prospecting,127092.38,10,2024-12-22,,,Erin Edwards,Mid-Market
+DEAL_0680,COMP_0289,CONT_0281,Jones-Mitchell - Professional Services,Prospecting,154542.27,10,2025-04-25,,,Thomas Fisher DVM,Mid-Market
+DEAL_0681,COMP_0165,CONT_0517,"Malone, Ware and Pierce - Professional Services",Negotiation,171102.2,75,2024-07-29,,,Alicia Long,Mid-Market
+DEAL_0682,COMP_0137,CONT_0210,Garcia-Stein - Annual License,Prospecting,225550.53,10,2025-08-07,,,Craig Grimes,Mid-Market
+DEAL_0683,COMP_0008,CONT_0148,"Reynolds, Sullivan and James - Annual License",Proposal,68637.99,50,2024-06-01,,,James Gutierrez,Mid-Market
+DEAL_0684,COMP_0196,CONT_0018,Wilson-Pollard - Annual License,Negotiation,229393.79,75,2025-12-21,,,Marco Jacobs,Mid-Market
+DEAL_0685,COMP_0215,CONT_0555,Brown Group - Support Contract,Negotiation,641533.17,75,2026-02-12,,,William Tran,Enterprise
+DEAL_0686,COMP_0037,CONT_0380,Baxter-Bradford - Support Contract,Closed Won,15326.88,100,2024-11-24,2025-04-22,,Melissa Mccarty,SMB
+DEAL_0687,COMP_0227,CONT_0229,Buck PLC - Enterprise Plan,Closed Won,31507.16,100,2025-04-03,2025-07-23,,Jennifer Mooney,SMB
+DEAL_0688,COMP_0240,CONT_0095,Rodriguez-Maldonado - Annual License,Negotiation,24147.02,75,2025-06-05,,,Joseph Russell,SMB
+DEAL_0689,COMP_0178,CONT_0486,Sharp and Sons - Professional Services,Qualification,232017.07,25,2025-05-16,,,Patrick Jennings,Mid-Market
+DEAL_0690,COMP_0164,CONT_0376,Williams-Rasmussen - Support Contract,Prospecting,101561.0,10,2025-12-09,,,Jacob Carson,Mid-Market
+DEAL_0691,COMP_0232,CONT_0179,Gibson PLC - Annual License,Prospecting,31009.42,10,2025-05-02,,,David Forbes,SMB
+DEAL_0692,COMP_0269,CONT_0310,Schneider Ltd - Annual License,Prospecting,125005.98,10,2025-12-12,,,Dustin Huang,Mid-Market
+DEAL_0693,COMP_0186,CONT_0332,Michael-Rogers - Enterprise Plan,Prospecting,23398.03,10,2025-03-19,,,Crystal Palmer,SMB
+DEAL_0694,COMP_0241,CONT_0381,"Flores, Mckee and Mcclure - Support Contract",Prospecting,34320.92,10,2025-08-13,,,Kimberly Gonzalez,SMB
+DEAL_0695,COMP_0239,CONT_0506,"Dickerson, Miller and Clark - Support Contract",Qualification,162934.05,25,2025-10-14,,,Ralph Park,Mid-Market
+DEAL_0696,COMP_0096,CONT_0474,"Simmons, Pittman and Hart - Support Contract",Proposal,38973.74,50,2025-09-19,,,Tonya Hanna,SMB
+DEAL_0697,COMP_0256,CONT_0561,Bond Ltd - Support Contract,Qualification,384039.7,25,2026-02-20,,,John Vargas,Enterprise
+DEAL_0698,COMP_0053,CONT_0275,"Miller, Griffin and Smith - Support Contract",Proposal,100755.53,50,2024-12-10,,,Bryan Davis,Mid-Market
+DEAL_0699,COMP_0238,CONT_0111,Hensley LLC - Enterprise Plan,Qualification,39838.75,25,2025-03-04,,,Lisa Whitehead,SMB
+DEAL_0700,COMP_0254,CONT_0408,Parker LLC - Annual License,Negotiation,810860.65,75,2024-03-22,,,Cameron Thomas,Enterprise
+DEAL_0701,COMP_0129,CONT_0079,Castillo-Church - Professional Services,Qualification,9512.54,25,2025-06-06,,,Susan Moran,SMB
+DEAL_0702,COMP_0047,CONT_0038,Moore-King - Enterprise Plan,Proposal,210170.75,50,2026-01-29,,,Paula Tate,Mid-Market
+DEAL_0703,COMP_0239,CONT_0506,"Dickerson, Miller and Clark - Annual License",Proposal,82147.6,50,2026-01-02,,,Angela Riley,Mid-Market
+DEAL_0704,COMP_0120,CONT_0106,"David, Santiago and Thompson - Annual License",Closed Lost,867441.6,0,2025-05-06,2025-05-21,No decision,Zachary Castro,Enterprise
+DEAL_0705,COMP_0018,CONT_0446,Patton Ltd - Enterprise Plan,Prospecting,416327.68,10,2024-06-19,,,Michael Dennis,Enterprise
+DEAL_0706,COMP_0147,CONT_0294,Brandt and Sons - Annual License,Prospecting,37602.26,10,2025-07-03,,,Troy Armstrong,SMB
+DEAL_0707,COMP_0236,CONT_0261,Hanson-Taylor - Enterprise Plan,Closed Lost,37022.26,0,2025-07-24,2025-11-17,,Michael Davis,SMB
+DEAL_0708,COMP_0113,CONT_0238,"Gonzalez, Reed and Moore - Professional Services",Prospecting,33813.11,10,2025-03-30,,,Aaron Pearson,SMB
+DEAL_0709,COMP_0001,CONT_0450,Walton Ltd - Enterprise Plan,Prospecting,13763.59,10,2024-10-06,,,Cheryl Drake,SMB
+DEAL_0710,COMP_0180,CONT_0213,Young-Cook - Professional Services,Negotiation,32683.55,75,2024-08-23,,,Cynthia Hardy,SMB
+DEAL_0711,COMP_0096,CONT_0400,"Simmons, Pittman and Hart - Enterprise Plan",Negotiation,15766.55,75,2024-09-01,,,Erica Johnson,SMB
+DEAL_0712,COMP_0107,CONT_0001,Bell Group - Enterprise Plan,Closed Lost,40085.28,0,2025-10-06,2025-11-11,No budget,Jacob Wilson,SMB
+DEAL_0713,COMP_0260,CONT_0404,"Jensen, Mcclain and Anthony - Support Contract",Negotiation,31373.61,75,2025-12-26,,,Jennifer Perkins,SMB
+DEAL_0714,COMP_0194,CONT_0531,Miller Group - Annual License,Prospecting,46362.98,10,2025-11-13,,,Melvin Jackson,SMB
+DEAL_0715,COMP_0015,CONT_0563,Mcguire Ltd - Enterprise Plan,Qualification,119495.02,25,2024-08-01,,,Julie Valdez,Mid-Market
+DEAL_0716,COMP_0269,CONT_0310,Schneider Ltd - Professional Services,Closed Won,140951.8,100,2024-03-17,2024-05-27,,Caitlyn Morales,Mid-Market
+DEAL_0717,COMP_0266,CONT_0439,"Webb, Rodriguez and Hughes - Annual License",Qualification,16749.84,25,2025-12-30,,,Stacy Wilkerson,SMB
+DEAL_0718,COMP_0181,CONT_0077,"Massey, Hardy and Carroll - Annual License",Qualification,668973.03,25,2025-05-23,,,Christina Roberts,Enterprise
+DEAL_0719,COMP_0057,CONT_0235,"Collins, Carter and Turner - Enterprise Plan",Proposal,47615.7,50,2024-03-14,,,Kristine West,SMB
+DEAL_0720,COMP_0296,CONT_0530,Richardson-Stevens - Enterprise Plan,Closed Won,188838.37,100,2025-04-14,2025-07-02,,Nicole Aguirre,Mid-Market
+DEAL_0721,COMP_0242,CONT_0387,Ferguson-Velez - Professional Services,Proposal,39086.3,50,2025-12-30,,,Ricky Gregory,SMB
+DEAL_0722,COMP_0125,CONT_0264,Morris-Lee - Support Contract,Closed Lost,229304.76,0,2025-04-18,2025-08-27,Price too high,Chris Sandoval,Mid-Market
+DEAL_0723,COMP_0189,CONT_0102,Barnett-Massey - Enterprise Plan,Proposal,300665.7,50,2024-07-04,,,Andrew Hill,Enterprise
+DEAL_0724,COMP_0099,CONT_0335,"Marshall, Lane and Cunningham - Professional Services",Proposal,185382.6,50,2026-02-21,,,Frederick Johnson,Mid-Market
+DEAL_0725,COMP_0248,CONT_0008,Cooper Inc - Enterprise Plan,Prospecting,23559.17,10,2024-10-26,,,Joshua Cox,SMB
+DEAL_0726,COMP_0152,CONT_0447,"Thomas, Rivera and Perkins - Annual License",Qualification,36536.83,25,2025-08-01,,,Beverly Chandler,SMB
+DEAL_0727,COMP_0165,CONT_0270,"Malone, Ware and Pierce - Annual License",Prospecting,129786.13,10,2026-01-09,,,Sharon Wilson,Mid-Market
+DEAL_0728,COMP_0101,CONT_0518,Jones Ltd - Enterprise Plan,Negotiation,8421.3,75,2025-01-29,,,Adam Davis,SMB
+DEAL_0729,COMP_0219,CONT_0449,Rush-Bell - Enterprise Plan,Closed Lost,120707.59,0,2024-08-13,2024-12-26,,Michelle Lucas,Mid-Market
+DEAL_0730,COMP_0121,CONT_0128,"Smith, Morales and Russell - Professional Services",Qualification,149799.87,25,2025-09-12,,,Allison Ferrell,Mid-Market
+DEAL_0731,COMP_0154,CONT_0042,Day-Thompson - Professional Services,Prospecting,44273.41,10,2025-12-19,,,Janice Bonilla,SMB
+DEAL_0732,COMP_0015,CONT_0212,Mcguire Ltd - Professional Services,Prospecting,217266.94,10,2025-03-07,,,Christopher Faulkner,Mid-Market
+DEAL_0733,COMP_0160,CONT_0223,"Ritter, Hendricks and Garcia - Annual License",Qualification,10394.53,25,2024-04-17,,,Kari Martin,SMB
+DEAL_0734,COMP_0091,CONT_0081,Gonzales-Atkins - Support Contract,Negotiation,32622.21,75,2025-05-19,,,Ray Ray,SMB
+DEAL_0735,COMP_0282,CONT_0581,Johnston LLC - Annual License,Negotiation,219602.12,75,2025-12-04,,,Jordan Miller,Mid-Market
+DEAL_0736,COMP_0034,CONT_0487,Mcfarland-Burton - Enterprise Plan,Qualification,148468.08,25,2025-02-26,,,Mary Wells,Mid-Market
+DEAL_0737,COMP_0153,CONT_0004,Lynch-Shelton - Enterprise Plan,Closed Lost,148161.07,0,2024-12-08,2025-05-18,,Kim Gonzalez,Mid-Market
+DEAL_0738,COMP_0248,CONT_0541,Cooper Inc - Professional Services,Qualification,38757.62,25,2024-04-11,,,Shawn Anderson,SMB
+DEAL_0739,COMP_0174,CONT_0029,"Peck, Ramos and Bowman - Support Contract",Prospecting,145664.02,10,2025-12-26,,,Jeremy Ellis,Mid-Market
+DEAL_0740,COMP_0238,CONT_0418,Hensley LLC - Enterprise Plan,Proposal,22717.26,50,2026-01-24,,,Michael Carey,SMB
+DEAL_0741,COMP_0001,CONT_0179,Walton Ltd - Annual License,Proposal,36421.01,50,2025-01-27,,,Denise Perkins,SMB
+DEAL_0742,COMP_0131,CONT_0056,Williams-Brooks - Annual License,Proposal,5531.9,50,2024-03-14,,,Sandra Peters,SMB
+DEAL_0743,COMP_0033,CONT_0155,Smith-Webb - Annual License,Prospecting,19644.63,10,2024-04-23,,,Kelly Davis,SMB
+DEAL_0744,COMP_0005,CONT_0057,Stewart-Mendoza - Enterprise Plan,Proposal,13421.86,50,2024-09-16,,,Elizabeth Galloway,SMB
+DEAL_0745,COMP_0174,CONT_0268,"Peck, Ramos and Bowman - Enterprise Plan",Qualification,144269.07,25,2025-08-19,,,Rhonda Garcia MD,Mid-Market
+DEAL_0746,COMP_0117,CONT_0352,Hopkins Ltd - Support Contract,Qualification,24077.43,25,2024-07-28,,,Matthew Diaz,SMB
+DEAL_0747,COMP_0060,CONT_0430,Rosales and Sons - Enterprise Plan,Negotiation,21428.51,75,2025-06-15,,,Kimberly Chang,SMB
+DEAL_0748,COMP_0276,CONT_0118,"Evans, Carter and Lopez - Support Contract",Qualification,13095.02,25,2024-04-14,,,Chad Dillon,SMB
+DEAL_0749,COMP_0186,CONT_0332,Michael-Rogers - Professional Services,Prospecting,41638.58,10,2024-09-30,,,Cynthia Davis,SMB
+DEAL_0750,COMP_0166,CONT_0150,"Williams, Smith and Hensley - Professional Services",Negotiation,666505.04,75,2024-08-10,,,Madison Nelson,Enterprise
+DEAL_0751,COMP_0198,CONT_0319,"Williamson, Page and Park - Professional Services",Closed Won,41001.69,100,2024-12-05,2025-02-07,,Timothy Thompson,SMB
+DEAL_0752,COMP_0103,CONT_0088,Rodriguez and Sons - Support Contract,Negotiation,211133.67,75,2025-11-10,,,John Cummings,Mid-Market
+DEAL_0753,COMP_0021,CONT_0082,Knight and Sons - Support Contract,Prospecting,11051.23,10,2025-05-29,,,Mrs. Nancy Bell MD,SMB
+DEAL_0754,COMP_0181,CONT_0452,"Massey, Hardy and Carroll - Enterprise Plan",Closed Won,838999.7,100,2025-09-04,2026-02-26,,Lauren Williams,Enterprise
+DEAL_0755,COMP_0255,CONT_0075,"Whitaker, Rogers and Fisher - Annual License",Qualification,22928.09,25,2026-02-09,,,Emily Schmidt,SMB
+DEAL_0756,COMP_0203,CONT_0099,"Brown, Matthews and Rosales - Annual License",Negotiation,93093.46,75,2024-07-23,,,Justin Caldwell,Mid-Market
+DEAL_0757,COMP_0004,CONT_0244,"Sullivan, Jackson and Bradford - Annual License",Qualification,25243.47,25,2024-05-18,,,Mr. Nicolas Evans,SMB
+DEAL_0758,COMP_0140,CONT_0091,Boyd-Blake - Enterprise Plan,Qualification,122061.32,25,2024-11-10,,,Mark Gomez,Mid-Market
+DEAL_0759,COMP_0229,CONT_0451,"Lyons, Lewis and Carter - Enterprise Plan",Proposal,118828.06,50,2025-08-28,,,Jamie Bryant,Mid-Market
+DEAL_0760,COMP_0153,CONT_0004,Lynch-Shelton - Enterprise Plan,Qualification,223473.72,25,2025-02-17,,,Dana Fox,Mid-Market
+DEAL_0761,COMP_0257,CONT_0588,Gibbs-Flores - Professional Services,Closed Lost,49071.79,0,2025-07-22,2025-09-24,No budget,Jason Martinez,SMB
+DEAL_0762,COMP_0234,CONT_0011,"Martinez, Russo and Wilson - Support Contract",Qualification,204948.87,25,2025-05-13,,,Paul Robertson,Mid-Market
+DEAL_0763,COMP_0173,CONT_0341,Valdez-Orozco - Annual License,Qualification,22148.19,25,2024-12-23,,,Shirley Simmons,SMB
+DEAL_0764,COMP_0079,CONT_0278,"Jones, Mendoza and Martin - Professional Services",Qualification,901193.24,25,2026-01-25,,,Timothy Pittman,Enterprise
+DEAL_0765,COMP_0117,CONT_0346,Hopkins Ltd - Support Contract,Qualification,43200.53,25,2025-06-08,,,Kelly Greene,SMB
+DEAL_0766,COMP_0281,CONT_0385,Perez Ltd - Professional Services,Prospecting,118725.1,10,2025-10-12,,,Mary Green,Mid-Market
+DEAL_0767,COMP_0148,CONT_0058,Drake PLC - Enterprise Plan,Qualification,192086.7,25,2025-03-30,,,Tiffany Summers MD,Mid-Market
+DEAL_0768,COMP_0089,CONT_0277,Parks-Miller - Support Contract,Proposal,17206.16,50,2025-08-10,,,Bobby Miller,SMB
+DEAL_0769,COMP_0099,CONT_0335,"Marshall, Lane and Cunningham - Enterprise Plan",Qualification,199579.1,25,2025-10-23,,,Jeremy Benton,Mid-Market
+DEAL_0770,COMP_0232,CONT_0292,Gibson PLC - Support Contract,Proposal,23629.51,50,2025-04-01,,,Courtney Guzman,SMB
+DEAL_0771,COMP_0032,CONT_0189,Lopez Group - Professional Services,Closed Won,182404.51,100,2025-07-06,2025-08-21,,Patricia Austin,Mid-Market
+DEAL_0772,COMP_0096,CONT_0474,"Simmons, Pittman and Hart - Professional Services",Closed Lost,12510.97,0,2024-11-23,2024-12-27,Price too high,Donna Watson MD,SMB
+DEAL_0773,COMP_0052,CONT_0040,Chen-Kelly - Support Contract,Prospecting,159686.75,10,2025-03-23,,,Douglas Gomez,Mid-Market
+DEAL_0774,COMP_0149,CONT_0027,Bautista PLC - Annual License,Negotiation,70785.68,75,2024-08-31,,,Reginald Thomas,Mid-Market
+DEAL_0775,COMP_0179,CONT_0273,"Martin, Hoffman and Ray - Annual License",Proposal,34467.47,50,2025-02-20,,,Jacob Shepherd,SMB
+DEAL_0776,COMP_0153,CONT_0004,Lynch-Shelton - Professional Services,Closed Won,99479.3,100,2026-01-23,2026-04-26,,Danielle Wilkinson,Mid-Market
+DEAL_0777,COMP_0165,CONT_0291,"Malone, Ware and Pierce - Professional Services",Qualification,76255.42,25,2025-12-24,,,Brandon Patrick,Mid-Market
+DEAL_0778,COMP_0260,CONT_0002,"Jensen, Mcclain and Anthony - Annual License",Closed Won,34859.71,100,2024-11-21,2024-12-12,,Rachel Stewart,SMB
+DEAL_0779,COMP_0142,CONT_0334,Harris Group - Enterprise Plan,Closed Won,29684.54,100,2024-12-18,2025-04-30,,Victor Martin,SMB
+DEAL_0780,COMP_0037,CONT_0139,Baxter-Bradford - Professional Services,Closed Lost,31587.39,0,2024-09-30,2025-03-01,No decision,Andrea Lewis,SMB
+DEAL_0781,COMP_0274,CONT_0032,"Sanchez, Jones and Thompson - Support Contract",Proposal,154691.96,50,2024-09-07,,,Lindsey Thomas,Mid-Market
+DEAL_0782,COMP_0207,CONT_0547,Moyer PLC - Enterprise Plan,Qualification,26674.33,25,2026-01-16,,,Nathan Williams,SMB
+DEAL_0783,COMP_0149,CONT_0233,Bautista PLC - Enterprise Plan,Closed Won,123156.66,100,2025-06-16,2025-10-21,,Jeffrey Perry,Mid-Market
+DEAL_0784,COMP_0191,CONT_0191,"Brooks, Hunt and Miles - Enterprise Plan",Qualification,52111.16,25,2025-12-20,,,Jill Goodman,Mid-Market
+DEAL_0785,COMP_0155,CONT_0112,Hammond-Mathews - Professional Services,Proposal,118776.98,50,2024-11-18,,,Samantha Martinez,Mid-Market
+DEAL_0786,COMP_0241,CONT_0569,"Flores, Mckee and Mcclure - Annual License",Proposal,35949.65,50,2025-09-29,,,Ethan Gamble,SMB
+DEAL_0787,COMP_0280,CONT_0534,Perkins-Blanchard - Support Contract,Proposal,18482.47,50,2025-01-21,,,Michael Foster,SMB
+DEAL_0788,COMP_0187,CONT_0441,Daniel-Bryant - Professional Services,Negotiation,209353.48,75,2024-03-28,,,Jennifer Armstrong,Mid-Market
+DEAL_0789,COMP_0150,CONT_0562,Turner Ltd - Support Contract,Qualification,44697.29,25,2025-05-12,,,Robert Tran,SMB
+DEAL_0790,COMP_0140,CONT_0091,Boyd-Blake - Professional Services,Qualification,82653.9,25,2025-03-01,,,Christopher Brown,Mid-Market
+DEAL_0791,COMP_0084,CONT_0344,Fernandez-Hooper - Support Contract,Negotiation,42279.21,75,2025-07-30,,,Nathan Ferguson,SMB
+DEAL_0792,COMP_0174,CONT_0094,"Peck, Ramos and Bowman - Annual License",Prospecting,134447.88,10,2024-10-26,,,John Williams,Mid-Market
+DEAL_0793,COMP_0054,CONT_0200,Sanders and Sons - Enterprise Plan,Prospecting,463507.64,10,2025-01-01,,,Charles Schneider,Enterprise
+DEAL_0794,COMP_0121,CONT_0373,"Smith, Morales and Russell - Enterprise Plan",Negotiation,132580.78,75,2026-03-05,,,Matthew Gutierrez,Mid-Market
+DEAL_0795,COMP_0209,CONT_0124,"Jimenez, Jackson and Rhodes - Professional Services",Closed Won,18031.79,100,2025-12-15,2026-02-13,,Marcus Williamson,SMB
+DEAL_0796,COMP_0099,CONT_0335,"Marshall, Lane and Cunningham - Support Contract",Proposal,104426.83,50,2024-12-13,,,Katherine Gutierrez,Mid-Market
+DEAL_0797,COMP_0255,CONT_0075,"Whitaker, Rogers and Fisher - Professional Services",Proposal,19428.97,50,2026-02-25,,,Michele Kirk,SMB
+DEAL_0798,COMP_0294,CONT_0207,"Chaney, Medina and King - Annual License",Prospecting,13367.19,10,2024-09-28,,,Leslie Lane,SMB
+DEAL_0799,COMP_0017,CONT_0464,Woods PLC - Enterprise Plan,Prospecting,10626.76,10,2025-12-09,,,Kelsey Garcia,SMB
+DEAL_0800,COMP_0005,CONT_0073,Stewart-Mendoza - Annual License,Qualification,15476.47,25,2026-03-03,,,Jonathan Rivera,SMB

@@ -1,8 +1,8 @@
 import os
-from sqlalchemy import create_engine, text
-from dotenv import load_dotenv
+from sqlalchemy import  text
 from langchain.tools import tool
 from pathlib import Path
+from agent.tools.db import engine
 
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
 

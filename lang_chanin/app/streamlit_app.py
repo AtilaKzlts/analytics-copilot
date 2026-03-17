@@ -7,8 +7,9 @@ sys.path.append(str(Path(__file__).parent.parent))
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sqlalchemy import create_engine, text
-from dotenv import load_dotenv
+from sqlalchemy import text
+
+from agent.tools.db import engine
 
 load_dotenv(Path(__file__).parent.parent / ".env")
 

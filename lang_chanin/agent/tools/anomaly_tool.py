@@ -1,15 +1,14 @@
 import os
 import pandas as pd
-from sqlalchemy import create_engine, text
-from dotenv import load_dotenv
+from sqlalchemy import text
+
 from langchain.tools import tool
 from pathlib import Path
+from agent.tools.db import engine
 
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
 
-engine = create_engine(
-    f"postgresql://postgres:{os.getenv('DB_PASSWORD')}@localhost:5432/analytics_copilot"
-)
+engine = create_engine(os.getenv("NEON_CONNECTION"))
 
 AVAILABLE_METRICS = {
     "revenue":       "Aylık toplam gelir",
