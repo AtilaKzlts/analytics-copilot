@@ -4,7 +4,8 @@ langchain-core
 sqlalchemy
 psycopg2-binary
 pandas
-streamlit
+streamlit==1.41.0
 plotly
 python-dotenv
 faker
+altair==4.2.2
