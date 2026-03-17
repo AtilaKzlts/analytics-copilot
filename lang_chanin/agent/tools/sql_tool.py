@@ -3,12 +3,9 @@ from sqlalchemy import  text
 from langchain.tools import tool
 from pathlib import Path
 from agent.tools.db import engine
-
+from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent.parent.parent / ".env")
 
-engine = create_engine(
-    f"postgresql://postgres:{os.getenv('DB_PASSWORD')}@localhost:5432/analytics_copilot"
-)
 
 SCHEMA_INFO = """
 Kullanılabilir tablolar (raw schema):

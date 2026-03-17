@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 import os
 
+
 load_dotenv(Path(__file__).parent / ".env")
 
 engine = create_engine(os.getenv("NEON_CONNECTION"))

@@ -1,8 +1,12 @@
 import sys
 import os
 from pathlib import Path
+from dotenv import load_dotenv
 
 sys.path.append(str(Path(__file__).parent.parent))
+
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 import streamlit as st
 import pandas as pd
@@ -10,14 +14,7 @@ import plotly.express as px
 from sqlalchemy import text
 
 from agent.tools.db import engine
-
-load_dotenv(Path(__file__).parent.parent / ".env")
-
 from agent.agent import run_agent
-
-engine = create_engine(
-    f"postgresql://postgres:{os.getenv('DB_PASSWORD')}@localhost:5432/analytics_copilot"
-)
 
 # ── SAYFA AYARLARI ───────────────────────────────────────
 st.set_page_config(
@@ -26,7 +23,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# ── BAŞLIK ───────────────────────────────────────────────
 st.title("📊 B2B Sales Analytics Copilot")
 st.markdown("Satış verinize doğal dilde soru sorun — AI analiz etsin.")
 st.divider()
@@ -36,25 +32,17 @@ st.markdown("### 📊 Genel Bakış")
 
 try:
     with engine.connect() as conn:
-
         pipeline = pd.read_sql(
-            text("SELECT SUM(total_pipeline_value) as total FROM raw.pipeline_by_industry"),
-            conn
+            text("SELECT SUM(total_pipeline_value) as total FROM raw.pipeline_by_industry"), conn
         ).iloc[0]["total"]
-
         win_rate = pd.read_sql(
-            text("SELECT ROUND(AVG(win_rate_pct)::numeric, 1) as avg FROM raw.pipeline_by_industry"),
-            conn
+            text("SELECT ROUND(AVG(win_rate_pct)::numeric, 1) as avg FROM raw.pipeline_by_industry"), conn
         ).iloc[0]["avg"]
-
         revenue = pd.read_sql(
-            text("SELECT SUM(total_revenue) as total FROM raw.monthly_revenue"),
-            conn
+            text("SELECT SUM(total_revenue) as total FROM raw.monthly_revenue"), conn
         ).iloc[0]["total"]
-
         active_deals = pd.read_sql(
-            text("SELECT SUM(deal_count) as total FROM raw.deal_funnel WHERE stage NOT IN ('Closed Won', 'Closed Lost')"),
-            conn
+            text("SELECT SUM(deal_count) as total FROM raw.deal_funnel WHERE stage NOT IN ('Closed Won', 'Closed Lost')"), conn
         ).iloc[0]["total"]
 
     k1, k2, k3, k4 = st.columns(4)
@@ -71,7 +59,6 @@ st.divider()
 # ── SOL PANEL ────────────────────────────────────────────
 with st.sidebar:
     st.header("💡 Örnek Sorular")
-
     examples = [
         "En yüksek win rate'e sahip sektör hangisi?",
         "En iyi performans gösteren satışçı kim?",
@@ -82,11 +69,9 @@ with st.sidebar:
         "Aylık gelir trendi nasıl?",
         "Satış hunisinde hangi aşamada en fazla deal var?",
     ]
-
     for example in examples:
         if st.button(example, use_container_width=True):
             st.session_state.selected_question = example
-
     st.divider()
     st.markdown("**Stack:** PostgreSQL · dbt · LangChain · Groq")
 
@@ -118,86 +103,34 @@ if ask_button and question:
     with st.spinner("Analiz ediliyor..."):
         try:
             response = run_agent(question)
-
             st.markdown("### 📈 Analiz Sonucu")
             st.success(response)
 
-            # ── OTOMATİK GRAFİK ──────────────────────────
             q = question.lower()
-
             with engine.connect() as conn:
-
                 if any(w in q for w in ["satışçı", "temsilci", "sales rep", "performans"]):
-                    df = pd.read_sql(text("""
-                        SELECT sales_rep, total_won_revenue, win_rate_pct, total_deals
-                        FROM raw.sales_rep_performance
-                        ORDER BY total_won_revenue DESC
-                        LIMIT 10
-                    """), conn)
-                    fig = px.bar(
-                        df, x="sales_rep", y="total_won_revenue",
-                        title="Top 10 Satışçı — Kazanılan Gelir",
-                        labels={"sales_rep": "Satışçı", "total_won_revenue": "Kazanılan Gelir ($)"},
-                        color="win_rate_pct",
-                        color_continuous_scale="Blues"
-                    )
+                    df = pd.read_sql(text("SELECT sales_rep, total_won_revenue, win_rate_pct FROM raw.sales_rep_performance ORDER BY total_won_revenue DESC LIMIT 10"), conn)
+                    fig = px.bar(df, x="sales_rep", y="total_won_revenue", title="Top 10 Satışçı", color="win_rate_pct", color_continuous_scale="Blues")
                     st.plotly_chart(fig, use_container_width=True)
 
                 elif any(w in q for w in ["sektör", "industry", "segment"]):
-                    df = pd.read_sql(text("""
-                        SELECT industry, total_pipeline_value, won_revenue, win_rate_pct
-                        FROM raw.pipeline_by_industry
-                        ORDER BY total_pipeline_value DESC
-                    """), conn)
-                    fig = px.bar(
-                        df, x="industry", y=["total_pipeline_value", "won_revenue"],
-                        title="Sektör Bazında Pipeline ve Kazanılan Gelir",
-                        labels={"industry": "Sektör", "value": "Değer ($)"},
-                        barmode="group"
-                    )
+                    df = pd.read_sql(text("SELECT industry, total_pipeline_value, won_revenue FROM raw.pipeline_by_industry ORDER BY total_pipeline_value DESC"), conn)
+                    fig = px.bar(df, x="industry", y=["total_pipeline_value", "won_revenue"], title="Sektör Bazında Pipeline", barmode="group")
                     st.plotly_chart(fig, use_container_width=True)
 
                 elif any(w in q for w in ["anomali", "gelir", "revenue", "trend", "aylık"]):
-                    df = pd.read_sql(text("""
-                        SELECT revenue_month, total_revenue, revenue_type
-                        FROM raw.monthly_revenue
-                        ORDER BY revenue_month
-                    """), conn)
-                    fig = px.line(
-                        df, x="revenue_month", y="total_revenue",
-                        color="revenue_type",
-                        title="Aylık Gelir Trendi",
-                        labels={"revenue_month": "Ay", "total_revenue": "Gelir ($)"}
-                    )
+                    df = pd.read_sql(text("SELECT revenue_month, total_revenue, revenue_type FROM raw.monthly_revenue ORDER BY revenue_month"), conn)
+                    fig = px.line(df, x="revenue_month", y="total_revenue", color="revenue_type", title="Aylık Gelir Trendi")
                     st.plotly_chart(fig, use_container_width=True)
 
                 elif any(w in q for w in ["funnel", "aşama", "huni", "stage"]):
-                    df = pd.read_sql(text("""
-                        SELECT stage, deal_count, total_value
-                        FROM raw.deal_funnel
-                        ORDER BY
-                            CASE stage
-                                WHEN 'Prospecting'   THEN 1
-                                WHEN 'Qualification' THEN 2
-                                WHEN 'Proposal'      THEN 3
-                                WHEN 'Negotiation'   THEN 4
-                                WHEN 'Closed Won'    THEN 5
-                                WHEN 'Closed Lost'   THEN 6
-                            END
-                    """), conn)
-                    fig = px.funnel(
-                        df, x="deal_count", y="stage",
-                        title="Satış Hunisi"
-                    )
+                    df = pd.read_sql(text("SELECT stage, deal_count FROM raw.deal_funnel ORDER BY CASE stage WHEN 'Prospecting' THEN 1 WHEN 'Qualification' THEN 2 WHEN 'Proposal' THEN 3 WHEN 'Negotiation' THEN 4 WHEN 'Closed Won' THEN 5 WHEN 'Closed Lost' THEN 6 END"), conn)
+                    fig = px.funnel(df, x="deal_count", y="stage", title="Satış Hunisi")
                     st.plotly_chart(fig, use_container_width=True)
 
-            # geçmişe ekle
             if "history" not in st.session_state:
                 st.session_state.history = []
-            st.session_state.history.append({
-                "question": question,
-                "answer": response
-            })
+            st.session_state.history.append({"question": question, "answer": response})
 
         except Exception as e:
             st.error("Bir hata oluştu, soruyu farklı sormayı deneyin.")
@@ -209,7 +142,6 @@ elif ask_button and not question:
 if "history" in st.session_state and st.session_state.history:
     st.divider()
     st.markdown("### 🕒 Önceki Sorular")
-
     for item in reversed(st.session_state.history[-5:]):
         with st.expander(f"❓ {item['question']}"):
             st.write(item["answer"])
