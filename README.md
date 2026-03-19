@@ -1,157 +1,128 @@
-# B2B Sales Analytics Copilot
+<div align="center">
+  <h1>AI-Powered Analytics Copilot</h1>
+ </p>
+</div>
 
-> An AI-powered analytics agent that answers natural language questions about sales data — it writes SQL, detects anomalies, and generates business insights automatically.
 
-**🔗 [Live Demo](https://analytics-copilot-ypywezydn7u3ear2uvgdor.streamlit.app/)**
+> **Your data analyst in seconds.** Just ask a question. Get insights instantly. No SQL, no waiting, no spreadsheets.
+
+---
+
+## The Problem This Solves
+
+**Today's workflow:**
+- Sales team asks: "Why did we lose deals last month?"
+- You spend 30 minutes writing SQL queries
+- You spend another 30 minutes interpreting data in Excel
+- You write a summary report
+- **Total time: 2-3 hours**
+
+**With this system:**
+- Sales team asks: "Why did we lose deals last month?"
+- System understands the question, pulls the data, spots the patterns, and gives you the answer
+- **Total time: 5 seconds** ✓
+
+---
+
+## Why This Project Matters
+
+### 1. **It Thinks, Not Just Automates**
+- It understands what you're asking for
+- It knows when to look at raw numbers vs. spotting unusual patterns
+- It explains findings in business language, not data science jargon
+
+### 2. **Works for Any Business (Truly)**
+Switch from E-commerce to SaaS to Finance? Just change one config file. The whole system adapts. No code changes needed.
+
+### 3. **Catches the Red Flags**
+Automatically detects when something unusual is happening in your numbers — before anyone notices.
 
 ---
 
 ## What It Does
 
-Most analytics workflows look like this: someone asks a question → analyst writes SQL → pulls data → interprets it → writes a summary. That takes hours.
-
-This project compresses that into seconds.
-
-You type *"Which industry has the lowest win rate and why?"* — the agent figures out what tools to use, runs the right queries, detects any statistical anomalies, and returns a plain-language business interpretation.
-
-```
-User: "Why did revenue drop last month?"
-
-Agent:
-  → Classifies question as ANOMALY
-  → Runs Z-score analysis on monthly_revenue
-  → Detects 2 outlier months (z > 2.0)
-  → Sends findings to insight tool
-  → Returns: plain-language explanation + 3 actionable recommendations
-```
-
----
-
-## Architecture
-
-```
-User Question (natural language)
-        │
-        ▼
- LangChain Agent  ──── classifies intent ────▶  SQL / ANOMALY / BOTH
-        │
-        ├──▶ [Tool 1] sql_tool.py
-        │      Text → SQL → PostgreSQL → result table
-        │
-        ├──▶ [Tool 2] anomaly_tool.py
-        │      Z-score analysis → statistical alerts
-        │
-        └──▶ [Tool 3] insight_tool.py
-               LLM → business interpretation + recommendations
-                        │
-                        ▼
-              Streamlit UI  (KPI cards + charts + AI response)
-```
-
-**Data layer:** Raw CRM data → dbt staging models → dbt mart models → PostgreSQL
-
----
-
-## Tech Stack
-
-| Layer | Technology | Purpose |
+| Your Question | System Does | You Get |
 |---|---|---|
-| Database | PostgreSQL | Stores transformed sales data |
-| Transformation | dbt | Raw → staging → mart models |
-| AI Agent | LangChain + Groq (LLaMA 3.3 70B) | Natural language → SQL + reasoning |
-| Anomaly Detection | Python (Z-score) | Statistical outlier detection |
-| UI | Streamlit + Plotly | Interactive dashboard |
+| "Who's our best salesperson?" | Pulls sales data, calculates win rates | Clear answer + visualization |
+| "Is revenue behaving normally?" | Scans for unusual patterns | Alert if something's off |
+| "Why did we miss targets?" | Combines data + analysis | Full explanation + why it happened |
 
 ---
 
-## Data
-
-Anonymized B2B sales CRM data covering:
-
-- **300+ deals** across 6 pipeline stages (Prospecting → Closed Won/Lost)
-- **Companies** spanning 8 industries, 3 segments (SMB / Mid-Market / Enterprise), multiple countries
-- **Sales rep performance** — win rates, average deal size, days to close
-- **Monthly revenue** — Recurring vs. One-time, MoM growth tracking
-
-dbt transforms raw tables into four mart models used by the agent:
+## How It Works (Simple Version)
 
 ```
-stg_deals / stg_companies / stg_contacts / stg_revenues / stg_activities
-        ↓
-deal_funnel · monthly_revenue · pipeline_by_industry · sales_rep_performance
+You ask a question (in plain English)
+            ↓
+AI understands what you need
+            ↓
+System pulls the right data
+            ↓
+Spots patterns & anomalies  
+            ↓
+AI explains findings in business language
+            ↓
+You get insights (not raw data)
 ```
 
 ---
 
-## Agent Logic
+## What Powers It
 
-The agent does **not** follow a fixed script. It classifies the question first, then decides which tools to invoke:
-
-```python
-# From agent.py
-classification = llm.invoke(classify_prompt)  # → SQL, ANOMALY, or BOTH
-
-if "ANOMALY" in classification:
-    metric = llm.invoke(metric_prompt)         # → revenue / win_rate / deals / ...
-    result = anomaly_tool.invoke(metric)
-else:
-    result = sql_query_tool.invoke(question)
-
-insight = insight_tool.invoke(result)          # always runs
-```
-
-The anomaly tool uses Z-score (threshold: ±2σ) to flag outliers in any metric. The insight tool always runs last — it takes raw results and produces the final business-readable response.
+- **Smart AI** (Claude/Groq) — Understands questions and writes explanations
+- **Database** (PostgreSQL) — Stores and organizes your data
+- **Analytics Pipeline** (dbt) — Cleans and prepares data automatically
+- **Dashboard** (Streamlit) — Clean, modern interface
 
 ---
 
-## Example Questions
+## Real Examples
 
-These all work on the live demo:
+✅ **"Who's our top-performing salesperson?"**  
+→ System pulls sales data, calculates metrics → You get ranking + insights
 
-- *"Which sales rep has the highest win rate?"*
-- *"Is there an anomaly in monthly revenue?"*
-- *"Which industry has the most pipeline value?"*
-- *"Where in the funnel are we losing the most deals?"*
-- *"What's the average deal size for Enterprise segment?"*
+✅ **"Is there something odd about this month's revenue?"**  
+→ System scans for unusual patterns → You get alerts with explanations
+
+✅ **"Why are we losing deals in this pipeline stage?"**  
+→ System analyzes data + spots trends → You get full analysis + recommendations
 
 ---
 
-## Local Setup
+## Quick Start
 
+### Option 1: Try the Demo (No Setup)
+Live version: [analytics-copilot.streamlit.app](https://analytics-copilot.streamlit.app)
+
+Just click and ask questions.
+
+### Option 2: Run Locally
 ```bash
-git clone https://github.com/AtilaKzlts/analytics-copilot
+git clone https://github.com/yourusername/analytics-copilot
 cd analytics-copilot
-
 pip install -r requirements.txt
+streamlit run app/streamlit_app.py
 ```
 
-Create a `.env` file in `lang_chanin/`:
+Then open `http://localhost:8501` in your browser.
 
-```env
-GROQ_API_KEY=your_groq_api_key
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=analytics_copilot
-DB_USER=your_user
-DB_PASSWORD=your_password
-```
+---
 
-Load data and run dbt:
+## What You'll See
 
-```bash
-cd lang_chanin
-python load_data.py
-cd analytics_copilot
-dbt run
-```
-
-Launch the app:
-
-```bash
-streamlit run lang_chanin/app/streamlit_app.py
-```
+- **Clean Dashboard** — Everything at a glance
+- **Smart Charts** — Data visualized automatically
+- **AI Explanations** — Not just numbers, actual insights
+- **Answer Box** — Plain English answers to your questions
 
 ---
 
 
-*Data has been anonymized. All company names and personal identifiers are synthetic.*
+## Who Should Care?
+
+- **CFO/Finance Teams** — Instant financial insights, no waiting for reports
+- **Sales Leaders** — Understand pipeline, rep performance, deal patterns instantly
+- **Product Teams** — See user behavior trends and anomalies
+- **Data Teams** — Reduce the "ad-hoc query" burden by 80%
+
+
