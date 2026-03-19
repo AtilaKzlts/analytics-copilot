@@ -7,7 +7,7 @@
 
 > **Your data analyst in seconds.** Just ask a question. Get insights instantly. No SQL, no waiting, no spreadsheets.
 
----
+
 
 ## The Problem This Solves
 
@@ -38,7 +38,6 @@ Switch from E-commerce to SaaS to Finance? Just change one config file. The whol
 ### 3. **Catches the Red Flags**
 Automatically detects when something unusual is happening in your numbers — before anyone notices.
 
----
 
 ## What It Does
 
@@ -48,7 +47,7 @@ Automatically detects when something unusual is happening in your numbers — be
 | "Is revenue behaving normally?" | Scans for unusual patterns | Alert if something's off |
 | "Why did we miss targets?" | Combines data + analysis | Full explanation + why it happened |
 
----
+
 
 ## How It Works (Simple Version)
 
@@ -75,7 +74,6 @@ You get insights (not raw data)
 - **Analytics Pipeline** (dbt) — Cleans and prepares data automatically
 - **Dashboard** (Streamlit) — Clean, modern interface
 
----
 
 ## Real Examples
 
@@ -116,7 +114,6 @@ Then open `http://localhost:8501` in your browser.
 - **AI Explanations** — Not just numbers, actual insights
 - **Answer Box** — Plain English answers to your questions
 
----
 
 
 ## Who Should Care?
