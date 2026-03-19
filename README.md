@@ -3,6 +3,7 @@
  </p>
 </div>
 
+![image](https://github.com/AtilaKzlts/analytics-copilot/blob/main/pics/Screenshot_1.png)
 
 > **Your data analyst in seconds.** Just ask a question. Get insights instantly. No SQL, no waiting, no spreadsheets.
 
