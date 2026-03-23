@@ -9,28 +9,28 @@ load_dotenv(Path(__file__).parent.parent.parent / ".env")
 @tool
 def insight_tool(data: str) -> str:
     """
-    SQL sonucu veya anomali tespiti sonucunu alır,
-    iş dünyası perspektifinden yorumlar ve öneri üretir.
+    Takes SQL results or anomaly detection output and generates
+    a plain-language business interpretation with recommendations.
     """
 
     llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0.3)
 
     prompt = ChatPromptTemplate.from_template("""
-Sen deneyimli bir B2B satış analistisin. 
-Aşağıdaki veri analizi sonucunu iş dünyası perspektifinden yorumla.
+You are an experienced B2B sales analyst.
+Interpret the following data analysis result from a business perspective.
 
-VERİ:
+DATA:
 {data}
 
-YAPMAN GEREKENLER:
-- Sonucu sade İngilizce  ile açıkla
-- Bu verinin iş için ne anlama geldiğini söyle
-- 2-3 somut öneri sun
-- Teknik jargon kullanma, satış müdürüne anlatır gibi anlat
-- Gerçekten yapılabilir öneri yada eleştiri yap
-- Çok uzun yapma okumas kolay olsun ancak çok kolaya da kaçma
+INSTRUCTIONS:
+- Explain in clear, plain English
+- Tell what this means for the business
+- Give 2-3 concrete, actionable recommendations
+- Write like you're briefing a sales director — no jargon
+- Keep it concise but not superficial
+- Be direct, not generic
 
-YORUM:
+ANALYSIS:
 """)
 
     chain = prompt | llm

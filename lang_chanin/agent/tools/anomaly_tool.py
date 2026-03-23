@@ -56,12 +56,12 @@ queries = {
 @tool
 def anomaly_tool(metric: str) -> str:
     """
-    Verilen metrikte istatistiksel anomali tespit eder.
-    Kullanılabilir metrikler: revenue, deals, win_rate,
+    Detects statistical anomalies in the given metric.
+    Available metrics: revenue, deals, win_rate,
     sales_rep, days_to_close, pipeline
     """
 
-    # bilinmeyen metrik gelirse en yakını bul
+    # If unknown metric is provided, use default
     if metric not in queries:
         metric = "revenue"
 
@@ -81,22 +81,22 @@ def anomaly_tool(metric: str) -> str:
     df["z_score"] = (df[col] - mean) / std
     anomalies = df[df["z_score"].abs() > 2]
 
-    # özet istatistik her zaman göster
-    result  = f"Metrik: {AVAILABLE_METRICS.get(metric, metric)}\n"
-    result += f"Ortalama: {mean:,.2f} | Std Sapma: {std:,.2f}\n"
+    # Always show summary statistics
+    result  = f"Metric: {AVAILABLE_METRICS.get(metric, metric)}\n"
+    result += f"Mean: {mean:,.2f} | Std Dev: {std:,.2f}\n"
     result += f"Min: {df[col].min():,.2f} | Max: {df[col].max():,.2f}\n"
     result += "-" * 50 + "\n"
 
     if anomalies.empty:
-        result += "Anomali tespit edilmedi. Değerler normal aralıkta.\n\n"
+        result += "No anomalies detected. Values are within normal range.\n\n"
     else:
-        result += f"{len(anomalies)} anomali bulundu:\n\n"
+        result += f"{len(anomalies)} anomalies found:\n\n"
         for _, row in anomalies.iterrows():
-            direction = "⬆ YÜKSEK" if row["z_score"] > 0 else "⬇ DÜŞÜK"
+            direction = "⬆ HIGH" if row["z_score"] > 0 else "⬇ LOW"
             result += f"{row.iloc[0]} → {row[col]:,.2f} ({direction}, z={row['z_score']:.2f})\n"
 
-    # tüm veriyi de ekle, insight_tool daha iyi yorum yapsın
-    result += "\nTüm veri:\n"
+    # Add all data so insight_tool can provide better comments
+    result += "\nAll data:\n"
     for _, row in df.iterrows():
         result += f"  {row.iloc[0]}: {row[col]:,.2f}\n"
 
