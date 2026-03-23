@@ -23,7 +23,7 @@ VERİ:
 {data}
 
 YAPMAN GEREKENLER:
-- Sonucu sade Türkçe ile açıkla
+- Sonucu sade İngilizce  ile açıkla
 - Bu verinin iş için ne anlama geldiğini söyle
 - 2-3 somut öneri sun
 - Teknik jargon kullanma, satış müdürüne anlatır gibi anlat
